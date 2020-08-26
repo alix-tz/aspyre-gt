@@ -2,6 +2,12 @@
 
 A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Transkribus/) to [eScriptorium](https://escriptorium.fr/).
 
+1. [What is the problem?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-problem)
+2. [What is the solution?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-solution)
+3. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#known-import-errors)
+
+---
+
 ## What is the problem?
 
 **`eScriptorium`** allows users to import a document's segmentation and transcription using XML ALTO as a pivot format. 
