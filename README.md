@@ -2,6 +2,8 @@
 
 A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Transkribus/) to [eScriptorium](https://escriptorium.fr/).
 
+![Mascot Aspyre](static/image/aspyre_mini.png)
+
 1. [What is the problem?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-problem)
 2. [What is the solution?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-solution)
 3. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#known-import-errors)
@@ -60,7 +62,7 @@ The user is given two options :
 
 Because we have no interest at the moment in working at *word* level, we only focus on the format exported thanks to the `Export ALTO` option. 
 
-The resulting XML file is similar to the following exampe: 
+The resulting XML file is similar to the following example: 
 
 > ``` xml
 > <?xml version="1.0" encoding="UTF-8"?>
