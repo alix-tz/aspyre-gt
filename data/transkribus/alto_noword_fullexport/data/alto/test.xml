@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-08-26T14:51:12.257+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="439" WIDTH="1010">
+         <TopMargin HEIGHT="37" WIDTH="1010" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="314" WIDTH="46" VPOS="37" HPOS="0"/>
+         <RightMargin HEIGHT="314" WIDTH="12" VPOS="37" HPOS="998"/>
+         <BottomMargin HEIGHT="88" WIDTH="1010" VPOS="351" HPOS="0"/>
+         <PrintSpace HEIGHT="314" WIDTH="952" VPOS="37" HPOS="46">
+            <ComposedBlock ID="Table_1598445899604_64"
+                           HEIGHT="264"
+                           WIDTH="894"
+                           VPOS="56"
+                           HPOS="72"
+                           TYPE="table">
+               <TextBlock ID="TableCell_1598445918924_86"
+                          HEIGHT="72"
+                          WIDTH="179"
+                          VPOS="56"
+                          HPOS="72">
+                  <Shape>
+                     <Polygon POINTS="72,56 72,128 251,128 251,56"/>
+                  </Shape>
+               </TextBlock>
+               <TextBlock ID="TableCell_1598445918924_84"
+                          HEIGHT="72"
+                          WIDTH="715"
+                          VPOS="56"
+                          HPOS="251">
+                  <Shape>
+                     <Polygon POINTS="251,56 251,128 966,128 966,56"/>
+                  </Shape>
+                  <TextLine ID="line_1598445944021_102"
+                            BASELINE="110"
+                            HEIGHT="27"
+                            WIDTH="304"
+                            VPOS="83"
+                            HPOS="267">
+                     <String ID="string_line_1598445944021_102"
+                             HEIGHT="27"
+                             WIDTH="304"
+                             VPOS="83"
+                             HPOS="267"
+                             CONTENT="What is Lorem Ipsum"/>
+                  </TextLine>
+               </TextBlock>
+               <TextBlock ID="TableCell_1598445918937_92"
+                          HEIGHT="107"
+                          WIDTH="179"
+                          VPOS="128"
+                          HPOS="72">
+                  <Shape>
+                     <Polygon POINTS="72,128 72,235 251,235 251,128"/>
+                  </Shape>
+               </TextBlock>
+               <TextBlock ID="TableCell_1598445918937_90"
+                          HEIGHT="107"
+                          WIDTH="715"
+                          VPOS="128"
+                          HPOS="251">
+                  <Shape>
+                     <Polygon POINTS="251,128 251,235 966,235 966,128"/>
+                  </Shape>
+                  <TextLine ID="line_1598445949607_105"
+                            BASELINE="159"
+                            HEIGHT="53"
+                            WIDTH="654"
+                            VPOS="106"
+                            HPOS="269">
+                     <String ID="string_line_1598445949607_105"
+                             HEIGHT="53"
+                             WIDTH="654"
+                             VPOS="106"
+                             HPOS="269"
+                             CONTENT="Lorem Ipsum is simply dummy text of the printing and typesetting"/>
+                  </TextLine>
+                  <TextLine ID="line_1598445953216_110"
+                            BASELINE="189"
+                            HEIGHT="52"
+                            WIDTH="653"
+                            VPOS="137"
+                            HPOS="267">
+                     <String ID="string_line_1598445953216_110"
+                             HEIGHT="52"
+                             WIDTH="653"
+                             VPOS="137"
+                             HPOS="267"
+                             CONTENT="industry. Lorem Ipsum has been the industry's standard dummy"/>
+                  </TextLine>
+                  <TextLine ID="line_1598445956776_115"
+                            BASELINE="219"
+                            HEIGHT="50"
+                            WIDTH="653"
+                            VPOS="169"
+                            HPOS="266">
+                     <String ID="string_line_1598445956776_115"
+                             HEIGHT="50"
+                             WIDTH="653"
+                             VPOS="169"
+                             HPOS="266"
+                             CONTENT="text ever since the 1500s, when an unknown printer took a galley"/>
+                  </TextLine>
+               </TextBlock>
+               <TextBlock ID="TableCell_1598445918950_98"
+                          HEIGHT="85"
+                          WIDTH="179"
+                          VPOS="235"
+                          HPOS="72">
+                  <Shape>
+                     <Polygon POINTS="72,235 72,320 251,320 251,235"/>
+                  </Shape>
+                  <TextLine ID="line_1598445960616_120"
+                            BASELINE="272"
+                            HEIGHT="51"
+                            WIDTH="170"
+                            VPOS="221"
+                            HPOS="95">
+                     <String ID="string_line_1598445960616_120"
+                             HEIGHT="51"
+                             WIDTH="170"
+                             VPOS="221"
+                             HPOS="95"
+                             CONTENT="Ipsum passages"/>
+                  </TextLine>
+                  <TextLine ID="line_1598445965735_130"
+                            BASELINE="304"
+                            HEIGHT="53"
+                            WIDTH="189"
+                            VPOS="251"
+                            HPOS="90">
+                     <String ID="string_line_1598445965735_130"
+                             HEIGHT="53"
+                             WIDTH="189"
+                             VPOS="251"
+                             HPOS="90"
+                             CONTENT="software like Aldus"/>
+                  </TextLine>
+               </TextBlock>
+               <TextBlock ID="TableCell_1598445918950_96"
+                          HEIGHT="85"
+                          WIDTH="715"
+                          VPOS="235"
+                          HPOS="251">
+                  <Shape>
+                     <Polygon POINTS="251,235 251,320 966,320 966,235"/>
+                  </Shape>
+                  <TextLine ID="line_1598445962775_125"
+                            BASELINE="273"
+                            HEIGHT="52"
+                            WIDTH="470"
+                            VPOS="221"
+                            HPOS="285">
+                     <String ID="string_line_1598445962775_125"
+                             HEIGHT="52"
+                             WIDTH="470"
+                             VPOS="221"
+                             HPOS="285"
+                             CONTENT="and moe recently with desktop publishing"/>
+                  </TextLine>
+                  <TextLine ID="line_1598445967675_135"
+                            BASELINE="302"
+                            HEIGHT="52"
+                            WIDTH="463"
+                            VPOS="250"
+                            HPOS="287">
+                     <String ID="string_line_1598445967675_135"
+                             HEIGHT="52"
+                             WIDTH="463"
+                             VPOS="250"
+                             HPOS="287"
+                             CONTENT="PageMaker including versions of Lorem Ipsum"/>
+                  </TextLine>
+               </TextBlock>
+            </ComposedBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

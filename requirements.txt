@@ -1,0 +1,8 @@
+beautifulsoup4==4.9.1
+bs4==0.0.1
+lxml==4.5.2
+soupsieve==1.9.6
+termcolor==1.1.0
+tqdm==4.48.2
+pylint==2.4.4
+pylint-fail-under==0.3.0
