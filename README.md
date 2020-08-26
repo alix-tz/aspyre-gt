@@ -111,7 +111,7 @@ For each image in a given document, *Transkribus* produces an **ALTO-2** XML fil
 
 ## What is the solution?
 
-Well, we're working on it, okay?
+Hey, we're working on it, okay?
 
 ---
 
