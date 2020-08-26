@@ -88,6 +88,7 @@ def main():
             xml_tree = switch_to_v4(xml_tree)
         # TODO @alix: is there a //Description/sourceImageInformation/fileName? No? Well, fix it!
         # TODO @alix: what do you mean you don't know where to find the filename?
+        # note that <sourceImageInformation> has to be declared before
         # TODO @alix: is there any weird layout, like a 'composedBlock' for example? That might be a problem...
         # TODO @alix: do we need the tag declaration? (cf. /alto/Tags/otherTags)
         # TODO @alix: do we need to remove the Margin declaration and the OCRProcessingStep info?
