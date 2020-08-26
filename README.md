@@ -105,15 +105,13 @@ The resulting XML file is similar to the following example:
 
 For each image in a given document, *Transkribus* produces an **ALTO-2** XML file. 
 
-👉 **In conclusion, the ALTO files exported from Transkribus are not are not compatible with the import module in eScriptorium. We want to change this.**
+😤 **In conclusion, the ALTO files exported from Transkribus are not compatible with the import module in eScriptorium. We want to change this.**
 
----
 
 ## What is the solution?
 
 Hey, we're working on it, okay?
 
----
 
 ## Known import errors
 
