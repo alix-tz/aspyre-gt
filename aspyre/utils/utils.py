@@ -48,7 +48,7 @@ def write_file(path, content, mode=False):
     :return: None
     """
     if mode is False:
-        with open(path, "w") as fh:
+        with open(path, "w", encoding="utf-8") as fh:
             fh.write(content)
     elif mode == "json":
         # make content JSON serializable

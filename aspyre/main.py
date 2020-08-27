@@ -17,6 +17,10 @@ from utils import utils
 
 
 DUMMY_FILE = "..\data\lectaurep_dummy_v2.xml"
+DUMMY_FILE2 = "..\data\\tu_dummy.xml"
+
+TESTFILE = DUMMY_FILE2
+
 ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
 ALTO2SPECS = ['http://www.loc.gov/standards/alto/ns-v2#']
 ALTO4SPECS = ['http://www.loc.gov/standards/alto/v4/alto.xsd',
@@ -107,13 +111,13 @@ def get_image_filename(xml_filename, mode='manual'):
     return value
 
 
-def add_sourceimageinformation(xml_tree):
+def add_sourceimageinformation(xml_tree, xml_filename):
     """Create a <sourceImageInformation> component in <Description> with the corresponding metadata
 
     :param xml_tree: ALTO XML tree
     :return: None
     """
-    image_filename = get_image_filename(DUMMY_FILE)
+    image_filename = get_image_filename(xml_filename)
     src_img_info_tag = BeautifulSoup(
         f"<sourceImageInformation><fileName>{image_filename}</fileName></sourceImageInformation>", "xml")
     try:
@@ -123,8 +127,15 @@ def add_sourceimageinformation(xml_tree):
         utils.report("e")
 
 
+def remove_composed_block(xml_tree):
+    # We simply remove the <composedBlock> element
+    # This is one way to go, but not very pretty once it is transferred to eScriptorium
+    for composed_block in xml_tree.find_all('ComposedBlock'):
+        composed_block = composed_block.unwrap()
+
+
 def main():
-    xml_tree = utils.read_file(DUMMY_FILE, 'xml')
+    xml_tree = utils.read_file(TESTFILE, 'xml')
     schemas = get_schema_spec(xml_tree)
     if schemas:
         utils.report(f"Schema Specs: {schemas}", "H")
@@ -134,9 +145,18 @@ def main():
         if alto_version == 2:
             utils.report("Buckle up, we're fixing the schema declaration!", "H")
             switch_to_v4(xml_tree)
-            utils.report("I'm adding a <sourceImageInformation> element to point toward the image file.", "H")
-            add_sourceimageinformation(xml_tree)
-        # TODO @alix: is there any weird layout, like a 'composedBlock' for example? That might be a problem...
+            utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
+            add_sourceimageinformation(xml_tree, TESTFILE)
+            utils.report("I'm now looking for <ComposedBlock> and removing them", "H")
+            remove_composed_block(xml_tree)
+            # TODO @alix: improve the saving process, obviouly!
+            write_in_file = input(f"Do you want to save the result in {TESTFILE}? [Y/n] >")
+            if write_in_file.lower() == 'y':
+                utils.write_file(TESTFILE, xml_tree.prettify())
+            else:
+                utils.report("Alright, then I'm showing you here:", "H")
+                print("##########################\n\n##########################\n\n")
+                utils.report(xml_tree.prettify())
         # TODO @alix: do we need the tag declaration? (cf. /alto/Tags/otherTags)
         # TODO @alix: do we need to remove the Margin declaration and the OCRProcessingStep info?
         # specifically, see: /alto/Description/OCRProcessingStep
@@ -147,6 +167,7 @@ def main():
         # There'll be some test import to do with eScriptorium at that point anyway.
         # But let's keep in mind that if we just want to import the data into eScriptorium to train a segmenter
         #     really we only need the TextLine and their baseline, we could remove the rest. Just sayin'
+        # TODO @alix: Transkribus doesn't export really satisfying baseline coordinates, so it's horrible once you import in eScriptorium...
     pass
 
 
