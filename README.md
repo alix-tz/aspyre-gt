@@ -146,6 +146,7 @@ It is possible to solve this issue by extrapolating the baseline's coordinates u
 ![illustration of the process to extrapolate the baseline](static/image/bug_baseline_code.png)
 
 Note the following elements:
-- if `TextBlock/Shape/Polygon/@POINTS`: Ax,Ay Bx,By Cx,Cy Dx,Dy
-- and if `TextBlock/TextLine/@BASELINE`: BASELINE
-- then `TextBlck/TextLine/@BASELINE` should be: Ax BASELINE Bx BASELINE
+- ~~if `TextBlock/Shape/Polygon/@POINTS`: Ax,Ay Bx,By Cx,Cy Dx,Dy~~
+- ~~and if `TextBlock/TextLine/@BASELINE`: BASELINE~~
+- ~~then `TextBlock/TextLine/@BASELINE` should be: Ax BASELINE Bx BASELINE~~
+- `TextBlock/TextLine/@BASELINE` should be: "`{TextBlock/TextLine/@HPOS}` `{TextBlock/TextLine/@BASELINE}` `{TextBlock/TextLine/@HPOS` + `TextBlock/TextLine/@BWIDTH}` `{TextBlock/TextLine/@BASELINE}`"
