@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-08-27T14:58:04.93+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="3072" WIDTH="4608">
+         <TopMargin HEIGHT="0" WIDTH="4608" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="3072" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="3072" WIDTH="0" VPOS="0" HPOS="4608"/>
+         <BottomMargin HEIGHT="0" WIDTH="4608" VPOS="3072" HPOS="0"/>
+         <PrintSpace HEIGHT="3072" WIDTH="4608" VPOS="0" HPOS="0">
+            <TextBlock ID="r3" HEIGHT="2627" WIDTH="2772" VPOS="352" HPOS="1071">
+               <Shape>
+                  <Polygon POINTS="1071,352 1071,2979 3843,2979 3843,352"/>
+               </Shape>
+               <TextLine ID="r3l1"
+                         BASELINE="485"
+                         HEIGHT="133"
+                         WIDTH="2580"
+                         VPOS="352"
+                         HPOS="1119">
+                  <String ID="string_r3l1"
+                          HEIGHT="133"
+                          WIDTH="2580"
+                          VPOS="352"
+                          HPOS="1119"
+                          CONTENT="sept Albarede, ès noms qu’il agit, fit la demoiselle "/>
+               </TextLine>
+               <TextLine ID="r3l2"
+                         BASELINE="606"
+                         HEIGHT="134"
+                         WIDTH="2635"
+                         VPOS="472"
+                         HPOS="1145">
+                  <String ID="string_r3l2"
+                          HEIGHT="134"
+                          WIDTH="2635"
+                          VPOS="472"
+                          HPOS="1145"
+                          CONTENT="Desgranges à Comparaître par devant le Conseil de Prud’hommes "/>
+               </TextLine>
+               <TextLine ID="r3l3"
+                         BASELINE="729"
+                         HEIGHT="139"
+                         WIDTH="2643"
+                         VPOS="590"
+                         HPOS="1106">
+                  <String ID="string_r3l3"
+                          HEIGHT="139"
+                          WIDTH="2643"
+                          VPOS="590"
+                          HPOS="1106"
+                          CONTENT="pour l’industrie des tissus, séant en Bureau Particuliers les"/>
+               </TextLine>
+               <TextLine ID="r3l4"
+                         BASELINE="844"
+                         HEIGHT="123"
+                         WIDTH="2657"
+                         VPOS="721"
+                         HPOS="1122">
+                  <String ID="string_r3l4"
+                          HEIGHT="123"
+                          WIDTH="2657"
+                          VPOS="721"
+                          HPOS="1122"
+                          CONTENT="samedi dix neuf et Lundi vingt un Décembre mil huit cent"/>
+               </TextLine>
+               <TextLine ID="r3l5"
+                         BASELINE="962"
+                         HEIGHT="118"
+                         WIDTH="2647"
+                         VPOS="844"
+                         HPOS="1127">
+                  <String ID="string_r3l5"
+                          HEIGHT="118"
+                          WIDTH="2647"
+                          VPOS="844"
+                          HPOS="1127"
+                          CONTENT="Cinquante sept pour se concilier si faire se pouvait sur la"/>
+               </TextLine>
+               <TextLine ID="r3l6"
+                         BASELINE="1088"
+                         HEIGHT="122"
+                         WIDTH="2660"
+                         VPOS="966"
+                         HPOS="1143">
+                  <String ID="string_r3l6"
+                          HEIGHT="122"
+                          WIDTH="2660"
+                          VPOS="966"
+                          HPOS="1143"
+                          CONTENT="demande qu’il entendait former contre elle devant le dit Conseil"/>
+               </TextLine>
+               <TextLine ID="r3l7"
+                         BASELINE="1206"
+                         HEIGHT="115"
+                         WIDTH="2688"
+                         VPOS="1091"
+                         HPOS="1115">
+                  <String ID="string_r3l7"
+                          HEIGHT="115"
+                          WIDTH="2688"
+                          VPOS="1091"
+                          HPOS="1115"
+                          CONTENT="en paiement de la somme de trente huit francs qu’elle lui doit"/>
+               </TextLine>
+               <TextLine ID="r3l8"
+                         BASELINE="1338"
+                         HEIGHT="118"
+                         WIDTH="2668"
+                         VPOS="1220"
+                         HPOS="1112">
+                  <String ID="string_r3l8"
+                          HEIGHT="118"
+                          WIDTH="2668"
+                          VPOS="1220"
+                          HPOS="1112"
+                          CONTENT="pour prix de travaux de sa fille. La demoiselle Desgranges"/>
+               </TextLine>
+               <TextLine ID="r3l9"
+                         BASELINE="1460"
+                         HEIGHT="117"
+                         WIDTH="2709"
+                         VPOS="1343"
+                         HPOS="1091">
+                  <String ID="string_r3l9"
+                          HEIGHT="117"
+                          WIDTH="2709"
+                          VPOS="1343"
+                          HPOS="1091"
+                          CONTENT="n’ayant pas comparu la cause fut renvoyée devant le Bureau"/>
+               </TextLine>
+               <TextLine ID="r3l10"
+                         BASELINE="1584"
+                         HEIGHT="115"
+                         WIDTH="2670"
+                         VPOS="1469"
+                         HPOS="1139">
+                  <String ID="string_r3l10"
+                          HEIGHT="115"
+                          WIDTH="2670"
+                          VPOS="1469"
+                          HPOS="1139"
+                          CONTENT="Général du dit Conseil séant le Vendredi vingt quatre "/>
+               </TextLine>
+               <TextLine ID="r3l11"
+                         BASELINE="1706"
+                         HEIGHT="111"
+                         WIDTH="2691"
+                         VPOS="1595"
+                         HPOS="1097">
+                  <String ID="string_r3l11"
+                          HEIGHT="111"
+                          WIDTH="2691"
+                          VPOS="1595"
+                          HPOS="1097"
+                          CONTENT="Décembre mil huit cent Cinquante sept et ajournée au "/>
+               </TextLine>
+               <TextLine ID="r3l12"
+                         BASELINE="1833"
+                         HEIGHT="112"
+                         WIDTH="2715"
+                         VPOS="1721"
+                         HPOS="1095">
+                  <String ID="string_r3l12"
+                          HEIGHT="112"
+                          WIDTH="2715"
+                          VPOS="1721"
+                          HPOS="1095"
+                          CONTENT="vendredi huit Janvier mil huit Cent Cinquante huit. Citée "/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="region_1584563973038_67"
+                       HEIGHT="534"
+                       WIDTH="704"
+                       VPOS="619"
+                       HPOS="318">
+               <Shape>
+                  <Polygon POINTS="318,619 1022,619 1022,1153 318,1153"/>
+               </Shape>
+               <TextLine ID="line_1584563976962_70"
+                         BASELINE="789"
+                         HEIGHT="130"
+                         WIDTH="263"
+                         VPOS="659"
+                         HPOS="362">
+                  <String ID="string_line_1584563976962_70"
+                          HEIGHT="130"
+                          WIDTH="263"
+                          VPOS="659"
+                          HPOS="362"
+                          CONTENT="citer "/>
+               </TextLine>
+               <TextLine ID="line_1584563981775_73"
+                         BASELINE="1033"
+                         HEIGHT="186"
+                         WIDTH="404"
+                         VPOS="847"
+                         HPOS="374">
+                  <String ID="string_line_1584563981775_73"
+                          HEIGHT="186"
+                          WIDTH="404"
+                          VPOS="847"
+                          HPOS="374"
+                          CONTENT="Lecucq"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

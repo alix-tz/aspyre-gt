@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-0.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <sourceImageInformation>
+         <fileName>0001_FRAN_0148_3241_L-1.jpg</fileName>
+      </sourceImageInformation>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T15:53:51.041+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+ <Page HEIGHT="4368" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="3008">
+  <TopMargin HEIGHT="0" HPOS="0" VPOS="0" WIDTH="3008"/>
+  <LeftMargin HEIGHT="4368" HPOS="0" VPOS="0" WIDTH="0"/>
+  <RightMargin HEIGHT="4368" HPOS="3008" VPOS="0" WIDTH="0"/>
+  <BottomMargin HEIGHT="0" HPOS="0" VPOS="4368" WIDTH="3008"/>
+  <PrintSpace HEIGHT="4368" HPOS="0" VPOS="0" WIDTH="3008">
+   <TextBlock HEIGHT="122" HPOS="0" ID="TableCell_1523275411396_29" VPOS="588" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,588 0,710 134,710 134,588"/>
+   <TextBlock HEIGHT="122" HPOS="134" ID="TableCell_1523275411425_31" VPOS="588" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,588 134,710 336,710 336,588"/>
+   <TextBlock HEIGHT="122" HPOS="336" ID="TableCell_1523275411434_33" VPOS="588" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,588 336,710 495,710 495,588"/>
+   <TextLine BASELINE="719" HEIGHT="156" HPOS="474" ID="TableCell_1523275411434_33l1" VPOS="563" WIDTH="15">
+   </TextLine>
+   <String CONTENT="" HEIGHT="156" HPOS="474" ID="string_TableCell_1523275411434_33l1" VPOS="563" WIDTH="15"/>
+   <TextBlock HEIGHT="122" HPOS="495" ID="TableCell_1523275411443_35" VPOS="588" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,588 495,710 823,710 823,588"/>
+   <TextLine BASELINE="718" HEIGHT="153" HPOS="503" ID="TableCell_1523275411443_35l1" VPOS="565" WIDTH="15">
+   </TextLine>
+   <String CONTENT="" HEIGHT="153" HPOS="503" ID="string_TableCell_1523275411443_35l1" VPOS="565" WIDTH="15"/>
+   <TextBlock HEIGHT="122" HPOS="823" ID="TableCell_1523275411452_37" VPOS="588" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,588 823,710 1167,710 1167,588"/>
+   <TextBlock HEIGHT="122" HPOS="1167" ID="TableCell_1523275411460_39" VPOS="588" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,588 1167,710 2368,710 2368,588"/>
+   <TextLine BASELINE="731" HEIGHT="154" HPOS="1223" ID="TableCell_1523275411460_39l1" VPOS="577" WIDTH="987">
+   </TextLine>
+   <String CONTENT="An 1920, mois de Janvier" HEIGHT="154" HPOS="1223" ID="string_TableCell_1523275411460_39l1" VPOS="577" WIDTH="987"/>
+   <TextBlock HEIGHT="122" HPOS="2368" ID="TableCell_1523275411471_41" VPOS="588" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,588 2368,710 2486,710 2486,588"/>
+   <TextBlock HEIGHT="122" HPOS="2486" ID="TableCell_1523275411480_43" VPOS="588" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,588 2486,710 2713,710 2713,588"/>
+   <TextBlock HEIGHT="122" HPOS="2713" ID="TableCell_1523275411489_45" VPOS="588" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,588 2713,710 2856,710 2856,588"/>
+   <TextBlock HEIGHT="912" HPOS="0" ID="TableCell_1523275431693_47" VPOS="710" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,710 0,1622 134,1622 134,710"/>
+   <TextBlock HEIGHT="912" HPOS="134" ID="TableCell_1523275431726_49" VPOS="710" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,710 134,1622 336,1622 336,710"/>
+   <TextBlock HEIGHT="912" HPOS="336" ID="TableCell_1523275431733_51" VPOS="710" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,710 336,1622 495,1622 495,710"/>
+   <TextBlock HEIGHT="912" HPOS="495" ID="TableCell_1523275521547_280" VPOS="710" WIDTH="2218">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,710 495,1622 823,1622 1167,1622 2368,1622 2486,1622 2713,1622 2713,710 2486,710 2368,710 1167,710 823,710"/>
+   <TextLine BASELINE="802" HEIGHT="64" HPOS="1169" ID="TableCell_1523275521547_280l1" VPOS="738" WIDTH="1374">
+   </TextLine>
+   <String CONTENT="Le présent répertoire, Contenant" HEIGHT="64" HPOS="1169" ID="string_TableCell_1523275521547_280l1" VPOS="738" WIDTH="1374"/>
+   <TextLine BASELINE="880" HEIGHT="66" HPOS="534" ID="TableCell_1523275521547_280l2" VPOS="814" WIDTH="2115">
+   </TextLine>
+   <String CONTENT="Cent feuillets, a été coté et paraphé par Monsieur le Président du" HEIGHT="66" HPOS="534" ID="string_TableCell_1523275521547_280l2" VPOS="814" WIDTH="2115"/>
+   <TextLine BASELINE="970" HEIGHT="78" HPOS="518" ID="TableCell_1523275521547_280l3" VPOS="892" WIDTH="2115">
+   </TextLine>
+   <String CONTENT="Tribunal Civil de la Seine pour servir à inscrire les actes en" HEIGHT="78" HPOS="518" ID="string_TableCell_1523275521547_280l3" VPOS="892" WIDTH="2115"/>
+   <TextLine BASELINE="1065" HEIGHT="84" HPOS="497" ID="TableCell_1523275521547_280l4" VPOS="981" WIDTH="2142">
+   </TextLine>
+   <String CONTENT="minutes et en brevets qui seront reçus par Me Lindet" HEIGHT="84" HPOS="497" ID="string_TableCell_1523275521547_280l4" VPOS="981" WIDTH="2142"/>
+   <TextLine BASELINE="1151" HEIGHT="82" HPOS="515" ID="TableCell_1523275521547_280l5" VPOS="1069" WIDTH="720">
+   </TextLine>
+   <String CONTENT="notaire à Paris" HEIGHT="82" HPOS="515" ID="string_TableCell_1523275521547_280l5" VPOS="1069" WIDTH="720"/>
+   <TextLine BASELINE="1243" HEIGHT="83" HPOS="815" ID="line_1523275628205_281" VPOS="1160" WIDTH="1765">
+   </TextLine>
+   <String CONTENT="Paris le vingt-neuf octobre mil neuf cent dix-neuf" HEIGHT="83" HPOS="815" ID="string_line_1523275628205_281" VPOS="1160" WIDTH="1765"/>
+   <TextLine BASELINE="1408" HEIGHT="122" HPOS="1713" ID="TableCell_1523275521547_280l8" VPOS="1286" WIDTH="329">
+   </TextLine>
+   <String CONTENT="" HEIGHT="122" HPOS="1713" ID="string_TableCell_1523275521547_280l8" VPOS="1286" WIDTH="329"/>
+   <TextLine BASELINE="1431" HEIGHT="139" HPOS="517" ID="line_1523275681504_284" VPOS="1292" WIDTH="991">
+   </TextLine>
+   <String CONTENT="Me Marotte, successeur" HEIGHT="139" HPOS="517" ID="string_line_1523275681504_284" VPOS="1292" WIDTH="991"/>
+   <TextLine BASELINE="1566" HEIGHT="82" HPOS="1598" ID="TableCell_1523275521547_280l9" VPOS="1484" WIDTH="145">
+   </TextLine>
+   <String CONTENT="Juge" HEIGHT="82" HPOS="1598" ID="string_TableCell_1523275521547_280l9" VPOS="1484" WIDTH="145"/>
+   <TextBlock HEIGHT="912" HPOS="2713" ID="TableCell_1523275431782_63" VPOS="710" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,710 2713,1622 2856,1622 2856,710"/>
+   <TextBlock HEIGHT="113" HPOS="0" ID="TableCell_1523275436399_65" VPOS="1622" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,1622 0,1735 134,1735 134,1622"/>
+   <TextBlock HEIGHT="113" HPOS="134" ID="TableCell_1523275436409_67" VPOS="1622" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,1622 134,1735 336,1735 336,1622"/>
+   <TextBlock HEIGHT="113" HPOS="336" ID="TableCell_1523275436419_69" VPOS="1622" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,1622 336,1735 495,1735 495,1622"/>
+   <TextBlock HEIGHT="113" HPOS="495" ID="TableCell_1523275436427_71" VPOS="1622" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,1622 495,1735 823,1735 823,1622"/>
+   <TextBlock HEIGHT="113" HPOS="823" ID="TableCell_1523275436435_73" VPOS="1622" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,1622 823,1735 1167,1735 1167,1622"/>
+   <TextBlock HEIGHT="113" HPOS="1167" ID="TableCell_1523275436442_75" VPOS="1622" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,1622 1167,1735 2368,1735 2368,1622"/>
+   <TextLine BASELINE="1742" HEIGHT="154" HPOS="1289" ID="TableCell_1523275436442_75l1" VPOS="1588" WIDTH="804">
+   </TextLine>
+   <String CONTENT="Janvier 1920 (suite)" HEIGHT="154" HPOS="1289" ID="string_TableCell_1523275436442_75l1" VPOS="1588" WIDTH="804"/>
+   <TextBlock HEIGHT="113" HPOS="2368" ID="TableCell_1523275436449_77" VPOS="1622" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,1622 2368,1735 2486,1735 2486,1622"/>
+   <TextBlock HEIGHT="113" HPOS="2486" ID="TableCell_1523275436456_79" VPOS="1622" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,1622 2486,1735 2713,1735 2713,1622"/>
+   <TextBlock HEIGHT="113" HPOS="2713" ID="TableCell_1523275436467_81" VPOS="1622" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,1622 2713,1735 2856,1735 2856,1622"/>
+   <TextBlock HEIGHT="127" HPOS="0" ID="TableCell_1523275440397_83" VPOS="1735" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,1735 0,1862 134,1862 134,1735"/>
+   <TextBlock HEIGHT="127" HPOS="134" ID="TableCell_1523275440409_85" VPOS="1735" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,1735 134,1862 336,1862 336,1735"/>
+   <TextLine BASELINE="1824" HEIGHT="88" HPOS="197" ID="line_1523275731805_285" VPOS="1736" WIDTH="68">
+   </TextLine>
+   <String CONTENT="17" HEIGHT="88" HPOS="197" ID="string_line_1523275731805_285" VPOS="1736" WIDTH="68"/>
+   <TextBlock HEIGHT="127" HPOS="336" ID="TableCell_1523275440417_87" VPOS="1735" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,1735 336,1862 495,1862 495,1735"/>
+   <TextLine BASELINE="1841" HEIGHT="153" HPOS="371" ID="TableCell_1523275440417_87l1" VPOS="1688" WIDTH="60">
+   </TextLine>
+   <String CONTENT="5" HEIGHT="153" HPOS="371" ID="string_TableCell_1523275440417_87l1" VPOS="1688" WIDTH="60"/>
+   <TextBlock HEIGHT="127" HPOS="495" ID="TableCell_1523275440425_89" VPOS="1735" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,1735 495,1862 823,1862 823,1735"/>
+   <TextLine BASELINE="1838" HEIGHT="156" HPOS="525" ID="TableCell_1523275440425_89l1" VPOS="1682" WIDTH="243">
+   </TextLine>
+   <String CONTENT="Cat de vie" HEIGHT="156" HPOS="525" ID="string_TableCell_1523275440425_89l1" VPOS="1682" WIDTH="243"/>
+   <TextBlock HEIGHT="127" HPOS="823" ID="TableCell_1523275440433_91" VPOS="1735" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,1735 823,1862 1167,1862 1167,1735"/>
+   <TextBlock HEIGHT="127" HPOS="1167" ID="TableCell_1523275440441_93" VPOS="1735" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,1735 1167,1862 2368,1862 2368,1735"/>
+   <TextLine BASELINE="1812" HEIGHT="46" HPOS="1176" ID="TableCell_1523275440441_93l1" VPOS="1766" WIDTH="1166">
+   </TextLine>
+   <String CONTENT="Pasteau (de clotilde Marie) demt a Paris" HEIGHT="46" HPOS="1176" ID="string_TableCell_1523275440441_93l1" VPOS="1766" WIDTH="1166"/>
+   <TextLine BASELINE="1870" HEIGHT="47" HPOS="1173" ID="TableCell_1523275440441_93l2" VPOS="1823" WIDTH="398">
+   </TextLine>
+   <String CONTENT="rue Aubriot 9" HEIGHT="47" HPOS="1173" ID="string_TableCell_1523275440441_93l2" VPOS="1823" WIDTH="398"/>
+   <TextBlock HEIGHT="127" HPOS="2368" ID="TableCell_1523275440450_95" VPOS="1735" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,1735 2368,1862 2486,1862 2486,1735"/>
+   <TextLine BASELINE="1909" HEIGHT="153" HPOS="2397" ID="TableCell_1523275440450_95l1" VPOS="1756" WIDTH="60">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="2397" ID="string_TableCell_1523275440450_95l1" VPOS="1756" WIDTH="60"/>
+   <TextBlock HEIGHT="127" HPOS="2486" ID="TableCell_1523275440459_97" VPOS="1735" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,1735 2486,1862 2713,1862 2713,1735"/>
+   <TextLine BASELINE="1907" HEIGHT="154" HPOS="2570" ID="TableCell_1523275440459_97l1" VPOS="1753" WIDTH="141">
+   </TextLine>
+   <String CONTENT="1.88" HEIGHT="154" HPOS="2570" ID="string_TableCell_1523275440459_97l1" VPOS="1753" WIDTH="141"/>
+   <TextBlock HEIGHT="127" HPOS="2713" ID="TableCell_1523275440467_99" VPOS="1735" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,1735 2713,1862 2856,1862 2856,1735"/>
+   <TextBlock HEIGHT="123" HPOS="0" ID="TableCell_1523275444054_101" VPOS="1862" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,1862 0,1985 134,1985 134,1862"/>
+   <TextBlock HEIGHT="123" HPOS="134" ID="TableCell_1523275444066_103" VPOS="1862" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,1862 134,1985 336,1985 336,1862"/>
+   <TextLine BASELINE="1954" HEIGHT="153" HPOS="200" ID="TableCell_1523275444066_103l1" VPOS="1801" WIDTH="66">
+   </TextLine>
+   <String CONTENT="18" HEIGHT="153" HPOS="200" ID="string_TableCell_1523275444066_103l1" VPOS="1801" WIDTH="66"/>
+   <TextBlock HEIGHT="123" HPOS="336" ID="TableCell_1523275444076_105" VPOS="1862" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,1862 336,1985 495,1985 495,1862"/>
+   <TextLine BASELINE="1954" HEIGHT="156" HPOS="366" ID="TableCell_1523275444076_105l1" VPOS="1798" WIDTH="63">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="156" HPOS="366" ID="string_TableCell_1523275444076_105l1" VPOS="1798" WIDTH="63"/>
+   <TextBlock HEIGHT="123" HPOS="495" ID="TableCell_1523275444084_107" VPOS="1862" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,1862 495,1985 823,1985 823,1862"/>
+   <TextLine BASELINE="1951" HEIGHT="156" HPOS="519" ID="TableCell_1523275444084_107l1" VPOS="1795" WIDTH="260">
+   </TextLine>
+   <String CONTENT="Cat de vie" HEIGHT="156" HPOS="519" ID="string_TableCell_1523275444084_107l1" VPOS="1795" WIDTH="260"/>
+   <TextBlock HEIGHT="123" HPOS="823" ID="TableCell_1523275444095_109" VPOS="1862" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,1862 823,1985 1167,1985 1167,1862"/>
+   <TextBlock HEIGHT="123" HPOS="1167" ID="TableCell_1523275444105_111" VPOS="1862" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,1862 1167,1985 2368,1985 2368,1862"/>
+   <TextLine BASELINE="1919" HEIGHT="44" HPOS="1187" ID="TableCell_1523275444105_111l1" VPOS="1875" WIDTH="1095">
+   </TextLine>
+   <String CONTENT="Macaigne (de Fernand Octave Jules) dt à" HEIGHT="44" HPOS="1187" ID="string_TableCell_1523275444105_111l1" VPOS="1875" WIDTH="1095"/>
+   <TextLine BASELINE="1982" HEIGHT="48" HPOS="1181" ID="TableCell_1523275444105_111l2" VPOS="1934" WIDTH="1117">
+   </TextLine>
+   <String CONTENT="Paris, rue d'Orleans 11, pour toucher pension ." HEIGHT="48" HPOS="1181" ID="string_TableCell_1523275444105_111l2" VPOS="1934" WIDTH="1117"/>
+   <TextBlock HEIGHT="123" HPOS="2368" ID="TableCell_1523275444114_113" VPOS="1862" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,1862 2368,1985 2486,1985 2486,1862"/>
+   <TextLine BASELINE="2023" HEIGHT="152" HPOS="2405" ID="TableCell_1523275444114_113l1" VPOS="1871" WIDTH="46">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="152" HPOS="2405" ID="string_TableCell_1523275444114_113l1" VPOS="1871" WIDTH="46"/>
+   <TextBlock HEIGHT="123" HPOS="2486" ID="TableCell_1523275444127_115" VPOS="1862" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,1862 2486,1985 2713,1985 2713,1862"/>
+   <TextLine BASELINE="2027" HEIGHT="157" HPOS="2559" ID="TableCell_1523275444127_115l1" VPOS="1870" WIDTH="150">
+   </TextLine>
+   <String CONTENT="1.88" HEIGHT="157" HPOS="2559" ID="string_TableCell_1523275444127_115l1" VPOS="1870" WIDTH="150"/>
+   <TextBlock HEIGHT="123" HPOS="2713" ID="TableCell_1523275444137_117" VPOS="1862" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,1862 2713,1985 2856,1985 2856,1862"/>
+   <TextBlock HEIGHT="113" HPOS="0" ID="TableCell_1523275461635_119" VPOS="1985" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,1985 0,2098 134,2098 134,1985"/>
+   <TextBlock HEIGHT="113" HPOS="134" ID="TableCell_1523275461671_121" VPOS="1985" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,1985 134,2098 336,2098 336,1985"/>
+   <TextLine BASELINE="2068" HEIGHT="150" HPOS="209" ID="TableCell_1523275461671_121l1" VPOS="1918" WIDTH="49">
+   </TextLine>
+   <String CONTENT="19" HEIGHT="150" HPOS="209" ID="string_TableCell_1523275461671_121l1" VPOS="1918" WIDTH="49"/>
+   <TextBlock HEIGHT="113" HPOS="336" ID="TableCell_1523275461682_123" VPOS="1985" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,1985 336,2098 495,2098 495,1985"/>
+   <TextLine BASELINE="2066" HEIGHT="153" HPOS="366" ID="TableCell_1523275461682_123l1" VPOS="1913" WIDTH="66">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="366" ID="string_TableCell_1523275461682_123l1" VPOS="1913" WIDTH="66"/>
+   <TextBlock HEIGHT="113" HPOS="495" ID="TableCell_1523275461693_125" VPOS="1985" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,1985 495,2098 823,2098 823,1985"/>
+   <TextLine BASELINE="2063" HEIGHT="156" HPOS="515" ID="TableCell_1523275461693_125l1" VPOS="1907" WIDTH="267">
+   </TextLine>
+   <String CONTENT="Cat de vie" HEIGHT="156" HPOS="515" ID="string_TableCell_1523275461693_125l1" VPOS="1907" WIDTH="267"/>
+   <TextBlock HEIGHT="113" HPOS="823" ID="TableCell_1523275461704_127" VPOS="1985" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,1985 823,2098 1167,2098 1167,1985"/>
+   <TextBlock HEIGHT="113" HPOS="1167" ID="TableCell_1523275461716_129" VPOS="1985" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,1985 1167,2098 2368,2098 2368,1985"/>
+   <TextLine BASELINE="2044" HEIGHT="50" HPOS="1187" ID="TableCell_1523275461716_129l1" VPOS="1994" WIDTH="1140">
+   </TextLine>
+   <String CONTENT="Macaigne (dud Mr) pr toucher majoration" HEIGHT="50" HPOS="1187" ID="string_TableCell_1523275461716_129l1" VPOS="1994" WIDTH="1140"/>
+   <TextLine BASELINE="2104" HEIGHT="51" HPOS="1176" ID="TableCell_1523275461716_129l2" VPOS="2053" WIDTH="858">
+   </TextLine>
+   <String CONTENT="de pension à la Prefecture de police" HEIGHT="51" HPOS="1176" ID="string_TableCell_1523275461716_129l2" VPOS="2053" WIDTH="858"/>
+   <TextBlock HEIGHT="113" HPOS="2368" ID="TableCell_1523275461729_131" VPOS="1985" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,1985 2368,2098 2486,2098 2486,1985"/>
+   <TextLine BASELINE="2140" HEIGHT="152" HPOS="2405" ID="TableCell_1523275461729_131l1" VPOS="1988" WIDTH="49">
+   </TextLine>
+   <String CONTENT="6 " HEIGHT="152" HPOS="2405" ID="string_TableCell_1523275461729_131l1" VPOS="1988" WIDTH="49"/>
+   <TextBlock HEIGHT="113" HPOS="2486" ID="TableCell_1523275461740_133" VPOS="1985" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,1985 2486,2098 2713,2098 2713,1985"/>
+   <TextLine BASELINE="2143" HEIGHT="153" HPOS="2567" ID="TableCell_1523275461740_133l1" VPOS="1990" WIDTH="138">
+   </TextLine>
+   <String CONTENT="1.88" HEIGHT="153" HPOS="2567" ID="string_TableCell_1523275461740_133l1" VPOS="1990" WIDTH="138"/>
+   <TextBlock HEIGHT="113" HPOS="2713" ID="TableCell_1523275461752_135" VPOS="1985" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,1985 2713,2098 2856,2098 2856,1985"/>
+   <TextBlock HEIGHT="120" HPOS="0" ID="TableCell_1523275463802_137" VPOS="2098" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,2098 0,2218 134,2218 134,2098"/>
+   <TextBlock HEIGHT="120" HPOS="134" ID="TableCell_1523275463815_139" VPOS="2098" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,2098 134,2218 336,2218 336,2098"/>
+   <TextLine BASELINE="2145" HEIGHT="54" HPOS="208" ID="line_1524839082913_1" VPOS="2091" WIDTH="55">
+   </TextLine>
+   <String CONTENT="20" HEIGHT="54" HPOS="208" ID="string_line_1524839082913_1" VPOS="2091" WIDTH="55"/>
+   <TextBlock HEIGHT="120" HPOS="336" ID="TableCell_1523275463825_141" VPOS="2098" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,2098 336,2218 495,2218 495,2098"/>
+   <TextLine BASELINE="2185" HEIGHT="155" HPOS="362" ID="TableCell_1523275463825_141l1" VPOS="2030" WIDTH="60">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="155" HPOS="362" ID="string_TableCell_1523275463825_141l1" VPOS="2030" WIDTH="60"/>
+   <TextBlock HEIGHT="120" HPOS="495" ID="TableCell_1523275463836_143" VPOS="2098" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,2098 495,2218 823,2218 823,2098"/>
+   <TextLine BASELINE="2192" HEIGHT="157" HPOS="507" ID="TableCell_1523275463836_143l1" VPOS="2035" WIDTH="305">
+   </TextLine>
+   <String CONTENT="Procuration" HEIGHT="157" HPOS="507" ID="string_TableCell_1523275463836_143l1" VPOS="2035" WIDTH="305"/>
+   <TextBlock HEIGHT="120" HPOS="823" ID="TableCell_1523275463845_145" VPOS="2098" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,2098 823,2218 1167,2218 1167,2098"/>
+   <TextBlock HEIGHT="120" HPOS="1167" ID="TableCell_1523275463858_147" VPOS="2098" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,2098 1167,2218 2368,2218 2368,2098"/>
+   <TextLine BASELINE="2201" HEIGHT="163" HPOS="1190" ID="TableCell_1523275463858_147l1" VPOS="2038" WIDTH="1155">
+   </TextLine>
+   <String CONTENT="Rouyer (par Eugénie Renée) dt à Paris, Bd St" HEIGHT="163" HPOS="1190" ID="string_TableCell_1523275463858_147l1" VPOS="2038" WIDTH="1155"/>
+   <TextLine BASELINE="2261" HEIGHT="154" HPOS="1169" ID="TableCell_1523275463858_147l2" VPOS="2107" WIDTH="1155">
+   </TextLine>
+   <String CONTENT="Germain 110 (en blanc) pour toucher legs Delage" HEIGHT="154" HPOS="1169" ID="string_TableCell_1523275463858_147l2" VPOS="2107" WIDTH="1155"/>
+   <TextBlock HEIGHT="120" HPOS="2368" ID="TableCell_1523275463879_149" VPOS="2098" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,2098 2368,2218 2486,2218 2486,2098"/>
+   <TextLine BASELINE="2243" HEIGHT="64" HPOS="2403" ID="line_1524839254970_2" VPOS="2179" WIDTH="30">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="64" HPOS="2403" ID="string_line_1524839254970_2" VPOS="2179" WIDTH="30"/>
+   <TextBlock HEIGHT="120" HPOS="2486" ID="TableCell_1523275463889_151" VPOS="2098" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,2098 2486,2218 2713,2218 2713,2098"/>
+   <TextLine BASELINE="2266" HEIGHT="158" HPOS="2568" ID="TableCell_1523275463889_151l1" VPOS="2108" WIDTH="126">
+   </TextLine>
+   <String CONTENT="3.75" HEIGHT="158" HPOS="2568" ID="string_TableCell_1523275463889_151l1" VPOS="2108" WIDTH="126"/>
+   <TextBlock HEIGHT="120" HPOS="2713" ID="TableCell_1523275463899_153" VPOS="2098" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,2098 2713,2218 2856,2218 2856,2098"/>
+   <TextBlock HEIGHT="304" HPOS="0" ID="TableCell_1523275466928_155" VPOS="2218" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,2218 0,2522 134,2522 134,2218"/>
+   <TextBlock HEIGHT="304" HPOS="134" ID="TableCell_1523275466938_157" VPOS="2218" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,2218 134,2522 336,2522 336,2218"/>
+   <TextLine BASELINE="2308" HEIGHT="153" HPOS="201" ID="TableCell_1523275466938_157l1" VPOS="2155" WIDTH="63">
+   </TextLine>
+   <String CONTENT="21" HEIGHT="153" HPOS="201" ID="string_TableCell_1523275466938_157l1" VPOS="2155" WIDTH="63"/>
+   <TextBlock HEIGHT="304" HPOS="336" ID="TableCell_1523275466948_159" VPOS="2218" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,2218 336,2522 495,2522 495,2218"/>
+   <TextLine BASELINE="2311" HEIGHT="153" HPOS="363" ID="TableCell_1523275466948_159l1" VPOS="2158" WIDTH="66">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="363" ID="string_TableCell_1523275466948_159l1" VPOS="2158" WIDTH="66"/>
+   <TextBlock HEIGHT="304" HPOS="495" ID="TableCell_1523275466956_161" VPOS="2218" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,2218 495,2522 823,2522 823,2218"/>
+   <TextLine BASELINE="2317" HEIGHT="159" HPOS="522" ID="TableCell_1523275466956_161l1" VPOS="2158" WIDTH="266">
+   </TextLine>
+   <String CONTENT="Cat de ppte" HEIGHT="159" HPOS="522" ID="string_TableCell_1523275466956_161l1" VPOS="2158" WIDTH="266"/>
+   <TextBlock HEIGHT="304" HPOS="823" ID="TableCell_1523275466966_163" VPOS="2218" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,2218 823,2522 1167,2522 1167,2218"/>
+   <TextBlock HEIGHT="304" HPOS="1167" ID="TableCell_1523275466978_165" VPOS="2218" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,2218 1167,2522 2368,2522 2368,2218"/>
+   <TextLine BASELINE="2284" HEIGHT="46" HPOS="1193" ID="TableCell_1523275466978_165l1" VPOS="2238" WIDTH="1143">
+   </TextLine>
+   <String CONTENT="Philippon (conct Livret N° 59786 de la Caisse" HEIGHT="46" HPOS="1193" ID="string_TableCell_1523275466978_165l1" VPOS="2238" WIDTH="1143"/>
+   <TextLine BASELINE="2343" HEIGHT="54" HPOS="1082" ID="line_1524839349708_3" VPOS="2289" WIDTH="1281">
+   </TextLine>
+   <String CONTENT="d'Epargne de Paris 21e serie, au nom de Gustave Charles)" HEIGHT="54" HPOS="1082" ID="string_line_1524839349708_3" VPOS="2289" WIDTH="1281"/>
+   <TextLine BASELINE="2405" HEIGHT="48" HPOS="1175" ID="TableCell_1523275466978_165l3" VPOS="2357" WIDTH="1188">
+   </TextLine>
+   <String CONTENT="en son vivant dt à Paris rue Mr le Prince 22, decede" HEIGHT="48" HPOS="1175" ID="string_TableCell_1523275466978_165l3" VPOS="2357" WIDTH="1188"/>
+   <TextLine BASELINE="2468" HEIGHT="49" HPOS="1182" ID="TableCell_1523275466978_165l4" VPOS="2419" WIDTH="1158">
+   </TextLine>
+   <String CONTENT="à Brie (s &amp; o) le 11 septembre 1919 epoux de Philomene" HEIGHT="49" HPOS="1182" ID="string_TableCell_1523275466978_165l4" VPOS="2419" WIDTH="1158"/>
+   <TextLine BASELINE="2528" HEIGHT="49" HPOS="1179" ID="TableCell_1523275466978_165l5" VPOS="2479" WIDTH="623">
+   </TextLine>
+   <String CONTENT="Ferrand . capital 33+. 26" HEIGHT="49" HPOS="1179" ID="string_TableCell_1523275466978_165l5" VPOS="2479" WIDTH="623"/>
+   <TextBlock HEIGHT="304" HPOS="2368" ID="TableCell_1523275466989_167" VPOS="2218" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,2218 2368,2522 2486,2522 2486,2218"/>
+   <TextLine BASELINE="2535" HEIGHT="50" HPOS="2394" ID="line_1524839733920_4" VPOS="2485" WIDTH="37">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="50" HPOS="2394" ID="string_line_1524839733920_4" VPOS="2485" WIDTH="37"/>
+   <TextBlock HEIGHT="304" HPOS="2486" ID="TableCell_1523275467000_169" VPOS="2218" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,2218 2486,2522 2713,2522 2713,2218"/>
+   <TextLine BASELINE="2567" HEIGHT="157" HPOS="2526" ID="TableCell_1523275467000_169l1" VPOS="2410" WIDTH="141">
+   </TextLine>
+   <String CONTENT="gratis" HEIGHT="157" HPOS="2526" ID="string_TableCell_1523275467000_169l1" VPOS="2410" WIDTH="141"/>
+   <TextBlock HEIGHT="304" HPOS="2713" ID="TableCell_1523275467011_171" VPOS="2218" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,2218 2713,2522 2856,2522 2856,2218"/>
+   <TextBlock HEIGHT="328" HPOS="0" ID="TableCell_1523275470370_173" VPOS="2522" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,2522 0,2850 134,2850 134,2522"/>
+   <TextBlock HEIGHT="328" HPOS="134" ID="TableCell_1523275470383_175" VPOS="2522" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,2522 134,2850 336,2850 336,2522"/>
+   <TextLine BASELINE="2620" HEIGHT="154" HPOS="189" ID="TableCell_1523275470383_175l1" VPOS="2466" WIDTH="69">
+   </TextLine>
+   <String CONTENT="22" HEIGHT="154" HPOS="189" ID="string_TableCell_1523275470383_175l1" VPOS="2466" WIDTH="69"/>
+   <TextBlock HEIGHT="328" HPOS="336" ID="TableCell_1523275470392_177" VPOS="2522" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,2522 336,2850 495,2850 495,2522"/>
+   <TextLine BASELINE="2618" HEIGHT="156" HPOS="350" ID="TableCell_1523275470392_177l1" VPOS="2462" WIDTH="60">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="156" HPOS="350" ID="string_TableCell_1523275470392_177l1" VPOS="2462" WIDTH="60"/>
+   <TextBlock HEIGHT="328" HPOS="495" ID="TableCell_1523275470400_179" VPOS="2522" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,2522 495,2850 823,2850 823,2522"/>
+   <TextBlock HEIGHT="328" HPOS="823" ID="TableCell_1523275470408_181" VPOS="2522" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,2522 823,2850 1167,2850 1167,2522"/>
+   <TextLine BASELINE="2621" HEIGHT="154" HPOS="846" ID="TableCell_1523275470408_181l1" VPOS="2467" WIDTH="267">
+   </TextLine>
+   <String CONTENT="Notoriété" HEIGHT="154" HPOS="846" ID="string_TableCell_1523275470408_181l1" VPOS="2467" WIDTH="267"/>
+   <TextBlock HEIGHT="328" HPOS="1167" ID="TableCell_1523275470416_183" VPOS="2522" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,2522 1167,2850 2368,2850 2368,2522"/>
+   <TextLine BASELINE="2595" HEIGHT="54" HPOS="1175" ID="TableCell_1523275470416_183l1" VPOS="2541" WIDTH="1147">
+   </TextLine>
+   <String CONTENT="Hélon,(après le decès d'Auguste) à Paris rue des" HEIGHT="54" HPOS="1175" ID="string_TableCell_1523275470416_183l1" VPOS="2541" WIDTH="1147"/>
+   <TextLine BASELINE="2660" HEIGHT="56" HPOS="1181" ID="TableCell_1523275470416_183l2" VPOS="2604" WIDTH="1155">
+   </TextLine>
+   <String CONTENT="Jardin St Paul 2, et Dorothée Mathis, sa femme" HEIGHT="56" HPOS="1181" ID="string_TableCell_1523275470416_183l2" VPOS="2604" WIDTH="1155"/>
+   <TextLine BASELINE="2724" HEIGHT="52" HPOS="1182" ID="TableCell_1523275470416_183l3" VPOS="2672" WIDTH="1130">
+   </TextLine>
+   <String CONTENT="à Paris rue des 2 Ponts 35, decedés : M Hélon" HEIGHT="52" HPOS="1182" ID="string_TableCell_1523275470416_183l3" VPOS="2672" WIDTH="1130"/>
+   <TextLine BASELINE="2793" HEIGHT="56" HPOS="1181" ID="TableCell_1523275470416_183l4" VPOS="2737" WIDTH="1114">
+   </TextLine>
+   <String CONTENT="à Levallois Perret rue de Villiers 80, et Made) en" HEIGHT="56" HPOS="1181" ID="string_TableCell_1523275470416_183l4" VPOS="2737" WIDTH="1114"/>
+   <TextLine BASELINE="2858" HEIGHT="58" HPOS="1182" ID="TableCell_1523275470416_183l5" VPOS="2800" WIDTH="750">
+   </TextLine>
+   <String CONTENT="son domicile le 20 février 1918 ." HEIGHT="58" HPOS="1182" ID="string_TableCell_1523275470416_183l5" VPOS="2800" WIDTH="750"/>
+   <TextBlock HEIGHT="328" HPOS="2368" ID="TableCell_1523275470426_185" VPOS="2522" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,2522 2368,2850 2486,2850 2486,2522"/>
+   <TextLine BASELINE="2862" HEIGHT="50" HPOS="2395" ID="line_1525253415001_1" VPOS="2812" WIDTH="29">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="50" HPOS="2395" ID="string_line_1525253415001_1" VPOS="2812" WIDTH="29"/>
+   <TextBlock HEIGHT="328" HPOS="2486" ID="TableCell_1523275470435_187" VPOS="2522" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,2522 2486,2850 2713,2850 2713,2522"/>
+   <TextLine BASELINE="2896" HEIGHT="162" HPOS="2562" ID="TableCell_1523275470435_187l1" VPOS="2734" WIDTH="102">
+   </TextLine>
+   <String CONTENT="3.75" HEIGHT="162" HPOS="2562" ID="string_TableCell_1523275470435_187l1" VPOS="2734" WIDTH="102"/>
+   <TextBlock HEIGHT="328" HPOS="2713" ID="TableCell_1523275470443_189" VPOS="2522" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,2522 2713,2850 2856,2850 2856,2522"/>
+   <TextBlock HEIGHT="129" HPOS="0" ID="TableCell_1523275472940_191" VPOS="2850" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,2850 0,2979 134,2979 134,2850"/>
+   <TextBlock HEIGHT="129" HPOS="134" ID="TableCell_1523275472952_193" VPOS="2850" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,2850 134,2979 336,2979 336,2850"/>
+   <TextLine BASELINE="2941" HEIGHT="158" HPOS="182" ID="TableCell_1523275472952_193l1" VPOS="2783" WIDTH="79">
+   </TextLine>
+   <String CONTENT="23" HEIGHT="158" HPOS="182" ID="string_TableCell_1523275472952_193l1" VPOS="2783" WIDTH="79"/>
+   <TextBlock HEIGHT="129" HPOS="336" ID="TableCell_1523275472960_195" VPOS="2850" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,2850 336,2979 495,2979 495,2850"/>
+   <TextLine BASELINE="2896" HEIGHT="52" HPOS="370" ID="line_1525253459437_2" VPOS="2844" WIDTH="48">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="52" HPOS="370" ID="string_line_1525253459437_2" VPOS="2844" WIDTH="48"/>
+   <TextBlock HEIGHT="129" HPOS="495" ID="TableCell_1523275472971_197" VPOS="2850" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,2850 495,2979 823,2979 823,2850"/>
+   <TextLine BASELINE="2941" HEIGHT="153" HPOS="515" ID="TableCell_1523275472971_197l1" VPOS="2788" WIDTH="292">
+   </TextLine>
+   <String CONTENT="Cat de sigre" HEIGHT="153" HPOS="515" ID="string_TableCell_1523275472971_197l1" VPOS="2788" WIDTH="292"/>
+   <TextBlock HEIGHT="129" HPOS="823" ID="TableCell_1523275472982_199" VPOS="2850" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,2850 823,2979 1167,2979 1167,2850"/>
+   <TextBlock HEIGHT="129" HPOS="1167" ID="TableCell_1523275472991_201" VPOS="2850" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,2850 1167,2979 2368,2979 2368,2850"/>
+   <TextLine BASELINE="2922" HEIGHT="43" HPOS="1170" ID="TableCell_1523275472991_201l1" VPOS="2879" WIDTH="1134">
+   </TextLine>
+   <String CONTENT="Hélon (de René Philippe) demeurt à Paris" HEIGHT="43" HPOS="1170" ID="string_TableCell_1523275472991_201l1" VPOS="2879" WIDTH="1134"/>
+   <TextLine BASELINE="2977" HEIGHT="41" HPOS="1173" ID="TableCell_1523275472991_201l2" VPOS="2936" WIDTH="381">
+   </TextLine>
+   <String CONTENT="rue de Sèvres 29" HEIGHT="41" HPOS="1173" ID="string_TableCell_1523275472991_201l2" VPOS="2936" WIDTH="381"/>
+   <TextBlock HEIGHT="129" HPOS="2368" ID="TableCell_1523275473000_203" VPOS="2850" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,2850 2368,2979 2486,2979 2486,2850"/>
+   <TextLine BASELINE="2991" HEIGHT="51" HPOS="2394" ID="line_1525253529623_3" VPOS="2940" WIDTH="40">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="51" HPOS="2394" ID="string_line_1525253529623_3" VPOS="2940" WIDTH="40"/>
+   <TextBlock HEIGHT="129" HPOS="2486" ID="TableCell_1523275473008_205" VPOS="2850" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,2850 2486,2979 2713,2979 2713,2850"/>
+   <TextLine BASELINE="3025" HEIGHT="156" HPOS="2559" ID="TableCell_1523275473008_205l1" VPOS="2869" WIDTH="138">
+   </TextLine>
+   <String CONTENT="3.75" HEIGHT="156" HPOS="2559" ID="string_TableCell_1523275473008_205l1" VPOS="2869" WIDTH="138"/>
+   <TextBlock HEIGHT="129" HPOS="2713" ID="TableCell_1523275473015_207" VPOS="2850" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,2850 2713,2979 2856,2979 2856,2850"/>
+   <TextBlock HEIGHT="266" HPOS="0" ID="TableCell_1523275478142_209" VPOS="2979" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,2979 0,3245 134,3245 134,2979"/>
+   <TextBlock HEIGHT="266" HPOS="134" ID="TableCell_1523275478155_211" VPOS="2979" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,2979 134,3245 336,3245 336,2979"/>
+   <TextLine BASELINE="3073" HEIGHT="153" HPOS="200" ID="TableCell_1523275478155_211l1" VPOS="2920" WIDTH="60">
+   </TextLine>
+   <String CONTENT="24" HEIGHT="153" HPOS="200" ID="string_TableCell_1523275478155_211l1" VPOS="2920" WIDTH="60"/>
+   <TextBlock HEIGHT="266" HPOS="336" ID="TableCell_1523275478165_213" VPOS="2979" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,2979 336,3245 495,3245 495,2979"/>
+   <TextLine BASELINE="3076" HEIGHT="153" HPOS="357" ID="TableCell_1523275478165_213l1" VPOS="2923" WIDTH="48">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="357" ID="string_TableCell_1523275478165_213l1" VPOS="2923" WIDTH="48"/>
+   <TextBlock HEIGHT="266" HPOS="495" ID="TableCell_1523275478174_215" VPOS="2979" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,2979 495,3245 823,3245 823,2979"/>
+   <TextLine BASELINE="3068" HEIGHT="157" HPOS="513" ID="TableCell_1523275478174_215l1" VPOS="2911" WIDTH="279">
+   </TextLine>
+   <String CONTENT="Procuration" HEIGHT="157" HPOS="513" ID="string_TableCell_1523275478174_215l1" VPOS="2911" WIDTH="279"/>
+   <TextBlock HEIGHT="266" HPOS="823" ID="TableCell_1523275478183_217" VPOS="2979" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,2979 823,3245 1167,3245 1167,2979"/>
+   <TextBlock HEIGHT="266" HPOS="1167" ID="TableCell_1523275478191_219" VPOS="2979" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,2979 1167,3245 2368,3245 2368,2979"/>
+   <TextLine BASELINE="3050" HEIGHT="47" HPOS="1176" ID="TableCell_1523275478191_219l1" VPOS="3003" WIDTH="1154">
+   </TextLine>
+   <String CONTENT="Hélon (par Helene Flore) à Paris rue Sainte" HEIGHT="47" HPOS="1176" ID="string_TableCell_1523275478191_219l1" VPOS="3003" WIDTH="1154"/>
+   <TextLine BASELINE="3118" HEIGHT="51" HPOS="1181" ID="TableCell_1523275478191_219l2" VPOS="3067" WIDTH="1152">
+   </TextLine>
+   <String CONTENT="Opportune 6 et Marcel Jean) à Paris rue St Louis" HEIGHT="51" HPOS="1181" ID="string_TableCell_1523275478191_219l2" VPOS="3067" WIDTH="1152"/>
+   <TextLine BASELINE="3187" HEIGHT="53" HPOS="1172" ID="TableCell_1523275478191_219l3" VPOS="3134" WIDTH="1182">
+   </TextLine>
+   <String CONTENT="en l'Ile 41, à René Philippe Hélon, à Paris rue de" HEIGHT="53" HPOS="1172" ID="string_TableCell_1523275478191_219l3" VPOS="3134" WIDTH="1182"/>
+   <TextLine BASELINE="3251" HEIGHT="60" HPOS="1173" ID="TableCell_1523275478191_219l4" VPOS="3191" WIDTH="869">
+   </TextLine>
+   <String CONTENT="Sèvres 29, pour retirer de la Banque" HEIGHT="60" HPOS="1173" ID="string_TableCell_1523275478191_219l4" VPOS="3191" WIDTH="869"/>
+   <TextBlock HEIGHT="266" HPOS="2368" ID="TableCell_1523275478200_221" VPOS="2979" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,2979 2368,3245 2486,3245 2486,2979"/>
+   <TextLine BASELINE="3287" HEIGHT="80" HPOS="2387" ID="line_1525254669435_4" VPOS="3207" WIDTH="44">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="80" HPOS="2387" ID="string_line_1525254669435_4" VPOS="3207" WIDTH="44"/>
+   <TextBlock HEIGHT="266" HPOS="2486" ID="TableCell_1523275478209_223" VPOS="2979" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,2979 2486,3245 2713,3245 2713,2979"/>
+   <TextLine BASELINE="3290" HEIGHT="163" HPOS="2552" ID="TableCell_1523275478209_223l1" VPOS="3127" WIDTH="132">
+   </TextLine>
+   <String CONTENT="3.75" HEIGHT="163" HPOS="2552" ID="string_TableCell_1523275478209_223l1" VPOS="3127" WIDTH="132"/>
+   <TextBlock HEIGHT="266" HPOS="2713" ID="TableCell_1523275478220_225" VPOS="2979" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,2979 2713,3245 2856,3245 2856,2979"/>
+   <TextBlock HEIGHT="307" HPOS="0" ID="TableCell_1523275494287_227" VPOS="3245" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,3245 0,3552 134,3552 134,3245"/>
+   <TextBlock HEIGHT="307" HPOS="134" ID="TableCell_1523275494310_229" VPOS="3245" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,3245 134,3552 336,3552 336,3245"/>
+   <TextLine BASELINE="3326" HEIGHT="153" HPOS="183" ID="TableCell_1523275494310_229l1" VPOS="3173" WIDTH="87">
+   </TextLine>
+   <String CONTENT="25" HEIGHT="153" HPOS="183" ID="string_TableCell_1523275494310_229l1" VPOS="3173" WIDTH="87"/>
+   <TextBlock HEIGHT="307" HPOS="336" ID="TableCell_1523275494319_231" VPOS="3245" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,3245 336,3552 495,3552 495,3245"/>
+   <TextLine BASELINE="3337" HEIGHT="159" HPOS="366" ID="TableCell_1523275494319_231l1" VPOS="3178" WIDTH="54">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="159" HPOS="366" ID="string_TableCell_1523275494319_231l1" VPOS="3178" WIDTH="54"/>
+   <TextBlock HEIGHT="307" HPOS="495" ID="TableCell_1523275494330_233" VPOS="3245" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,3245 495,3552 823,3552 823,3245"/>
+   <TextBlock HEIGHT="307" HPOS="823" ID="TableCell_1523275494338_235" VPOS="3245" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,3245 823,3552 1167,3552 1167,3245"/>
+   <TextLine BASELINE="3296" HEIGHT="34" HPOS="827" ID="TableCell_1523275494338_235l1" VPOS="3262" WIDTH="289">
+   </TextLine>
+   <String CONTENT="Mainlevee" HEIGHT="34" HPOS="827" ID="string_TableCell_1523275494338_235l1" VPOS="3262" WIDTH="289"/>
+   <TextLine BASELINE="3346" HEIGHT="45" HPOS="860" ID="TableCell_1523275494338_235l2" VPOS="3301" WIDTH="246">
+   </TextLine>
+   <String CONTENT="d'inscription" HEIGHT="45" HPOS="860" ID="string_TableCell_1523275494338_235l2" VPOS="3301" WIDTH="246"/>
+   <TextBlock HEIGHT="307" HPOS="1167" ID="TableCell_1523275494347_237" VPOS="3245" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,3245 1167,3552 2368,3552 2368,3245"/>
+   <TextLine BASELINE="3311" HEIGHT="49" HPOS="1178" ID="TableCell_1523275494347_237l1" VPOS="3262" WIDTH="1168">
+   </TextLine>
+   <String CONTENT="Douillet (par Marie Augénie Leyreloux Vve" HEIGHT="49" HPOS="1178" ID="string_TableCell_1523275494347_237l1" VPOS="3262" WIDTH="1168"/>
+   <TextLine BASELINE="3382" HEIGHT="53" HPOS="1175" ID="TableCell_1523275494347_237l2" VPOS="3329" WIDTH="1182">
+   </TextLine>
+   <String CONTENT="d'Auguste Pierre) à Paris Bd Beaumarchais 71, au" HEIGHT="53" HPOS="1175" ID="string_TableCell_1523275494347_237l2" VPOS="3329" WIDTH="1182"/>
+   <TextLine BASELINE="3443" HEIGHT="55" HPOS="1176" ID="TableCell_1523275494347_237l3" VPOS="3388" WIDTH="1157">
+   </TextLine>
+   <String CONTENT="Greffe du Tal de Cce de la Seine le 3 fevrier 1919 N°" HEIGHT="55" HPOS="1176" ID="string_TableCell_1523275494347_237l3" VPOS="3388" WIDTH="1157"/>
+   <TextLine BASELINE="3501" HEIGHT="50" HPOS="1178" ID="TableCell_1523275494347_237l4" VPOS="3451" WIDTH="1167">
+   </TextLine>
+   <String CONTENT="84903 contre Pierre Marie Beliot et sa femme née" HEIGHT="50" HPOS="1178" ID="string_TableCell_1523275494347_237l4" VPOS="3451" WIDTH="1167"/>
+   <TextLine BASELINE="3559" HEIGHT="52" HPOS="1173" ID="TableCell_1523275494347_237l5" VPOS="3507" WIDTH="990">
+   </TextLine>
+   <String CONTENT="Mannoury, à Paris rue de Malte 68 ." HEIGHT="52" HPOS="1173" ID="string_TableCell_1523275494347_237l5" VPOS="3507" WIDTH="990"/>
+   <TextBlock HEIGHT="307" HPOS="2368" ID="TableCell_1523275494358_239" VPOS="3245" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,3245 2368,3552 2486,3552 2486,3245"/>
+   <TextLine BASELINE="3595" HEIGHT="81" HPOS="2382" ID="line_1525255094925_5" VPOS="3514" WIDTH="68">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="81" HPOS="2382" ID="string_line_1525255094925_5" VPOS="3514" WIDTH="68"/>
+   <TextBlock HEIGHT="307" HPOS="2486" ID="TableCell_1523275494368_241" VPOS="3245" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,3245 2486,3552 2713,3552 2713,3245"/>
+   <TextLine BASELINE="3598" HEIGHT="155" HPOS="2550" ID="TableCell_1523275494368_241l1" VPOS="3443" WIDTH="146">
+   </TextLine>
+   <String CONTENT="16.63" HEIGHT="155" HPOS="2550" ID="string_TableCell_1523275494368_241l1" VPOS="3443" WIDTH="146"/>
+   <TextBlock HEIGHT="307" HPOS="2713" ID="TableCell_1523275494378_243" VPOS="3245" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,3245 2713,3552 2856,3552 2856,3245"/>
+   <TextBlock HEIGHT="311" HPOS="0" ID="TableCell_1523275499797_245" VPOS="3552" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,3552 0,3863 134,3863 134,3552"/>
+   <TextBlock HEIGHT="311" HPOS="134" ID="TableCell_1523275499808_247" VPOS="3552" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,3552 134,3863 336,3863 336,3552"/>
+   <TextLine BASELINE="3637" HEIGHT="152" HPOS="198" ID="TableCell_1523275499808_247l1" VPOS="3485" WIDTH="78">
+   </TextLine>
+   <String CONTENT="26" HEIGHT="152" HPOS="198" ID="string_TableCell_1523275499808_247l1" VPOS="3485" WIDTH="78"/>
+   <TextBlock HEIGHT="311" HPOS="336" ID="TableCell_1523275499818_249" VPOS="3552" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,3552 336,3863 495,3863 495,3552"/>
+   <TextLine BASELINE="3640" HEIGHT="153" HPOS="375" ID="TableCell_1523275499818_249l1" VPOS="3487" WIDTH="60">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="375" ID="string_TableCell_1523275499818_249l1" VPOS="3487" WIDTH="60"/>
+   <TextBlock HEIGHT="311" HPOS="495" ID="TableCell_1523275499829_251" VPOS="3552" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,3552 495,3863 823,3863 823,3552"/>
+   <TextBlock HEIGHT="311" HPOS="823" ID="TableCell_1523275499838_253" VPOS="3552" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,3552 823,3863 1167,3863 1167,3552"/>
+   <TextLine BASELINE="3647" HEIGHT="153" HPOS="836" ID="TableCell_1523275499838_253l1" VPOS="3494" WIDTH="291">
+   </TextLine>
+   <String CONTENT="Mainlevee" HEIGHT="153" HPOS="836" ID="string_TableCell_1523275499838_253l1" VPOS="3494" WIDTH="291"/>
+   <TextBlock HEIGHT="311" HPOS="1167" ID="TableCell_1523275499847_255" VPOS="3552" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,3552 1167,3863 2368,3863 2368,3552"/>
+   <TextLine BASELINE="3625" HEIGHT="58" HPOS="1188" ID="TableCell_1523275499847_255l1" VPOS="3567" WIDTH="1164">
+   </TextLine>
+   <String CONTENT="Avenant ( par Marie Le Nozer, dt à Kremlin" HEIGHT="58" HPOS="1188" ID="string_TableCell_1523275499847_255l1" VPOS="3567" WIDTH="1164"/>
+   <TextLine BASELINE="3688" HEIGHT="55" HPOS="1182" ID="TableCell_1523275499847_255l2" VPOS="3633" WIDTH="1175">
+   </TextLine>
+   <String CONTENT="Bicêtre, avenue de Fontainebleau 134, veuve d'Ernest Louis" HEIGHT="55" HPOS="1182" ID="string_TableCell_1523275499847_255l2" VPOS="3633" WIDTH="1175"/>
+   <TextLine BASELINE="3751" HEIGHT="55" HPOS="1182" ID="TableCell_1523275499847_255l3" VPOS="3696" WIDTH="1122">
+   </TextLine>
+   <String CONTENT="Basile) d'inscription au Tal de Ce de la Seine le 11" HEIGHT="55" HPOS="1182" ID="string_TableCell_1523275499847_255l3" VPOS="3696" WIDTH="1122"/>
+   <TextLine BASELINE="3809" HEIGHT="51" HPOS="1181" ID="TableCell_1523275499847_255l4" VPOS="3758" WIDTH="1152">
+   </TextLine>
+   <String CONTENT="juin 1913, N° 56311, contre Jean Auguste Beigné" HEIGHT="51" HPOS="1181" ID="string_TableCell_1523275499847_255l4" VPOS="3758" WIDTH="1152"/>
+   <TextLine BASELINE="3872" HEIGHT="55" HPOS="1173" ID="TableCell_1523275499847_255l5" VPOS="3817" WIDTH="992">
+   </TextLine>
+   <String CONTENT="dt à Ivry, avenue de la Republique 17 . " HEIGHT="55" HPOS="1173" ID="string_TableCell_1523275499847_255l5" VPOS="3817" WIDTH="992"/>
+   <TextBlock HEIGHT="311" HPOS="2368" ID="TableCell_1523275499856_257" VPOS="3552" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,3552 2368,3863 2486,3863 2486,3552"/>
+   <TextLine BASELINE="3898" HEIGHT="69" HPOS="2400" ID="line_1525256854325_6" VPOS="3829" WIDTH="46">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="69" HPOS="2400" ID="string_line_1525256854325_6" VPOS="3829" WIDTH="46"/>
+   <TextBlock HEIGHT="311" HPOS="2486" ID="TableCell_1523275499864_259" VPOS="3552" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,3552 2486,3863 2713,3863 2713,3552"/>
+   <TextLine BASELINE="3887" HEIGHT="65" HPOS="2551" ID="line_1525256877539_7" VPOS="3822" WIDTH="139">
+   </TextLine>
+   <String CONTENT='" .59' HEIGHT="65" HPOS="2551" ID="string_line_1525256877539_7" VPOS="3822" WIDTH="139"/>
+   <TextBlock HEIGHT="311" HPOS="2713" ID="TableCell_1523275499875_261" VPOS="3552" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,3552 2713,3863 2856,3863 2856,3552"/>
+   <TextBlock HEIGHT="249" HPOS="0" ID="TableCell_1523275505896_263" VPOS="3863" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,3863 0,4112 134,4112 134,3863"/>
+   <TextBlock HEIGHT="249" HPOS="134" ID="TableCell_1523275505906_265" VPOS="3863" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,3863 134,4112 336,4112 336,3863"/>
+   <TextLine BASELINE="3968" HEIGHT="162" HPOS="207" ID="TableCell_1523275505906_265l1" VPOS="3806" WIDTH="45">
+   </TextLine>
+   <String CONTENT="27" HEIGHT="162" HPOS="207" ID="string_TableCell_1523275505906_265l1" VPOS="3806" WIDTH="45"/>
+   <TextBlock HEIGHT="249" HPOS="336" ID="TableCell_1523275505919_267" VPOS="3863" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,3863 336,4112 495,4112 495,3863"/>
+   <TextLine BASELINE="3950" HEIGHT="156" HPOS="374" ID="TableCell_1523275505919_267l1" VPOS="3794" WIDTH="60">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="156" HPOS="374" ID="string_TableCell_1523275505919_267l1" VPOS="3794" WIDTH="60"/>
+   <TextBlock HEIGHT="249" HPOS="495" ID="TableCell_1523275505930_269" VPOS="3863" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,3863 495,4112 823,4112 823,3863"/>
+   <TextBlock HEIGHT="249" HPOS="823" ID="TableCell_1523275505939_271" VPOS="3863" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,3863 823,4112 1167,4112 1167,3863"/>
+   <TextLine BASELINE="3918" HEIGHT="33" HPOS="837" ID="TableCell_1523275505939_271l1" VPOS="3885" WIDTH="300">
+   </TextLine>
+   <String CONTENT="Requisition" HEIGHT="33" HPOS="837" ID="string_TableCell_1523275505939_271l1" VPOS="3885" WIDTH="300"/>
+   <TextLine BASELINE="3961" HEIGHT="34" HPOS="854" ID="TableCell_1523275505939_271l2" VPOS="3927" WIDTH="270">
+   </TextLine>
+   <String CONTENT="de notification" HEIGHT="34" HPOS="854" ID="string_TableCell_1523275505939_271l2" VPOS="3927" WIDTH="270"/>
+   <TextLine BASELINE="4022" HEIGHT="50" HPOS="864" ID="TableCell_1523275505939_271l3" VPOS="3972" WIDTH="246">
+   </TextLine>
+   <String CONTENT="de mariage" HEIGHT="50" HPOS="864" ID="string_TableCell_1523275505939_271l3" VPOS="3972" WIDTH="246"/>
+   <TextBlock HEIGHT="249" HPOS="1167" ID="TableCell_1523275505949_273" VPOS="3863" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,3863 1167,4112 2368,4112 2368,3863"/>
+   <TextLine BASELINE="3932" HEIGHT="48" HPOS="1172" ID="TableCell_1523275505949_273l1" VPOS="3884" WIDTH="1185">
+   </TextLine>
+   <String CONTENT="Belfort (par Joseph Anatole) à Paris rue Berthollet" HEIGHT="48" HPOS="1172" ID="string_TableCell_1523275505949_273l1" VPOS="3884" WIDTH="1185"/>
+   <TextLine BASELINE="4000" HEIGHT="59" HPOS="1184" ID="TableCell_1523275505949_273l2" VPOS="3941" WIDTH="1164">
+   </TextLine>
+   <String CONTENT="3, à Saturnin Gerôme Belfort et à Made) ses père &amp;" HEIGHT="59" HPOS="1184" ID="string_TableCell_1523275505949_273l2" VPOS="3941" WIDTH="1164"/>
+   <TextLine BASELINE="4058" HEIGHT="60" HPOS="1176" ID="TableCell_1523275505949_273l3" VPOS="3998" WIDTH="1188">
+   </TextLine>
+   <String CONTENT="mère. dt à La Pointe à Pitre, de son projet de mariage avec" HEIGHT="60" HPOS="1176" ID="string_TableCell_1523275505949_273l3" VPOS="3998" WIDTH="1188"/>
+   <TextLine BASELINE="4121" HEIGHT="60" HPOS="1170" ID="TableCell_1523275505949_273l4" VPOS="4061" WIDTH="1065">
+   </TextLine>
+   <String CONTENT="avec Made veuve Govin, à Paris rue Beudant 3" HEIGHT="60" HPOS="1170" ID="string_TableCell_1523275505949_273l4" VPOS="4061" WIDTH="1065"/>
+   <TextBlock HEIGHT="249" HPOS="2368" ID="TableCell_1523275505961_275" VPOS="3863" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,3863 2368,4112 2486,4112 2486,3863"/>
+   <TextLine BASELINE="4126" HEIGHT="53" HPOS="2406" ID="line_1525261856552_8" VPOS="4073" WIDTH="43">
+   </TextLine>
+   <String CONTENT="7" HEIGHT="53" HPOS="2406" ID="string_line_1525261856552_8" VPOS="4073" WIDTH="43"/>
+   <TextBlock HEIGHT="249" HPOS="2486" ID="TableCell_1523275505972_277" VPOS="3863" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,3863 2486,4112 2713,4112 2713,3863"/>
+   <TextLine BASELINE="4157" HEIGHT="157" HPOS="2537" ID="TableCell_1523275505972_277l2" VPOS="4000" WIDTH="123">
+   </TextLine>
+   <String CONTENT="gratis" HEIGHT="157" HPOS="2537" ID="string_TableCell_1523275505972_277l2" VPOS="4000" WIDTH="123"/>
+   <TextBlock HEIGHT="249" HPOS="2713" ID="TableCell_1523275505981_279" VPOS="3863" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,3863 2713,4112 2856,4112 2856,3863"/>
+   <TextBlock HEIGHT="130" HPOS="0" ID="TableCell_1523275505896_262" VPOS="4112" WIDTH="134">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="0,4112 0,4242 134,4242 134,4112"/>
+   <TextBlock HEIGHT="130" HPOS="134" ID="TableCell_1523275505906_264" VPOS="4112" WIDTH="202">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="134,4112 134,4242 336,4242 336,4112"/>
+   <TextLine BASELINE="4189" HEIGHT="156" HPOS="198" ID="TableCell_1523275505906_264l1" VPOS="4033" WIDTH="80">
+   </TextLine>
+   <String CONTENT="28" HEIGHT="156" HPOS="198" ID="string_TableCell_1523275505906_264l1" VPOS="4033" WIDTH="80"/>
+   <TextBlock HEIGHT="130" HPOS="336" ID="TableCell_1523275505919_266" VPOS="4112" WIDTH="159">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="336,4112 336,4242 495,4242 495,4112"/>
+   <TextLine BASELINE="4190" HEIGHT="153" HPOS="389" ID="TableCell_1523275505919_266l1" VPOS="4037" WIDTH="45">
+   </TextLine>
+   <String CONTENT="6" HEIGHT="153" HPOS="389" ID="string_TableCell_1523275505919_266l1" VPOS="4037" WIDTH="45"/>
+   <TextBlock HEIGHT="130" HPOS="495" ID="TableCell_1523275505930_268" VPOS="4112" WIDTH="328">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="495,4112 495,4242 823,4242 823,4112"/>
+   <TextLine BASELINE="4196" HEIGHT="165" HPOS="522" ID="TableCell_1523275505930_268l1" VPOS="4031" WIDTH="281">
+   </TextLine>
+   <String CONTENT="ste 14 oct 1919" HEIGHT="165" HPOS="522" ID="string_TableCell_1523275505930_268l1" VPOS="4031" WIDTH="281"/>
+   <TextBlock HEIGHT="130" HPOS="823" ID="TableCell_1523275505939_270" VPOS="4112" WIDTH="344">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="823,4112 823,4242 1167,4242 1167,4112"/>
+   <TextLine BASELINE="4152" HEIGHT="53" HPOS="843" ID="line_1525261916832_9" VPOS="4099" WIDTH="254">
+   </TextLine>
+   <String CONTENT="Réalisation" HEIGHT="53" HPOS="843" ID="string_line_1525261916832_9" VPOS="4099" WIDTH="254"/>
+   <TextLine BASELINE="4193" HEIGHT="50" HPOS="893" ID="line_1525261920768_10" VPOS="4143" WIDTH="171">
+   </TextLine>
+   <String CONTENT="de prêt" HEIGHT="50" HPOS="893" ID="string_line_1525261920768_10" VPOS="4143" WIDTH="171"/>
+   <TextBlock HEIGHT="130" HPOS="1167" ID="TableCell_1523275505949_272" VPOS="4112" WIDTH="1201">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="1167,4112 1167,4242 2368,4242 2368,4112"/>
+   <TextLine BASELINE="4166" HEIGHT="50" HPOS="1179" ID="TableCell_1523275505949_272l1" VPOS="4116" WIDTH="1161">
+   </TextLine>
+   <String CONTENT="Daudet ( du ct condel repertorié N°1343 année 1919" HEIGHT="50" HPOS="1179" ID="string_TableCell_1523275505949_272l1" VPOS="4116" WIDTH="1161"/>
+   <TextLine BASELINE="4216" HEIGHT="48" HPOS="1182" ID="TableCell_1523275505949_272l2" VPOS="4168" WIDTH="957">
+   </TextLine>
+   <String CONTENT="par le Ct foncier à Mr. &amp; Made) de 20000+" HEIGHT="48" HPOS="1182" ID="string_TableCell_1523275505949_272l2" VPOS="4168" WIDTH="957"/>
+   <TextBlock HEIGHT="130" HPOS="2368" ID="TableCell_1523275505961_274" VPOS="4112" WIDTH="118">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2368,4112 2368,4242 2486,4242 2486,4112"/>
+   <TextLine BASELINE="4244" HEIGHT="69" HPOS="2406" ID="TableCell_1523275505961_274l2" VPOS="4175" WIDTH="30">
+   </TextLine>
+   <String CONTENT="9" HEIGHT="69" HPOS="2406" ID="string_TableCell_1523275505961_274l2" VPOS="4175" WIDTH="30"/>
+   <TextBlock HEIGHT="130" HPOS="2486" ID="TableCell_1523275505972_276" VPOS="4112" WIDTH="227">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2486,4112 2486,4242 2713,4242 2713,4112"/>
+   <TextLine BASELINE="4236" HEIGHT="80" HPOS="2523" ID="line_1525262063681_11" VPOS="4156" WIDTH="108">
+   </TextLine>
+   <String CONTENT="250" HEIGHT="80" HPOS="2523" ID="string_line_1525262063681_11" VPOS="4156" WIDTH="108"/>
+   <TextBlock HEIGHT="130" HPOS="2713" ID="TableCell_1523275505981_278" VPOS="4112" WIDTH="143">
+   </TextBlock>
+   <Shape>
+   </Shape>
+   <Polygon POINTS="2713,4112 2713,4242 2856,4242 2856,4112"/>
+  </PrintSpace>
+ </Page>
+</Layout>
+</alto>
