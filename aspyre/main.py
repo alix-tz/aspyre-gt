@@ -8,6 +8,7 @@ date: 26/08/2020
 """
 
 import argparse
+import os
 
 from bs4 import BeautifulSoup
 import tqdm
@@ -15,7 +16,7 @@ import tqdm
 from utils import utils
 
 
-DUMMY_FILE = "../data/lectaurep_dummy_v2.xml"
+DUMMY_FILE = "..\data\lectaurep_dummy_v2.xml"
 ALTO4SPECS = ['http://www.loc.gov/standards/alto/v4/alto.xsd',
               'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd',
               'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd',
@@ -61,18 +62,64 @@ def control_schema_version(schemas):
     return None
 
 
-def switch_to_v4(xml_tree):
-    # TODO @alix: build this function
-    utils.report("Hey, I don't know how to change the schema yet!", "W")
-    utils.report("See 'def switch_to_v4()'", "W")
-    # <alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#"
-    # xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
-    # xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
-    # changing to
-    # <alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v4#"
-    # xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-0.xsd">
-    return xml_tree
+def get_image_filename(xml_filename, mode='manual'):
+    """Get the value that will be added in //Description/sourceImageInformation/fileName (image filename)
 
+    :param filename str: name of the XML ALTO file
+    :param mode str: default if based on XML filename, csv if based on an external mapping
+    :return str: image file name (None if sth went wrong)
+    """
+    # TODO @alix: CSV mode needs to become the default behavior, and then there will be a manual option
+    # TODO @alix: add parameter for the location of the mapping file
+    utils.report("Hey, there's some serious improvement to make in 'def get_image_filename()'!", "W")
+    value = None
+    if mode != 'manual' and mode != 'csv':
+        utils.report(f"I'll switch to default, I don't know mode '{mode}'.", "W")
+        mode = 'manual'
+    if mode == 'csv':
+        # TODO @alix: add an option to use a csv file to map an XML ALTO file with the corresponding image filename
+        # For now, we switch to manuel as default
+        utils.report(f"I don't know yet how to handle csv mode, I'll switch to default.", "W")
+        mode = 'manual'
+    # eventually this will become an elif statement
+    if mode == 'manual':
+        # there is no way to know what is the extension of the image file...
+        utils.report("Remember to re-enable the manual input for file extension in 'def get_image_filename()'", "W")
+        extension = "dummy"  # this won't stay!
+        #extension = input("What is the extension of the original image file? [png|jpeg|jpg|tif] > ")
+        value = xml_filename.split(os.sep)[-1].replace(".xml", f".{extension.lower()}")
+        utils.report(f"'{value}' will be added to //Description/sourceImageInformation/fileName", "S")
+    return value
+
+
+def add_sourceimageinformation(xml_tree):
+    """Create a <sourceImageInformation> component in <Description> with the corresponding metadata
+
+    :param xml_tree: ALTO XML tree
+    :return: None
+    """
+    image_filename = get_image_filename(DUMMY_FILE)
+    src_img_info_tag = BeautifulSoup(
+        f"<sourceImageInformation><fileName>{image_filename}</fileName></sourceImageInformation>", "xml")
+    try:
+        xml_tree.Description.MeasurementUnit.insert_after(src_img_info_tag)
+    except Exception as e:
+        utils.report("Oops, something went wrong with injecting <sourceImageInformation> in the XML file", "E")
+        utils.report("e")
+
+
+def switch_to_v4(xml_tree):
+    """Replace schema and namespace declaration in <alto> to ALTO v4
+
+    :param xml_tree: ALTO XML tree
+    :return: None
+    """
+    # no need for PAGE namespace in the alto xml...
+    if "xmlns:page" in [k for k in xml_tree.alto.attrs.keys()]:
+        del xml_tree.alto.attrs["xmlns:page"]
+    xml_tree.alto.attrs['xmlns:xsi'] = "http://www.w3.org/2001/XMLSchema-instance"
+    xml_tree.alto.attrs['xmlns'] = "http://www.loc.gov/standards/alto/ns-v4#"
+    xml_tree.alto.attrs['xsi:schemaLocation'] = "http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-0.xsd"
 
 
 def main():
@@ -85,10 +132,9 @@ def main():
             utils.report(f"Detected ALTO version: v{alto_version}", "H")
         if alto_version == 2:
             utils.report("Buckle up, we're fixing the schema declaration!", "H")
-            xml_tree = switch_to_v4(xml_tree)
-        # TODO @alix: is there a //Description/sourceImageInformation/fileName? No? Well, fix it!
-        # TODO @alix: what do you mean you don't know where to find the filename?
-        # note that <sourceImageInformation> has to be declared before
+            switch_to_v4(xml_tree)
+            utils.report("I'm adding a <sourceImageInformation> element to point toward the image file.", "H")
+            add_sourceimageinformation(xml_tree)
         # TODO @alix: is there any weird layout, like a 'composedBlock' for example? That might be a problem...
         # TODO @alix: do we need the tag declaration? (cf. /alto/Tags/otherTags)
         # TODO @alix: do we need to remove the Margin declaration and the OCRProcessingStep info?
