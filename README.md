@@ -113,13 +113,15 @@ For each image in a given document, *Transkribus* produces an **ALTO-2** XML fil
 Hey, we're working on it, okay?
 
 
-## Known import errors
+## Known importing errors
 
-- [ ] eScriptorium only accepts ALTO 4 schema specification: 
+- [x] eScriptorium only accepts ALTO 4 schema specification: 
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document Schema not valid http://www.loc.gov/standards/alto/alto.xsd. Valid schemas are: ('http://www.loc.gov/standards/alto/v4/alto.xsd', 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd', 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd', 'https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd')"], "__all__": ["Choose one type of import."]}`
-- [ ] eScriptorium expects an image file name in the file's metadata section:
+- [x] eScriptorium expects an image file name in the file's metadata section:
 > `Import failed because ' The alto file should contain a Description/sourceImageInformation/fileName tag for matching. '`
 - [ ] eScriptorium expects... something more? 🤷
 > `Import failed because '{'box': ['This field cannot be null.']}'`
-- [ ] `<sourceImageInformation>` has to be declared before `<OCRProcessingStep>`
+- [x] (XML not conform) `<sourceImageInformation>` has to be declared before `<OCRProcessingStep>`:
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}sourceImageInformation': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}OCRProcessing, {http://www.loc.gov/standards/alto/ns-v4#}Processing )., line 16"], "__all__": ["Choose one type of import."]}` 
+- [ ] (XML not conform) `<Shape>` can't wander around in `<PrintSpace>`:
+> `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}Shape': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}TextBlock, {http://www.loc.gov/standards/alto/ns-v4#}Illustration, {http://www.loc.gov/standards/alto/ns-v4#}GraphicalElement, {http://www.loc.gov/standards/alto/ns-v4#}ComposedBlock )., line 29"], "__all__": ["Choose one type of import."]}`
