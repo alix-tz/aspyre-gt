@@ -123,5 +123,7 @@ Hey, we're working on it, okay?
 > `Import failed because '{'box': ['This field cannot be null.']}'`
 - [x] (XML not conform) `<sourceImageInformation>` has to be declared before `<OCRProcessingStep>`:
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}sourceImageInformation': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}OCRProcessing, {http://www.loc.gov/standards/alto/ns-v4#}Processing )., line 16"], "__all__": ["Choose one type of import."]}` 
-- [ ] (XML not conform) `<Shape>` can't wander around in `<PrintSpace>`:
+- [x] ~~(XML not conform) `<Shape>` can't wander around in `<PrintSpace>`~~ :
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}Shape': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}TextBlock, {http://www.loc.gov/standards/alto/ns-v4#}Illustration, {http://www.loc.gov/standards/alto/ns-v4#}GraphicalElement, {http://www.loc.gov/standards/alto/ns-v4#}ComposedBlock )., line 29"], "__all__": ["Choose one type of import."]}`
+- [x] (XML not conform) `<BS>.prettify()` can have surprising resulting errors:
+> `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}MeasurementUnit': [facet 'enumeration'] The value '\n   pixel\n  ' is not an element of the set {'pixel', 'mm10', 'inch1200'}., line 4"], "__all__": ["Choose one type of import."]}`
