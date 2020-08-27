@@ -17,13 +17,14 @@ from utils import utils
 
 
 DUMMY_FILE = "..\data\lectaurep_dummy_v2.xml"
+ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
+ALTO2SPECS = ['http://www.loc.gov/standards/alto/ns-v2#']
 ALTO4SPECS = ['http://www.loc.gov/standards/alto/v4/alto.xsd',
               'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd',
               'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd',
               'https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd']
-# for ACCEPTED_SCHEMAS in eScriptorium, see https://gitlab.inria.fr/scripta/escriptorium/-/blob/master/app/apps/imports/parsers.py#L297
-
-ALTO2SPECS = ['http://www.loc.gov/standards/alto/ns-v2#']
+            # for ACCEPTED_SCHEMAS in eScriptorium, see:
+            # https://gitlab.inria.fr/scripta/escriptorium/-/blob/master/app/apps/imports/parsers.py#L297
 
 
 def get_schema_spec(xml_tree):
@@ -62,6 +63,20 @@ def control_schema_version(schemas):
     return None
 
 
+def switch_to_v4(xml_tree):
+    """Replace schema and namespace declaration in <alto> to ALTO v4
+
+    :param xml_tree: ALTO XML tree
+    :return: None
+    """
+    # as far as I know, there's no need for a PAGE namespace in an alto xml file...
+    if "xmlns:page" in [k for k in xml_tree.alto.attrs.keys()]:
+        del xml_tree.alto.attrs["xmlns:page"]
+    xml_tree.alto.attrs['xmlns:xsi'] = "http://www.w3.org/2001/XMLSchema-instance"
+    xml_tree.alto.attrs['xmlns'] = "http://www.loc.gov/standards/alto/ns-v4#"
+    xml_tree.alto.attrs['xsi:schemaLocation'] = f"http://www.loc.gov/standards/alto/ns-v4# {ALTO_V_4_0}"
+
+
 def get_image_filename(xml_filename, mode='manual'):
     """Get the value that will be added in //Description/sourceImageInformation/fileName (image filename)
 
@@ -79,7 +94,7 @@ def get_image_filename(xml_filename, mode='manual'):
     if mode == 'csv':
         # TODO @alix: add an option to use a csv file to map an XML ALTO file with the corresponding image filename
         # For now, we switch to manuel as default
-        utils.report(f"I don't know yet how to handle csv mode, I'll switch to default.", "W")
+        utils.report(f"I don't know yet how to handle csv mode, I'll switch to default", "W")
         mode = 'manual'
     # eventually this will become an elif statement
     if mode == 'manual':
@@ -88,7 +103,7 @@ def get_image_filename(xml_filename, mode='manual'):
         extension = "dummy"  # this won't stay!
         #extension = input("What is the extension of the original image file? [png|jpeg|jpg|tif] > ")
         value = xml_filename.split(os.sep)[-1].replace(".xml", f".{extension.lower()}")
-        utils.report(f"'{value}' will be added to //Description/sourceImageInformation/fileName", "S")
+        utils.report(f"'{value}' will be added to //sourceImageInformation/fileName", "H")
     return value
 
 
@@ -106,20 +121,6 @@ def add_sourceimageinformation(xml_tree):
     except Exception as e:
         utils.report("Oops, something went wrong with injecting <sourceImageInformation> in the XML file", "E")
         utils.report("e")
-
-
-def switch_to_v4(xml_tree):
-    """Replace schema and namespace declaration in <alto> to ALTO v4
-
-    :param xml_tree: ALTO XML tree
-    :return: None
-    """
-    # no need for PAGE namespace in the alto xml...
-    if "xmlns:page" in [k for k in xml_tree.alto.attrs.keys()]:
-        del xml_tree.alto.attrs["xmlns:page"]
-    xml_tree.alto.attrs['xmlns:xsi'] = "http://www.w3.org/2001/XMLSchema-instance"
-    xml_tree.alto.attrs['xmlns'] = "http://www.loc.gov/standards/alto/ns-v4#"
-    xml_tree.alto.attrs['xsi:schemaLocation'] = "http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-0.xsd"
 
 
 def main():
