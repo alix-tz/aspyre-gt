@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""CHOPPY utils
+"""ASPYRE GT utils
 
 author: Alix Chagué
-date: 21/08/2020
+date: 27/08/2020
 """
 
 import csv
