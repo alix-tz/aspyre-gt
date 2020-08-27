@@ -127,3 +127,17 @@ Hey, we're working on it, okay?
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}Shape': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}TextBlock, {http://www.loc.gov/standards/alto/ns-v4#}Illustration, {http://www.loc.gov/standards/alto/ns-v4#}GraphicalElement, {http://www.loc.gov/standards/alto/ns-v4#}ComposedBlock )., line 29"], "__all__": ["Choose one type of import."]}`
 - [x] (XML not conform) `<BS>.prettify()` can have surprising resulting errors:
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}MeasurementUnit': [facet 'enumeration'] The value '\n   pixel\n  ' is not an element of the set {'pixel', 'mm10', 'inch1200'}., line 4"], "__all__": ["Choose one type of import."]}`
+
+## Extrapolation of baseline coordinates
+In the ALTO XML exported from Transkribus, the baseline can be a single **y-axis** coordinate, which causes issues when the imported in eScriptorium.
+
+![example of badly imported baseline](static/image/bug_baseline_viewer.png)
+
+It is possible to solve this issue by extrapolating the baseline's coordinates using this **y-axis** coordinate and the **x-axis** coordinates of the parent TextBlock.
+
+![illustration of the process to extrapolate the baseline](static/image/bug_baseline_code.png)
+
+Note the following elements:
+- if `TextBlock/Shape/Polygon/@POINTS`: Ax,Ay Bx,By Cx,Cy Dx,Dy
+- and if `TextBlock/TextLine/@BASELINE`: BASELINE
+- then `TextBlck/TextLine/@BASELINE` should be: Ax,BASELINE Bx,BASELINE
