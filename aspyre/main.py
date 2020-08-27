@@ -16,12 +16,11 @@ import tqdm
 from utils import utils
 
 
-DUMMY_FILE = "..\data\lectaurep_dummy_v2.xml"
-DUMMY_FILE2 = "..\data\\tu_dummy.xml"
+DUMMY_FILE = "..\data\demo\lectaurep_dummy_v2.xml"
+DUMMY_FILE2 = "..\data\demo\\tu_dummy.xml"
+DUMMY_FILE3 = "..\data\demo\\basnage_dummy.xml"
 
-DEMOFILE = "..\data\demo\\basnage_dummy.xml"
-
-TESTFILE = DEMOFILE
+TESTFILE = DUMMY_FILE
 
 ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
 ALTO_V_4_1 = 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd'
@@ -145,7 +144,6 @@ def remove_composed_block(xml_tree):
         composed_block = composed_block.unwrap()
 
 
-
 def extrapolate_baseline_coordinates(xml_tree):
     """Parse the values in all //TextLine/@BASELINE and extrapolate complete coordinates if necessary
 
@@ -154,37 +152,19 @@ def extrapolate_baseline_coordinates(xml_tree):
     """
     """
     If there's only 1 value in //TextLine/@BASELINE
-    then we need to use the //TextLine/ancestor::TextBlock/Shape/Polygon/@POINTS values to imagine a baseline
+    then we need to use the //TextLine/@HPOS and //TextLine/@WIDTH values to imagine a baseline
     EX :
-    <TextBlock HEIGHT="181" HPOS="486" ID="r_1_2" VPOS="917" WIDTH="2406">
-      <Shape>
-          <Polygon POINTS="486,917 2892,917 2892,1098 486,1098"/>
-      </Shape>
       <TextLine BASELINE="1097" HEIGHT="179" HPOS="487" ID="tl_2" VPOS="918" WIDTH="2404">
           <String CONTENT="UNIVERSEL." HEIGHT="179" HPOS="487" ID="string_tl_2" VPOS="918" WIDTH="2404"/>
       </TextLine>
-    </TextBlock>
-    -------
-    BASELINE = 1097
-    ZONE = 486,917 2892,917 2892,1098 486,1098
-    -------
     """
-    invalid = 0
     for text_line in xml_tree.find_all("TextLine"):
         if len(text_line.attrs["BASELINE"].split()) == 1:
             baseline_y = int(text_line.attrs["BASELINE"])
-            parent = text_line.find_parents("TextBlock")[0]
-            if len(parent.Shape.Polygon.attrs["POINTS"].split()) == 4:
-                # okay, this is a quadrilateral
-                points = [coords.split(',') for coords in parent.Shape.Polygon.attrs["POINTS"].split()]
-                start_x = points[0][0]
-                stop_x = points[1][0]
-                baseline = f"{start_x} {baseline_y} {stop_x} {baseline_y}"
-                text_line.attrs["BASELINE"] = baseline
-            else:
-                invalid += 1
-    if invalid > 0:
-        utils.report(f"I couldn't extrapolate the coordinates of {invalid_conditions} baselines that needed it...", "E")
+            baseline_ax = int(text_line.attrs["HPOS"])
+            baseline_bx = int(text_line.attrs["HPOS"]) + int(text_line.attrs["WIDTH"])
+            baseline = f"{baseline_ax} {baseline_y} {baseline_bx} {baseline_y}"
+            text_line.attrs["BASELINE"] = baseline
 
 
 def main():
@@ -195,7 +175,8 @@ def main():
         alto_version = control_schema_version(schemas)
         if alto_version:
             utils.report(f"Detected ALTO version: v{alto_version}", "H")
-        if alto_version == 2:
+        if alto_version == 2 or alto_version == 4:  # even if the schema spec if ALTO 4, there may be other issues...
+            # and we still need to switch to SCRIPTA ALTO specs anyways...
             utils.report("Buckle up, we're fixing the schema declaration!", "H")
             switch_to_v4(xml_tree)
             utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
