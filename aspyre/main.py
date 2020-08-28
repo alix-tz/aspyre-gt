@@ -19,11 +19,11 @@ from utils import utils
 DUMMY_FILE = "..\data\demo\lectaurep_dummy_v2.xml"
 DUMMY_FILE2 = "..\data\demo\\tu_dummy.xml"
 DUMMY_FILE3 = "..\data\demo\\basnage_dummy.xml"
-
 TESTFILE = DUMMY_FILE
 
-ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
-ALTO_V_4_1 = 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd'
+
+#ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
+#ALTO_V_4_1 = 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd'
 ALTO_V_SCRIPTA = 'https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd'
 ALTO2SPECS = ['http://www.loc.gov/standards/alto/ns-v2#']
 ALTO4SPECS = ['http://www.loc.gov/standards/alto/v4/alto.xsd',
@@ -65,7 +65,7 @@ def control_schema_version(schemas):
         if spec2 in schemas:
             return 2
     # We return None if it isn't ALTO 2 nor ALTO 4.
-    # TODO @alix: do we need to look for version of another ALTO?
+    # TODO @alix: do we need to look for other versions of ALTO?
     utils.report("I can't handle anything else than ALTO v2 or v4!", "E")
     return None
 
@@ -84,49 +84,48 @@ def switch_to_v4(xml_tree):
     xml_tree.alto.attrs['xsi:schemaLocation'] = f"http://www.loc.gov/standards/alto/ns-v4# {ALTO_V_SCRIPTA}"
 
 
-def get_image_filename(xml_filename, mode='manual'):
-    #TODO @alix: we can do better if we use the METS exported by Transkribus!
-    """Get the value that will be added in //Description/sourceImageInformation/fileName (image filename)
-
-    :param filename str: name of the XML ALTO file
-    :param mode str: default if based on XML filename, csv if based on an external mapping
-    :return str: image file name (None if sth went wrong)
-    """
-    # TODO @alix: CSV mode needs to become the default behavior, and then there will be a manual option
-    # TODO @alix: add parameter for the location of the mapping file
-    utils.report("Hey, there's some serious improvement to make in 'def get_image_filename()'!", "W")
-    value = None
-    if mode != 'manual' and mode != 'csv':
-        utils.report(f"I'll switch to default, I don't know mode '{mode}'.", "W")
-        mode = 'manual'
-    if mode == 'csv':
-        # TODO @alix: add an option to use a csv file to map an XML ALTO file with the corresponding image filename
-        # For now, we switch to manuel as default
-        utils.report(f"I don't know yet how to handle csv mode, I'll switch to default", "W")
-        mode = 'manual'
-    # eventually this will become an elif statement
-    if mode == 'manual':
-        # there is no way to know what is the extension of the image file...
-        utils.report("Remember to re-enable the manual input for file extension in 'def get_image_filename()'", "W")
-        #extension = "dummy"  # this won't stay!
-        extension = input("What is the extension of the original image file? [png|jpeg|jpg|tif] > ")
-        value = xml_filename.split(os.sep)[-1].replace(".xml", f".{extension.lower()}")
-        utils.report(f"'{value}' will be added to //sourceImageInformation/fileName", "H")
-    return value
-
-
 def remove_commas_in_points(xml_tree):
+    """Remove the commas in the value of all //Polygon/@POINTS in an ALTO XML tree
+
+    :param xml_tree: ALTO XML tree
+    :return: None
+    """
     for polygon in xml_tree.find_all('Polygon', POINTS=True):
         polygon.attrs['POINTS'] = polygon.attrs['POINTS'].replace(',', ' ')
 
 
-def add_sourceimageinformation(xml_tree, xml_filename):
+def get_image_filename(file_name, list_of_image_files):
+    """Compare an ALTO XML file name with a list of image file names and try to find a pair
+
+    :param file_name str: absolute path to an ALTO XML file
+    :param list_of_image_files list: list of image file names
+    :return str: pairing image file name, None if no pair found
+    """
+    """
+    ex: if 'myfile.xml' and 'myfile.png' in list_of_image_files, then return 'myfile.png'
+    ex: if 'myfile.xml' and not 'myfile.*" in list_of_image_files, then return None 
+    """
+    base_file_name = os.path.basename(file_name).replace('.xml', '')
+    image_filenames = [os.path.basename(img) for img in list_of_image_files if os.path.basename(img).split('.')[0] == base_file_name]
+    image_filename = None
+    if len(image_filenames) == 0:
+        utils.report(f"I didn't find a matching image file name in 'mets.xml' for '{base_file_name}'", "W")
+    elif len(image_filenames) > 1:
+        utils.report(f"I found too many matching image file names in 'mets.xml' for '{base_file_name}", "W")
+        utils.report(f"\tI'll use '{image_filenames[0]}'", "W")
+        image_filename = image_filenames[0]
+    else:
+        image_filename = image_filenames[0]
+    return image_filename
+
+
+def add_sourceimageinformation(xml_tree, filename, image_files):
     """Create a <sourceImageInformation> component in <Description> with the corresponding metadata
 
     :param xml_tree: ALTO XML tree
     :return: None
     """
-    image_filename = get_image_filename(xml_filename)
+    image_filename = get_image_filename(filename, image_files)
     src_img_info_tag = BeautifulSoup(
         f"<sourceImageInformation><fileName>{image_filename}</fileName></sourceImageInformation>", "xml")
     try:
@@ -137,7 +136,11 @@ def add_sourceimageinformation(xml_tree, xml_filename):
 
 
 def remove_composed_block(xml_tree):
-    # TODO @alix: Documentation...
+    """Remove every ComposedBlock in an ALTO XML tree by unwrapping its content
+
+    :param xml_tree: ALTO XML tree
+    :return: None
+    """
     # We simply remove the <composedBlock> element
     # This is one way to go, but not very pretty once it is transferred to eScriptorium
     for composed_block in xml_tree.find_all('ComposedBlock'):
@@ -167,25 +170,33 @@ def extrapolate_baseline_coordinates(xml_tree):
             text_line.attrs["BASELINE"] = baseline
 
 
-def main():
-    xml_tree = utils.read_file(TESTFILE, 'xml')
+def handle_a_file(file, images_files):
+    """Take an ALTO XML file and convert it so it is compatible with eScriptorium's import module
+
+    :param file str: path to an ALTO XML file
+    :param images_files list: list of image file names
+    :return: None
+    """
+    xml_tree = utils.read_file(file, 'xml')
     schemas = get_schema_spec(xml_tree)
     if schemas:
         utils.report(f"Schema Specs: {schemas}", "H")
         alto_version = control_schema_version(schemas)
         if alto_version:
             utils.report(f"Detected ALTO version: v{alto_version}", "H")
-        if alto_version == 2 or alto_version == 4:  # even if the schema spec if ALTO 4, there may be other issues...
+        if alto_version == 2 or alto_version == 4:  # even if the schema spec is ALTO 4, there may be other issues...
             # and we still need to switch to SCRIPTA ALTO specs anyways...
             utils.report("Buckle up, we're fixing the schema declaration!", "H")
             switch_to_v4(xml_tree)
             utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
-            add_sourceimageinformation(xml_tree, TESTFILE)
+            add_sourceimageinformation(xml_tree, file, images_files)
             utils.report("I'm now looking for <ComposedBlock> and removing them", "H")
             remove_composed_block(xml_tree)
             utils.report("I'm looking at the baselines and fixing them", "H")
             extrapolate_baseline_coordinates(xml_tree)
+            utils.report("I'm cleaning the file", "H")
             remove_commas_in_points(xml_tree)
+            # TODO @alix: add progress bars with TQDM for each processing step
             # TODO @alix: improve the saving process, obviously!
             #"""
             write_in_file = input(f"Do you want to save the result in {TESTFILE}? [Y/n] >")
@@ -196,30 +207,86 @@ def main():
                 print("##########################\n\n##########################\n\n")
                 utils.report(xml_tree.prettify())
             #"""
-        # TODO @alix: do we need the tag declaration? (cf. /alto/Tags/otherTags)
-        # TODO @alix: do we need to remove the Margin declaration and the OCRProcessingStep info?
-        # specifically, see: /alto/Description/OCRProcessingStep
-        #               and: /alto/Layout/Page/TopMargin|LeftMargin|RightMargin|BottomMargin
+
         # It might be an idea to just keep the //TextLine as long as their ID start with "line_"
         # If they start with TableCell_, they should become region (maybe?)
         # And if they start with Table_, they don't need to stay (maybe?)
         # There'll be some test import to do with eScriptorium at that point anyway.
         # But let's keep in mind that if we just want to import the data into eScriptorium to train a segmenter
         #     really we only need the TextLine and their baseline, we could remove the rest. Just sayin'
-        # TODO @alix: make it possible to load a directory rather than an individual file
-    pass
+
+
+def get_list_of_source_images(mets):
+    """Process a series of METS XML files and extract all image filename available in //ns3:fileGrp[@ID="IMG"] elements
+
+    :param mets list: list of path to METS XML files
+    :return list: list of image file names
+    """
+    source_images = []
+    for mets_file in mets:
+        content = utils.read_file(mets_file, 'xml')
+        # image filename location : #//ns3:fileGrp[@ID="IMG"]/ns3:file/ns3:Flocat/@ns2:href
+        for image_file_tag in content.find_all("ns3:fileGrp", ID="IMG"):
+            for flocat in image_file_tag.find_all("ns3:FLocat"):
+                source_images.append(flocat.attrs["ns2:href"])
+    return source_images
+
+
+def extract_mets(package, trp_export):
+    """Parse a METS XML file (mets.xml) in a TRP Export directory and extract a list of image file names
+
+    :param package list: list of files contained in the TRP Export directory
+    :param trp_export: absolute path to the TRP Export directory
+    :return list: list of image file name contained in the METS XML file
+    """
+    mets = [element for element in package if os.path.basename(element) == "mets.xml"]
+    if len(mets) > 0:
+        list_of_image_filenames = get_list_of_source_images(mets)
+        if len(list_of_image_filenames) == 0:
+            utils.report("Strangely, I couldn't find any reference to image files in mets.xml...", "W")
+    else:
+        utils.report(f"There is no 'mets.xml' file in the indicated location. Are you sure '{trp_export}' is an export from Transkribus?", "E")
+        list_of_image_filenames = False
+    return list_of_image_filenames
+
+
+def locate_alto_files(package):
+    """List the files contained in the 'alto/' directory inside the TRP Export directory
+
+    :param package list: list of files contained in the TRP Export directory
+    :return list: list of XML file name contained in the TRP Export directory
+    """
+    alto_dir = [element for element in package if os.path.basename(element) == "alto" and os.path.isdir(element)][0]
+    # There cannot be 2 'alto' directories
+    alto_dir_content = utils.list_directory(alto_dir)
+    #alto_dir_content = [f for f in alto_dir_content if f.endswith('.xml')]
+    return alto_dir_content
+
+
+def main(trp_export):
+    # TODO @alix: remove the trp_export reassignation (only while WIP)
+    trp_export = "..\data\export example\export example"
+    package = utils.list_directory(trp_export)
+    images_files = extract_mets(package, trp_export)
+    alto_files = locate_alto_files(package, trp_export)
+    # TODO @alix: add progress bars with TQDM
+    for file in alto_files:
+        handle_a_file(file, images_files)
 
 
 # ============================================================================================================
 parser = argparse.ArgumentParser(description="How much wood would a wood chop chop in a wood chop could chop wood?")
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', help="default|test")
 # parser.add_argument('-m', '--mode', action='store', nargs=1, default='test', help="default|test")
+# TODO @alix: remove default to source argument
+parser.add_argument('-i', '--source', action='store', nargs=1, default='None', help='location of the TRP Export directory')
+# TODO @alix: add argument for output location if not in default location... which would be where?
 args = parser.parse_args()
 
 if vars(args)['mode'].lower() == 'test':
     pass
 elif vars(args)['mode'].lower() == 'default':
-    main()
+    main(vars(args['source'][0]))
 else:
     utils.report(f"{vars(args)['mode']} is not a valid mode", "E")
 

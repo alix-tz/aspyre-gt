@@ -9,6 +9,7 @@ date: 27/08/2020
 
 import csv
 import json
+import os
 
 from bs4 import BeautifulSoup
 from termcolor import cprint
@@ -81,3 +82,18 @@ def report(message, type="I"):
     else:
         # unknown color parameter, treated as "normal" text
         print(message)
+
+
+def list_directory(dirpath):
+    """Get the list of files and directories contained in a given directory excluding .DS_Store files
+
+    :param path str: path to a directory
+    :return list: list of absolute paths | None if not a directory
+    """
+    files = False
+    if os.path.isdir(dirpath):
+        files = [os.path.join(os.path.abspath(dirpath), f) for f in os.listdir(dirpath) if f != ".DS_Store"]
+    else:
+        report(f"{dirpath} is not a directory", "E")
+    return files
+
