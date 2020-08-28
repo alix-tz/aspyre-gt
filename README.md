@@ -119,9 +119,9 @@ Hey, we're working on it, okay?
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document Schema not valid http://www.loc.gov/standards/alto/alto.xsd. Valid schemas are: ('http://www.loc.gov/standards/alto/v4/alto.xsd', 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd', 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd', 'https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd')"], "__all__": ["Choose one type of import."]}`
 - [x] eScriptorium expects an image file name in the file's metadata section:
 > `Import failed because ' The alto file should contain a Description/sourceImageInformation/fileName tag for matching. '`
-- [ ] eScriptorium expects... something more? 🤷
+- [x] eScriptorium expects... something more? 🤷
 > `Import failed because '{'box': ['This field cannot be null.']}'`
->> 
+> 
 > to fix this issue, we switched to the ALTO schema specs developped by SCRIPTA and modified the values in the @POINTS to integers separated by space only (we removed the commas)
 - [x] (XML not conform) `<sourceImageInformation>` has to be declared before `<OCRProcessingStep>`:
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}sourceImageInformation': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}OCRProcessing, {http://www.loc.gov/standards/alto/ns-v4#}Processing )., line 16"], "__all__": ["Choose one type of import."]}` 
@@ -129,7 +129,7 @@ Hey, we're working on it, okay?
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}Shape': This element is not expected. Expected is one of ( {http://www.loc.gov/standards/alto/ns-v4#}TextBlock, {http://www.loc.gov/standards/alto/ns-v4#}Illustration, {http://www.loc.gov/standards/alto/ns-v4#}GraphicalElement, {http://www.loc.gov/standards/alto/ns-v4#}ComposedBlock )., line 29"], "__all__": ["Choose one type of import."]}`
 - [x] (XML not conform) `<BS>.prettify()` can have surprising resulting errors:
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}MeasurementUnit': [facet 'enumeration'] The value '\n   pixel\n  ' is not an element of the set {'pixel', 'mm10', 'inch1200'}., line 4"], "__all__": ["Choose one type of import."]}`
-- [ ] (XML not conform) Let's avoid badly formulated baseline coordinates (no commas)...
+- [x] (XML not conform) Let's avoid badly formulated baseline coordinates (no commas)...
 > `{"upload_file": ["Couldn't parse the given file or its validation failed: Document didn't validate. Element '{http://www.loc.gov/standards/alto/ns-v4#}TextLine', attribute 'BASELINE': '293,805 3099,805' is not a valid value of the atomic type 'xs:float'., line 26"], "__all__": ["Choose one type of import."]}`
 > 
 > to fix this issue, we switched to the ALTO schema specs developped by SCRIPTA and kept the new values in the @POINTS as series of integers separated by space only (no commas).
@@ -137,11 +137,13 @@ Hey, we're working on it, okay?
 > note that ALTO 4.0 and 4.1 expect only xsd:float type, aka only one value.
 
 ## Extrapolation of baseline coordinates
-In the ALTO XML exported from Transkribus, the baseline can be a single **y-axis** coordinate, which causes issues when the imported in eScriptorium.
+In the ALTO XML exported from Transkribus, the baseline can be a single **y-axis** coordinate, which causes issues when imported in eScriptorium.
 
 ![example of badly imported baseline](static/image/bug_baseline_viewer.png)
 
-It is possible to solve this issue by extrapolating the baseline's coordinates using this **y-axis** coordinate and the **x-axis** coordinates of the parent TextBlock.
+~~It is possible to solve this issue by extrapolating the baseline's coordinates using this **y-axis** coordinate and the **x-axis** coordinates of the parent TextBlock.~~
+
+It is possible to solve this issue by extrapolating the baseline's coordinates using this **y-axis** coordinate and the extreme **x-axis** coordinates contained in `@HPOS` and calculated from `@WIDTH`.
 
 ![illustration of the process to extrapolate the baseline](static/image/bug_baseline_code.png)
 
