@@ -5,24 +5,53 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 ![Mascot Aspyre](static/image/aspyre_mini.png)
 
 ## SUMMARY 
-1. [Instructions]()
-2. [What was the problem?](#what-was-the-problem)
+1. [Instructions](#instructions)
+2. [Reporting Errors](#reporting-errors) 
+3. [What was the problem?](#what-was-the-problem)
+4. [Developping notes](developping-notes)
 
 
 ## Instructions
-- [ ] Export ground truth from Transkribus using the **ALTO XML** option, unzip the resulting archive if necessary
-![Transkribus Export Parameters](static/image/tkb_export_options.png)
+- [ ] Export ground truth from Transkribus as 'Transkribus Document' using the **Export ALTO** option
+> You can also export the images while you are at it
+>
+> ![Transkribus Export Parameters](static/image/tkb_export_options.png)
+> 
+> If you use the **Server export** option, unzip the archive before proceeding to the next steps
+
 - [ ] Set a Python 3 environment and install dependencies (cf. `requirements.txt`)
 > ``` bash
 > $ virtualenv venv -p python3
 > $ source venv/bin/activate
 > (venv)$ pip install -r requirements.txt 
 >```
+> You can also use a conda environment. I would actually gladly add a `environment.yml` file to this repository, just sayin'!
+
 - [ ] Run `aspyre/main.py`, providing the location to the ground truth exported from Transkribus
 > `python3 main.py -i path/to/TKB/archive [-o path/to/output/directory] [--talktome]`
-- [ ] If transforming multiple ALTO XML files, zip the directory containing the resulting XML files
-- [ ] Provided that the names of the image files are identical to the ones loaded on eScriptorium, hit the 'Import Transcription (XML)' and go with the flow! 🌊
+> ``` bash 
+> -i SOURCE, --source SOURCE
+>                           Location of the TRP Export directory
+> -o DESTINATION, --destination DESTINATION
+>                           Location where processing result should be stored
+>                           (path to an existing directory)
+> -t, --talktome            Will display highlighted messages if activated 
+> ```
 
+
+- [ ] If transforming multiple ALTO XML files, zip all new ALTO XML in a single `.zip` archive
+> You can also load each ALTO XML file one by one but, well, it might take a while!  
+
+- [ ] Provided that the names of the image files are identical to the ones loaded on eScriptorium, hit the 'Import Transcription (XML)' and go with the flow! 🌊
+> Note that you have to have uploaded the images before you can upload the transcription.  
+> You don't need to select which image is associated with the transcription, the ALTO XML file already contains that information.
+
+
+---
+
+## Reporting Errors
+
+If you notice unexpected errors or bugs or if you wish to add more complexity to the way Aspyre transforms the ALTO XML files, please create an issue and contribute!
 
 ---
 
@@ -124,7 +153,7 @@ For each image in a given document, *Transkribus* produces an **ALTO-2** XML fil
 😤 **In conclusion, the ALTO files exported from Transkribus are not compatible with the import module in eScriptorium. We want to change this.**
 
 
-### Developping notes
+## Developping notes
 1. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/3)
 2. [Extrapolation of baseline coordinates](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/4)
 3. [Working directly from a Transrkibus export](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/5)
