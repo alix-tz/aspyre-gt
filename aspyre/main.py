@@ -11,15 +11,9 @@ import argparse
 import os
 
 from bs4 import BeautifulSoup
-import tqdm
+from tqdm import tqdm
 
 from utils import utils
-
-
-DUMMY_FILE = "..\data\demo\lectaurep_dummy_v2.xml"
-DUMMY_FILE2 = "..\data\demo\\tu_dummy.xml"
-DUMMY_FILE3 = "..\data\demo\\basnage_dummy.xml"
-TESTFILE = DUMMY_FILE
 
 
 #ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
@@ -57,7 +51,7 @@ def control_schema_version(schemas):
     :param schemas list: list of values contained in //alto/xsi:schemaLocation
     :return: 2 if ALTO v2, 4 if ALTO v4, None otherwise
     """
-    # TODO @alix: syntax is not very pythonesque...
+    # This syntax is not very pythonesque...
     for spec4 in ALTO4SPECS:
         if spec4 in schemas:
             return 4
@@ -76,8 +70,8 @@ def switch_to_v4(xml_tree):
     :param xml_tree: ALTO XML tree
     :return: None
     """
-    # as far as I know, there's no need for a PAGE namespace in an alto xml file...
     if "xmlns:page" in [k for k in xml_tree.alto.attrs.keys()]:
+        # as far as I know, there's no need for a PAGE namespace in an alto xml file...
         del xml_tree.alto.attrs["xmlns:page"]
     xml_tree.alto.attrs['xmlns:xsi'] = "http://www.w3.org/2001/XMLSchema-instance"
     xml_tree.alto.attrs['xmlns'] = "http://www.loc.gov/standards/alto/ns-v4#"
@@ -142,7 +136,7 @@ def remove_composed_block(xml_tree):
     :return: None
     """
     # We simply remove the <composedBlock> element
-    # This is one way to go, but not very pretty once it is transferred to eScriptorium
+    # This is one way to go, but it's not very pretty once it is transferred to eScriptorium
     for composed_block in xml_tree.find_all('ComposedBlock'):
         composed_block = composed_block.unwrap()
 
@@ -170,6 +164,21 @@ def extrapolate_baseline_coordinates(xml_tree):
             text_line.attrs["BASELINE"] = baseline
 
 
+def save_processed_file(xml_file_name, xml_content):
+    """Calculate the path to writing in a new XML file, make sure it is valid and then dump the XML content
+
+    :param xml_file_name str: ALTO XML file base name
+    :param xml_content: parsed XML tree
+    :return: None
+    """
+    # Do we need a try except here?
+    if not os.path.isdir(destination):
+        os.mkdir(destination)
+    path_to_file = os.path.join(destination, xml_file_name)
+    # TODO @alix improve the export with prettify(): remove the blank space inside '//Measurements'
+    utils.write_file(path_to_file, str(xml_content))
+
+
 def handle_a_file(file, images_files):
     """Take an ALTO XML file and convert it so it is compatible with eScriptorium's import module
 
@@ -178,35 +187,43 @@ def handle_a_file(file, images_files):
     :return: None
     """
     xml_tree = utils.read_file(file, 'xml')
+    pbar = tqdm(total=7, desc="Processing...", unit=" step")
+    pbar.update(1)  # getting schema version
     schemas = get_schema_spec(xml_tree)
     if schemas:
-        utils.report(f"Schema Specs: {schemas}", "H")
+        if talkative:
+            utils.report(f"Schema Specs: {schemas}", "H")
+        pbar.update(1)  # controlling schema version
         alto_version = control_schema_version(schemas)
-        if alto_version:
-            utils.report(f"Detected ALTO version: v{alto_version}", "H")
+        if talkative:
+            if alto_version:
+                utils.report(f"Detected ALTO version: v{alto_version}", "H")
         if alto_version == 2 or alto_version == 4:  # even if the schema spec is ALTO 4, there may be other issues...
             # and we still need to switch to SCRIPTA ALTO specs anyways...
-            utils.report("Buckle up, we're fixing the schema declaration!", "H")
+            if talkative:
+                utils.report("Buckle up, we're fixing the schema declaration!", "H")
+            pbar.update(1)  # changing schema declaration to ALTO 4 (SCRIPTA flavored)
             switch_to_v4(xml_tree)
-            utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
+            if talkative:
+                utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
+            pbar.update(1)  # adding file name in source image information
             add_sourceimageinformation(xml_tree, file, images_files)
-            utils.report("I'm now looking for <ComposedBlock> and removing them", "H")
+            if talkative:
+                utils.report("I'm now looking for <ComposedBlock> and removing them", "H")
+            pbar.update(1)  # removing ComposedBlock elements
             remove_composed_block(xml_tree)
-            utils.report("I'm looking at the baselines and fixing them", "H")
+            if talkative:
+                utils.report("I'm looking at the baselines and fixing them", "H")
+            pbar.update(1)  # fixing baseline declarations
             extrapolate_baseline_coordinates(xml_tree)
-            utils.report("I'm cleaning the file", "H")
+            if talkative:
+                utils.report("I'm cleaning the file", "H")
+            pbar.update(1)  # fixing polygons' points' declaration
             remove_commas_in_points(xml_tree)
-            # TODO @alix: add progress bars with TQDM for each processing step
             # TODO @alix: improve the saving process, obviously!
-            #"""
-            write_in_file = input(f"Do you want to save the result in {TESTFILE}? [Y/n] >")
-            if write_in_file.lower() == 'y':
-                utils.write_file(TESTFILE, str(xml_tree))  # TODO @alix improve the export with prettify()
-            else:
-                utils.report("Alright, then I'm showing you here:", "H")
-                print("##########################\n\n##########################\n\n")
-                utils.report(xml_tree.prettify())
-            #"""
+            pbar.update(1)  # saving file
+            save_processed_file(file.split(os.sep)[-1], xml_tree)
+        pbar.close()
 
         # It might be an idea to just keep the //TextLine as long as their ID start with "line_"
         # If they start with TableCell_, they should become region (maybe?)
@@ -214,6 +231,7 @@ def handle_a_file(file, images_files):
         # There'll be some test import to do with eScriptorium at that point anyway.
         # But let's keep in mind that if we just want to import the data into eScriptorium to train a segmenter
         #     really we only need the TextLine and their baseline, we could remove the rest. Just sayin'
+        # TODO @alix: add an else statement to record which file were not processed
 
 
 def get_list_of_source_images(mets):
@@ -263,14 +281,11 @@ def locate_alto_files(package):
     return alto_dir_content
 
 
-def main(trp_export):
-    # TODO @alix: remove the trp_export reassignation (only while WIP)
-    trp_export = "..\data\export example\export example"
-    package = utils.list_directory(trp_export)
-    images_files = extract_mets(package, trp_export)
-    alto_files = locate_alto_files(package, trp_export)
-    # TODO @alix: add progress bars with TQDM
-    for file in alto_files:
+def main():
+    package = utils.list_directory(source)
+    images_files = extract_mets(package, source)
+    alto_files = locate_alto_files(package)
+    for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
         handle_a_file(file, images_files)
 
 
@@ -278,15 +293,33 @@ def main(trp_export):
 parser = argparse.ArgumentParser(description="How much wood would a wood chop chop in a wood chop could chop wood?")
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', help="default|test")
 # parser.add_argument('-m', '--mode', action='store', nargs=1, default='test', help="default|test")
+parser.add_argument('-t', '--talktome', action='store_true', help="Will display highlighted messages if activated")
 # TODO @alix: remove default to source argument
-parser.add_argument('-i', '--source', action='store', nargs=1, default='None', help='location of the TRP Export directory')
-# TODO @alix: add argument for output location if not in default location... which would be where?
+parser.add_argument('-i', '--source', action='store', nargs=1, default=[False], help='Location of the TRP Export directory')
+parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False], help='Location where processing result should be stored (path to an existing directory)')
 args = parser.parse_args()
 
+# process arguments
+global talkative
+talkative = vars(args)['talktome']
+
+global source
+source = vars(args)['source'][0]
+
+global destination
+if vars(args)['destination'][0] == False:
+    destination = os.path.join(source, 'alto_escriptorium')
+else:
+    destination = vars(args)['destination'][0]
+    if not utils.path_is_valid(destination):
+        destination = os.path.join(source, 'alto_escriptorium')
+        utils.report(f"'{vars(args)['destination'][0]}' is not a valid path, will save output in default location: {destination}", "W")
+
+# start main task
 if vars(args)['mode'].lower() == 'test':
     pass
 elif vars(args)['mode'].lower() == 'default':
-    main(vars(args['source'][0]))
+    main()
 else:
     utils.report(f"{vars(args)['mode']} is not a valid mode", "E")
 

@@ -97,3 +97,14 @@ def list_directory(dirpath):
         report(f"{dirpath} is not a directory", "E")
     return files
 
+
+def path_is_valid(tested_path):
+    """Verify if a given path to a directory is valid
+
+    :return bool: True is the path is valid, False otherwise
+    """
+    try:
+        valid = os.path.isdir(tested_path)
+    except Exception as e:
+        valid = False
+    return valid
