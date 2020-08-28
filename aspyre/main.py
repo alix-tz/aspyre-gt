@@ -274,10 +274,14 @@ def locate_alto_files(package):
     :param package list: list of files contained in the TRP Export directory
     :return list: list of XML file name contained in the TRP Export directory
     """
-    alto_dir = [element for element in package if os.path.basename(element) == "alto" and os.path.isdir(element)][0]
-    # There cannot be 2 'alto' directories
-    alto_dir_content = utils.list_directory(alto_dir)
-    #alto_dir_content = [f for f in alto_dir_content if f.endswith('.xml')]
+    alto_dir = [element for element in package if os.path.basename(element) == "alto" and os.path.isdir(element)]
+    if len(alto_dir) == 0:
+        utils.report(f"There is no 'alto' directory in '{source}'", "E")
+        return False
+    else:
+        # There cannot be 2 'alto' directories
+        alto_dir_content = utils.list_directory(alto_dir[0])
+        #alto_dir_content = [f for f in alto_dir_content if f.endswith('.xml')]
     return alto_dir_content
 
 
@@ -285,8 +289,9 @@ def main():
     package = utils.list_directory(source)
     images_files = extract_mets(package, source)
     alto_files = locate_alto_files(package)
-    for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
-        handle_a_file(file, images_files)
+    if alto_files:
+        for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
+            handle_a_file(file, images_files)
 
 
 # ============================================================================================================
