@@ -7,7 +7,8 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 1. [What is the problem?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-problem)
 2. [What is the solution?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-solution)
 3. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#known-import-errors)
-4. [Working directly from a Transrkibus export](https://gitlab.inria.fr/dh-projects/aspyre-gt#working-directly-from-a-transkribus-export)
+4. [Extrapolation of baseline coordinates](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#extrapolation-of-baseline-coordinates)
+5. [Working directly from a Transrkibus export](https://gitlab.inria.fr/dh-projects/aspyre-gt#working-directly-from-a-transkribus-export)
 
 ---
 
