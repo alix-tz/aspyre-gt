@@ -5,13 +5,28 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 ![Mascot Aspyre](static/image/aspyre_mini.png)
 
 ## SUMMARY 
-1. [What is the problem?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-problem)
-2. [What is the solution?](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/tree/master#what-is-the-solution)
+1. [Instructions]()
+2. [What was the problem?](#what-was-the-problem)
+
+
+## Instructions
+- [ ] Export ground truth from Transkribus using the **ALTO XML** option, unzip the resulting archive if necessary
+![Transkribus Export Parameters](static/image/tkb_export_options.png)
+- [ ] Set a Python 3 environment and install dependencies (cf. `requirements.txt`)
+> ``` bash
+> $ virtualenv venv -p python3
+> $ source venv/bin/activate
+> (venv)$ pip install -r requirements.txt 
+>```
+- [ ] Run `aspyre/main.py`, providing the location to the ground truth exported from Transkribus
+> `python3 main.py -i path/to/TKB/archive [-o path/to/output/directory] [--talktome]`
+- [ ] If transforming multiple ALTO XML files, zip the directory containing the resulting XML files
+- [ ] Provided that the names of the image files are identical to the ones loaded on eScriptorium, hit the 'Import Transcription (XML)' and go with the flow! 🌊
 
 
 ---
 
-## What is the problem?
+## What was the problem?
 
 **`eScriptorium`** allows users to import a document's segmentation and transcription using XML ALTO as a pivot format. 
 
@@ -108,10 +123,6 @@ For each image in a given document, *Transkribus* produces an **ALTO-2** XML fil
 
 😤 **In conclusion, the ALTO files exported from Transkribus are not compatible with the import module in eScriptorium. We want to change this.**
 
-
-## What is the solution?
-
-Hey, I'm working on it, okay?
 
 ### Developping notes
 1. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/3)
