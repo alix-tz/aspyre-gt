@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>135216</docId>
+    <title>TRAIN_CITlab_AD_Seine_Prudhomme_1858_M1+_duplicated</title>
+    <uploadTimestamp>1552164132305</uploadTimestamp>
+    <uploader>tobias.hodel@uzh.ch</uploader>
+    <uploaderId>537</uploaderId>
+    <nrOfPages>64</nrOfPages>
+    <pageId>5063668</pageId>
+    <url>https://files.transkribus.eu/Get?id=CICZTOPJSGFNQDACUXATBRCI&amp;fileType=view</url>
+    <thumbUrl>https://files.transkribus.eu/Get?id=CICZTOPJSGFNQDACUXATBRCI&amp;fileType=thumb</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_116166</fimgStoreColl>
+    <origDocId>116166</origDocId>
+    <collectionList>
+        <colList>
+            <colId>35575</colId>
+            <colName>Time-us-training</colName>
+            <description>created by charles.riondet@inria.fr</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+</trpDocMetadata>

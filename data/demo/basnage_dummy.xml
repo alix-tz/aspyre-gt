@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit><sourceImageInformation><fileName>basnage_dummy.png</fileName></sourceImageInformation>
+<OCRProcessing ID="IdOcr">
+<ocrProcessingStep>
+<processingDateTime>2020-08-27T16:03:13.186+02:00</processingDateTime>
+<processingSoftware>
+<softwareCreator>READ COOP</softwareCreator>
+<softwareName>Transkribus</softwareName>
+</processingSoftware>
+</ocrProcessingStep>
+</OCRProcessing>
+</Description>
+<Layout>
+<Page HEIGHT="6385" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="4267">
+<TopMargin HEIGHT="31" HPOS="0" VPOS="0" WIDTH="4267"/>
+<LeftMargin HEIGHT="5374" HPOS="0" VPOS="31" WIDTH="-241"/>
+<RightMargin HEIGHT="5374" HPOS="3654" VPOS="31" WIDTH="613"/>
+<BottomMargin HEIGHT="980" HPOS="0" VPOS="5405" WIDTH="4267"/>
+<PrintSpace HEIGHT="5374" HPOS="-241" VPOS="31" WIDTH="3895">
+<TextBlock HEIGHT="254" HPOS="293" ID="r_1_1" VPOS="552" WIDTH="2806">
+<Shape>
+<Polygon POINTS="293 552 3099 552 3099 806 293 806"/>
+</Shape>
+<TextLine BASELINE="294 805 3098 805" HEIGHT="252" HPOS="294" ID="tl_1" VPOS="553" WIDTH="2804">
+<String CONTENT="DICTIONNAIRE" HEIGHT="252" HPOS="294" ID="string_tl_1" VPOS="553" WIDTH="2804"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="181" HPOS="486" ID="r_1_2" VPOS="917" WIDTH="2406">
+<Shape>
+<Polygon POINTS="486 917 2892 917 2892 1098 486 1098"/>
+</Shape>
+<TextLine BASELINE="487 1097 2891 1097" HEIGHT="179" HPOS="487" ID="tl_2" VPOS="918" WIDTH="2404">
+<String CONTENT="UNIVERSEL." HEIGHT="179" HPOS="487" ID="string_tl_2" VPOS="918" WIDTH="2404"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="150" HPOS="862" ID="r_1_3" VPOS="1235" WIDTH="1678">
+<Shape>
+<Polygon POINTS="862 1235 2540 1235 2540 1385 862 1385"/>
+</Shape>
+<TextLine BASELINE="863 1384 2539 1384" HEIGHT="148" HPOS="863" ID="tl_3" VPOS="1236" WIDTH="1676">
+<String CONTENT="Contenant generalement tous les" HEIGHT="148" HPOS="863" ID="string_tl_3" VPOS="1236" WIDTH="1676"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="201" HPOS="399" ID="r_1_4" VPOS="1465" WIDTH="2599">
+<Shape>
+<Polygon POINTS="399 1465 2998 1465 2998 1666 399 1666"/>
+</Shape>
+<TextLine BASELINE="400 1665 2997 1665" HEIGHT="199" HPOS="400" ID="tl_4" VPOS="1466" WIDTH="2597">
+<String CONTENT="MOTS FRANÇOIS" HEIGHT="199" HPOS="400" ID="string_tl_4" VPOS="1466" WIDTH="2597"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="217" HPOS="995" ID="r_1_5" VPOS="1765" WIDTH="1406">
+<Shape>
+<Polygon POINTS="995 1765 2401 1765 2401 1982 995 1982"/>
+</Shape>
+<TextLine BASELINE="996 1876 2400 1876" HEIGHT="110" HPOS="996" ID="tl_5" VPOS="1766" WIDTH="1404">
+<String CONTENT="tant vieux que modernes, &amp; les" HEIGHT="110" HPOS="996" ID="string_tl_5" VPOS="1766" WIDTH="1404"/>
+</TextLine>
+<TextLine BASELINE="1442 1981 1949 1981" HEIGHT="84" HPOS="1442" ID="tl_6" VPOS="1897" WIDTH="507">
+<String CONTENT="Termes des" HEIGHT="84" HPOS="1442" ID="string_tl_6" VPOS="1897" WIDTH="507"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="117" HPOS="549" ID="r_2_1" VPOS="2084" WIDTH="1118">
+<Shape>
+<Polygon POINTS="549 2084 1667 2084 1667 2201 549 2201"/>
+</Shape>
+<TextLine BASELINE="550 2200 2841 2200" HEIGHT="121" HPOS="550" ID="tl_7" VPOS="2079" WIDTH="2291">
+<String CONTENT="SCIENCES ET DES ARTS." HEIGHT="121" HPOS="550" ID="string_tl_7" VPOS="2079" WIDTH="2291"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="82" HPOS="930" ID="r_3_1" VPOS="2402" WIDTH="90">
+<Shape>
+<Polygon POINTS="930 2402 1020 2402 1020 2484 930 2484"/>
+</Shape>
+<TextLine BASELINE="931 2483 1019 2483" HEIGHT="80" HPOS="931" ID="tl_8" VPOS="2403" WIDTH="88">
+<String CONTENT="A." HEIGHT="80" HPOS="931" ID="string_tl_8" VPOS="2403" WIDTH="88"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="278" HPOS="303" ID="r_3_2" VPOS="2537" WIDTH="1359">
+<Shape>
+<Polygon POINTS="303 2537 1662 2537 1662 2815 303 2815"/>
+</Shape>
+<TextLine BASELINE="304 2814 1661 2814" HEIGHT="276" HPOS="304" ID="tl_9" VPOS="2538" WIDTH="1357">
+<String CONTENT="A. Premiere lettre de l’Alphabet François." HEIGHT="276" HPOS="304" ID="string_tl_9" VPOS="2538" WIDTH="1357"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="600" HPOS="370" ID="r_3_3" VPOS="2604" WIDTH="1308">
+<Shape>
+<Polygon POINTS="370 2604 1678 2604 1678 3204 370 3204"/>
+</Shape>
+<TextLine BASELINE="713 2676 1665 2676" HEIGHT="71" HPOS="713" ID="tl_10" VPOS="2605" WIDTH="952">
+<String CONTENT="Elle tient le même rang dans toutes les" HEIGHT="71" HPOS="713" ID="string_tl_10" VPOS="2605" WIDTH="952"/>
+</TextLine>
+<TextLine BASELINE="716 2743 1667 2743" HEIGHT="71" HPOS="716" ID="tl_11" VPOS="2672" WIDTH="951">
+<String CONTENT="langues connuës, excepte la langue E-" HEIGHT="71" HPOS="716" ID="string_tl_11" VPOS="2672" WIDTH="951"/>
+</TextLine>
+<TextLine BASELINE="717 2815 1669 2815" HEIGHT="82" HPOS="717" ID="tl_12" VPOS="2733" WIDTH="952">
+<String CONTENT="thyopique. Dans les langues orientales" HEIGHT="82" HPOS="717" ID="string_tl_12" VPOS="2733" WIDTH="952"/>
+</TextLine>
+<TextLine BASELINE="718 2871 1671 2871" HEIGHT="72" HPOS="718" ID="tl_13" VPOS="2799" WIDTH="953">
+<String CONTENT="elle n’e$t point une voyelle. C’e$t une" HEIGHT="72" HPOS="718" ID="string_tl_13" VPOS="2799" WIDTH="953"/>
+</TextLine>
+<TextLine BASELINE="371 2937 1672 2937" HEIGHT="70" HPOS="371" ID="tl_14" VPOS="2867" WIDTH="1301">
+<String CONTENT="con$onne muette. Chez les Occidentaux cette voyelle" HEIGHT="70" HPOS="371" ID="string_tl_14" VPOS="2867" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="373 3008 1672 3008" HEIGHT="82" HPOS="373" ID="tl_15" VPOS="2926" WIDTH="1299">
+<String CONTENT="prend $on nom de l’expre$$ion du $on qu’elle forme en" HEIGHT="82" HPOS="373" ID="string_tl_15" VPOS="2926" WIDTH="1299"/>
+</TextLine>
+<TextLine BASELINE="371 3074 1677 3074" HEIGHT="74" HPOS="371" ID="tl_16" VPOS="3000" WIDTH="1306">
+<String CONTENT="la prononçant. Chez les Grecs on la nomme Alpha ;" HEIGHT="74" HPOS="371" ID="string_tl_16" VPOS="3000" WIDTH="1306"/>
+</TextLine>
+<TextLine BASELINE="374 3137 1677 3137" HEIGHT="73" HPOS="374" ID="tl_17" VPOS="3064" WIDTH="1303">
+<String CONTENT="chez les Hebreux Aleph ; chez les Arabes Eliph ; &amp; chez" HEIGHT="73" HPOS="374" ID="string_tl_17" VPOS="3064" WIDTH="1303"/>
+</TextLine>
+<TextLine BASELINE="374 3203 1675 3203" HEIGHT="70" HPOS="374" ID="tl_18" VPOS="3133" WIDTH="1301">
+<String CONTENT="les Indiens Alephu. C’e$t la plus ouverte de toutes les" HEIGHT="70" HPOS="374" ID="string_tl_18" VPOS="3133" WIDTH="1301"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="591" HPOS="373" ID="r_3_4" VPOS="3197" WIDTH="1309">
+<Shape>
+<Polygon POINTS="373 3197 1682 3197 1682 3788 373 3788"/>
+</Shape>
+<TextLine BASELINE="374 3272 1677 3272" HEIGHT="74" HPOS="374" ID="tl_19" VPOS="3198" WIDTH="1303">
+<String CONTENT="voyelles ; la plus $imple , &amp; la plus facile à prononcer." HEIGHT="74" HPOS="374" ID="string_tl_19" VPOS="3198" WIDTH="1303"/>
+</TextLine>
+<TextLine BASELINE="376 3338 1674 3338" HEIGHT="73" HPOS="376" ID="tl_20" VPOS="3265" WIDTH="1298">
+<String CONTENT="C’e$t au$$i le premier $on articulé que la Nature pou$$e ;" HEIGHT="73" HPOS="376" ID="string_tl_20" VPOS="3265" WIDTH="1298"/>
+</TextLine>
+<TextLine BASELINE="375 3405 1677 3405" HEIGHT="73" HPOS="375" ID="tl_21" VPOS="3332" WIDTH="1302">
+<String CONTENT="le premier cri &amp; le premier begayement des enfans. Il" HEIGHT="73" HPOS="375" ID="string_tl_21" VPOS="3332" WIDTH="1302"/>
+</TextLine>
+<TextLine BASELINE="376 3471 1679 3471" HEIGHT="73" HPOS="376" ID="tl_22" VPOS="3398" WIDTH="1303">
+<String CONTENT="$e prononce quelquefois long, &amp; quelquefois bref. Il y" HEIGHT="73" HPOS="376" ID="string_tl_22" VPOS="3398" WIDTH="1303"/>
+</TextLine>
+<TextLine BASELINE="378 3537 1679 3537" HEIGHT="73" HPOS="378" ID="tl_23" VPOS="3464" WIDTH="1301">
+<String CONTENT="a des regles pour cela ; mais $ans s’embarra$$er de ces re-" HEIGHT="73" HPOS="378" ID="string_tl_23" VPOS="3464" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="378 3611 1679 3611" HEIGHT="80" HPOS="378" ID="tl_24" VPOS="3531" WIDTH="1301">
+<String CONTENT="gles, on jugera qu’il e$t long, quand il $era marque d’un" HEIGHT="80" HPOS="378" ID="string_tl_24" VPOS="3531" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="378 3668 1681 3668" HEIGHT="70" HPOS="378" ID="tl_25" VPOS="3598" WIDTH="1303">
+<String CONTENT="circonflexe, &amp; bref quand il n’aura pas cet accent ; car" HEIGHT="70" HPOS="378" ID="string_tl_25" VPOS="3598" WIDTH="1303"/>
+</TextLine>
+<TextLine BASELINE="378 3737 1679 3737" HEIGHT="72" HPOS="378" ID="tl_26" VPOS="3665" WIDTH="1301">
+<String CONTENT="ceux qui écrivent exactement, ne manquent jamais" HEIGHT="72" HPOS="378" ID="string_tl_26" VPOS="3665" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="381 3787 1007 3787" HEIGHT="56" HPOS="381" ID="tl_27" VPOS="3731" WIDTH="626">
+<String CONTENT="d’ob$erver cette difference." HEIGHT="56" HPOS="381" ID="string_tl_27" VPOS="3731" WIDTH="626"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="335" HPOS="318" ID="r_3_5" VPOS="3793" WIDTH="1367">
+<Shape>
+<Polygon POINTS="318 3793 1685 3793 1685 4128 318 4128"/>
+</Shape>
+<TextLine BASELINE="319 3853 1684 3853" HEIGHT="59" HPOS="319" ID="tl_28" VPOS="3794" WIDTH="1365">
+<String CONTENT="Cette lettre A étoit au$$i chez les Anciens une lettre nume-" HEIGHT="59" HPOS="319" ID="string_tl_28" VPOS="3794" WIDTH="1365"/>
+</TextLine>
+<TextLine BASELINE="384 3932 1683 3932" HEIGHT="70" HPOS="384" ID="tl_29" VPOS="3862" WIDTH="1299">
+<String CONTENT="rale qui $ignifìoit 500. comme on voit dans Valerius" HEIGHT="70" HPOS="384" ID="string_tl_29" VPOS="3862" WIDTH="1299"/>
+</TextLine>
+<TextLine BASELINE="386 3999 1681 3999" HEIGHT="71" HPOS="386" ID="tl_30" VPOS="3928" WIDTH="1295">
+<String CONTENT="Probus. Il y a des vers anciens rapportez par Baronius," HEIGHT="71" HPOS="386" ID="string_tl_30" VPOS="3928" WIDTH="1295"/>
+</TextLine>
+<TextLine BASELINE="386 4065 1679 4065" HEIGHT="73" HPOS="386" ID="tl_31" VPOS="3992" WIDTH="1293">
+<String CONTENT="qui marquent les lettres $ignificatives des nombres," HEIGHT="73" HPOS="386" ID="string_tl_31" VPOS="3992" WIDTH="1293"/>
+</TextLine>
+<TextLine BASELINE="388 4127 858 4127" HEIGHT="68" HPOS="388" ID="tl_32" VPOS="4059" WIDTH="470">
+<String CONTENT="dont le premier e$t :" HEIGHT="68" HPOS="388" ID="string_tl_32" VPOS="4059" WIDTH="470"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="72" HPOS="502" ID="r_3_6" VPOS="4123" WIDTH="972">
+<Shape>
+<Polygon POINTS="502 4123 1474 4123 1474 4195 502 4195"/>
+</Shape>
+<TextLine BASELINE="503 4194 1473 4194" HEIGHT="70" HPOS="503" ID="tl_33" VPOS="4124" WIDTH="970">
+<String CONTENT="	Po$$idet A numeros quingentes ordine recto." HEIGHT="70" HPOS="503" ID="string_tl_33" VPOS="4124" WIDTH="970"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="325" HPOS="390" ID="r_3_7" VPOS="4188" WIDTH="1300">
+<Shape>
+<Polygon POINTS="390 4188 1690 4188 1690 4513 390 4513"/>
+</Shape>
+<TextLine BASELINE="391 4261 1681 4261" HEIGHT="72" HPOS="391" ID="tl_34" VPOS="4189" WIDTH="1290">
+<String CONTENT="Quand on mettoit un titre ou une ligne droite au de$$us" HEIGHT="72" HPOS="391" ID="string_tl_34" VPOS="4189" WIDTH="1290"/>
+</TextLine>
+<TextLine BASELINE="393 4329 1685 4329" HEIGHT="73" HPOS="393" ID="tl_35" VPOS="4256" WIDTH="1292">
+<String CONTENT="de l’A, il $ignifioit cinq mille. Les Romains l’appel-" HEIGHT="73" HPOS="393" ID="string_tl_35" VPOS="4256" WIDTH="1292"/>
+</TextLine>
+<TextLine BASELINE="395 4394 1687 4394" HEIGHT="73" HPOS="395" ID="tl_36" VPOS="4321" WIDTH="1292">
+<String CONTENT="loient lettre $alutaire, parcequ’on s’en $ervoit pour" HEIGHT="73" HPOS="395" ID="string_tl_36" VPOS="4321" WIDTH="1292"/>
+</TextLine>
+<TextLine BASELINE="394 4461 1689 4461" HEIGHT="72" HPOS="394" ID="tl_37" VPOS="4389" WIDTH="1295">
+<String CONTENT="declarer l’accu$é innocent, A vouloit dire ab$olvo, je" HEIGHT="72" HPOS="394" ID="string_tl_37" VPOS="4389" WIDTH="1295"/>
+</TextLine>
+<TextLine BASELINE="394 4512 591 4512" HEIGHT="53" HPOS="394" ID="tl_38" VPOS="4459" WIDTH="197">
+<String CONTENT="l’ab$ous." HEIGHT="53" HPOS="394" ID="string_tl_38" VPOS="4459" WIDTH="197"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="275" HPOS="333" ID="r_3_8" VPOS="4520" WIDTH="1364">
+<Shape>
+<Polygon POINTS="333 4520 1697 4520 1697 4795 333 4795"/>
+</Shape>
+<TextLine BASELINE="334 4595 1694 4595" HEIGHT="74" HPOS="334" ID="tl_39" VPOS="4521" WIDTH="1360">
+<String CONTENT="Cette lettre a diver$es $ignifications. Cependant il en faut" HEIGHT="74" HPOS="334" ID="string_tl_39" VPOS="4521" WIDTH="1360"/>
+</TextLine>
+<TextLine BASELINE="403 4661 1696 4661" HEIGHT="75" HPOS="403" ID="tl_40" VPOS="4586" WIDTH="1293">
+<String CONTENT="éviter la rencontre trop frequente dans une même pe-" HEIGHT="75" HPOS="403" ID="string_tl_40" VPOS="4586" WIDTH="1293"/>
+</TextLine>
+<TextLine BASELINE="401 4726 1696 4726" HEIGHT="72" HPOS="401" ID="tl_41" VPOS="4654" WIDTH="1295">
+<String CONTENT="riode. Quelquefois cette repetition rend le di$cours" HEIGHT="72" HPOS="401" ID="string_tl_41" VPOS="4654" WIDTH="1295"/>
+</TextLine>
+<TextLine BASELINE="403 4794 949 4794" HEIGHT="69" HPOS="403" ID="tl_42" VPOS="4725" WIDTH="546">
+<String CONTENT="rude &amp; moins agreable." HEIGHT="69" HPOS="403" ID="string_tl_42" VPOS="4725" WIDTH="546"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="341" HPOS="338" ID="r_3_9" VPOS="4785" WIDTH="1367">
+<Shape>
+<Polygon POINTS="338 4785 1705 4785 1705 5126 338 5126"/>
+</Shape>
+<TextLine BASELINE="339 4860 1699 4860" HEIGHT="74" HPOS="339" ID="tl_43" VPOS="4786" WIDTH="1360">
+<String CONTENT="C’e$t quelquefois un $ub$tantif ma$culin. Cet A e$t mal" HEIGHT="74" HPOS="339" ID="string_tl_43" VPOS="4786" WIDTH="1360"/>
+</TextLine>
+<TextLine BASELINE="406 4927 1701 4927" HEIGHT="74" HPOS="406" ID="tl_44" VPOS="4853" WIDTH="1295">
+<String CONTENT="formé. On dit par une façon de parler proverbiale, Il" HEIGHT="74" HPOS="406" ID="string_tl_44" VPOS="4853" WIDTH="1295"/>
+</TextLine>
+<TextLine BASELINE="408 4992 1702 4992" HEIGHT="72" HPOS="408" ID="tl_45" VPOS="4920" WIDTH="1294">
+<String CONTENT="n’a pas fait une pan$e d’a, pour dire, il n’a rien fait du" HEIGHT="72" HPOS="408" ID="string_tl_45" VPOS="4920" WIDTH="1294"/>
+</TextLine>
+<TextLine BASELINE="408 5047 1704 5047" HEIGHT="62" HPOS="408" ID="tl_46" VPOS="4985" WIDTH="1296">
+<String CONTENT="tout. On dit au$$i dans la conver$ation familiere, Il ne" HEIGHT="62" HPOS="408" ID="string_tl_46" VPOS="4985" WIDTH="1296"/>
+</TextLine>
+<TextLine BASELINE="409 5125 1424 5125" HEIGHT="74" HPOS="409" ID="tl_47" VPOS="5051" WIDTH="1015">
+<String CONTENT="$çait ni A ni B, pour exprimer un ignorant." HEIGHT="74" HPOS="409" ID="string_tl_47" VPOS="5051" WIDTH="1015"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="72" HPOS="557" ID="r_3_10" VPOS="5119" WIDTH="562">
+<Shape>
+<Polygon POINTS="557 5119 1119 5119 1119 5191 557 5191"/>
+</Shape>
+<TextLine BASELINE="558 5190 1118 5190" HEIGHT="70" HPOS="558" ID="tl_48" VPOS="5120" WIDTH="560">
+<String CONTENT="		Ci-de$$ous gît Mr. l'Abbé," HEIGHT="70" HPOS="558" ID="string_tl_48" VPOS="5120" WIDTH="560"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="71" HPOS="557" ID="r_3_11" VPOS="5186" WIDTH="1075">
+<Shape>
+<Polygon POINTS="557 5186 1632 5186 1632 5257 557 5257"/>
+</Shape>
+<TextLine BASELINE="558 5256 1631 5256" HEIGHT="69" HPOS="558" ID="tl_49" VPOS="5187" WIDTH="1073">
+<String CONTENT="		Qui ne $çavoit ni A ni B. 	Men." HEIGHT="69" HPOS="558" ID="string_tl_49" VPOS="5187" WIDTH="1073"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="90" HPOS="352" ID="r_3_12" VPOS="5241" WIDTH="1356">
+<Shape>
+<Polygon POINTS="352 5241 1708 5241 1708 5331 352 5331"/>
+</Shape>
+<TextLine BASELINE="353 5330 1707 5330" HEIGHT="88" HPOS="353" ID="tl_50" VPOS="5242" WIDTH="1354">
+<String CONTENT="C'e$t au$$i la troi$iéme per$onne du verbe auxiliaire avoir. Il" HEIGHT="88" HPOS="353" ID="string_tl_50" VPOS="5242" WIDTH="1354"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="115" HPOS="1920" ID="r_4_1" VPOS="2074" WIDTH="925">
+<Shape>
+<Polygon POINTS="1920 2074 2845 2074 2845 2189 1920 2189"/>
+</Shape>
+</TextBlock>
+<TextBlock HEIGHT="603" HPOS="1799" ID="r_5_1" VPOS="2397" WIDTH="1304">
+<Shape>
+<Polygon POINTS="1799 2397 3103 2397 3103 3000 1799 3000"/>
+</Shape>
+<TextLine BASELINE="1802 2471 3099 2471" HEIGHT="73" HPOS="1802" ID="tl_52" VPOS="2398" WIDTH="1297">
+<String CONTENT="a fait de l’éclat mal à-propos. L’imagination du Poëte" HEIGHT="73" HPOS="1802" ID="string_tl_52" VPOS="2398" WIDTH="1297"/>
+</TextLine>
+<TextLine BASELINE="1800 2539 3099 2539" HEIGHT="71" HPOS="1800" ID="tl_53" VPOS="2468" WIDTH="1299">
+<String CONTENT="n'a pu vous peindre $i belle que vous êtes. Voi. La" HEIGHT="71" HPOS="1800" ID="string_tl_53" VPOS="2468" WIDTH="1299"/>
+</TextLine>
+<TextLine BASELINE="1800 2606 3099 2606" HEIGHT="78" HPOS="1800" ID="tl_54" VPOS="2528" WIDTH="1299">
+<String CONTENT="verité qui a des bornes, a dit pour vous tout ce que le" HEIGHT="78" HPOS="1800" ID="string_tl_54" VPOS="2528" WIDTH="1299"/>
+</TextLine>
+<TextLine BASELINE="1802 2671 3102 2671" HEIGHT="72" HPOS="1802" ID="tl_55" VPOS="2599" WIDTH="1300">
+<String CONTENT="men$onge qui n’en connoît point, a inventé pour les au-" HEIGHT="72" HPOS="1802" ID="string_tl_55" VPOS="2599" WIDTH="1300"/>
+</TextLine>
+<TextLine BASELINE="1803 2735 3099 2735" HEIGHT="71" HPOS="1803" ID="tl_56" VPOS="2664" WIDTH="1296">
+<String CONTENT="tres. Oe.M. Dans cette $ignification l’on n’y met" HEIGHT="71" HPOS="1803" ID="string_tl_56" VPOS="2664" WIDTH="1296"/>
+</TextLine>
+<TextLine BASELINE="1807 2805 3097 2805" HEIGHT="77" HPOS="1807" ID="tl_57" VPOS="2728" WIDTH="1290">
+<String CONTENT="point d’accent ; ni quand il e$t precedé de la particule y ;" HEIGHT="77" HPOS="1807" ID="string_tl_57" VPOS="2728" WIDTH="1290"/>
+</TextLine>
+<TextLine BASELINE="1809 2869 3101 2869" HEIGHT="75" HPOS="1809" ID="tl_58" VPOS="2794" WIDTH="1292">
+<String CONTENT="car alors il a la force du verbe $ub$tantif être. Il y a" HEIGHT="75" HPOS="1809" ID="string_tl_58" VPOS="2794" WIDTH="1292"/>
+</TextLine>
+<TextLine BASELINE="1811 2932 3101 2932" HEIGHT="70" HPOS="1811" ID="tl_59" VPOS="2862" WIDTH="1290">
+<String CONTENT="un Dieu. Par tout ailleurs on le marque d’un accent" HEIGHT="70" HPOS="1811" ID="string_tl_59" VPOS="2862" WIDTH="1290"/>
+</TextLine>
+<TextLine BASELINE="1810 2999 1954 2999" HEIGHT="51" HPOS="1810" ID="tl_60" VPOS="2948" WIDTH="144">
+<String CONTENT="grave." HEIGHT="51" HPOS="1810" ID="string_tl_60" VPOS="2948" WIDTH="144"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="605" HPOS="1743" ID="r_5_2" VPOS="2990" WIDTH="1374">
+<Shape>
+<Polygon POINTS="1743 2990 3117 2990 3117 3595 1743 3595"/>
+</Shape>
+<TextLine BASELINE="1744 3064 3106 3064" HEIGHT="73" HPOS="1744" ID="tl_61" VPOS="2991" WIDTH="1362">
+<String CONTENT="Cette lettre exprime pre$que tous les mouvemens de l'a-" HEIGHT="73" HPOS="1744" ID="string_tl_61" VPOS="2991" WIDTH="1362"/>
+</TextLine>
+<TextLine BASELINE="1815 3132 3108 3132" HEIGHT="73" HPOS="1815" ID="tl_62" VPOS="3059" WIDTH="1293">
+<String CONTENT="me ; &amp; pour rendre l’expre$$ion plus forte, on y ajou-" HEIGHT="73" HPOS="1815" ID="string_tl_62" VPOS="3059" WIDTH="1293"/>
+</TextLine>
+<TextLine BASELINE="1815 3196 3105 3196" HEIGHT="70" HPOS="1815" ID="tl_63" VPOS="3126" WIDTH="1290">
+<String CONTENT="te une h devant ou après, comme dans l’admiration :" HEIGHT="70" HPOS="1815" ID="string_tl_63" VPOS="3126" WIDTH="1290"/>
+</TextLine>
+<TextLine BASELINE="1815 3265 3106 3265" HEIGHT="74" HPOS="1815" ID="tl_64" VPOS="3191" WIDTH="1291">
+<String CONTENT="Ha le beau tableau ! Dans la joye : Ha quel plaisir !" HEIGHT="74" HPOS="1815" ID="string_tl_64" VPOS="3191" WIDTH="1291"/>
+</TextLine>
+<TextLine BASELINE="1817 3331 3109 3331" HEIGHT="72" HPOS="1817" ID="tl_65" VPOS="3259" WIDTH="1292">
+<String CONTENT="Dans l’indignation : Ha le $celerat ! Dans la douleur :" HEIGHT="72" HPOS="1817" ID="string_tl_65" VPOS="3259" WIDTH="1292"/>
+</TextLine>
+<TextLine BASELINE="1817 3393 3108 3393" HEIGHT="70" HPOS="1817" ID="tl_66" VPOS="3323" WIDTH="1291">
+<String CONTENT="Ha la tête ! Quand on $e $ent affoiblir : Ha je me meurs !" HEIGHT="70" HPOS="1817" ID="string_tl_66" VPOS="3323" WIDTH="1291"/>
+</TextLine>
+<TextLine BASELINE="1818 3466 3112 3466" HEIGHT="75" HPOS="1818" ID="tl_67" VPOS="3391" WIDTH="1294">
+<String CONTENT="Dans la conte$tation: Ah ! Monsieur, pour ce vers je" HEIGHT="75" HPOS="1818" ID="string_tl_67" VPOS="3391" WIDTH="1294"/>
+</TextLine>
+<TextLine BASELINE="1820 3531 3116 3531" HEIGHT="74" HPOS="1820" ID="tl_68" VPOS="3457" WIDTH="1296">
+<String CONTENT="vous demande grâce. Boi. Dans l’étonnement : Ah" HEIGHT="74" HPOS="1820" ID="string_tl_68" VPOS="3457" WIDTH="1296"/>
+</TextLine>
+<TextLine BASELINE="1819 3594 2011 3594" HEIGHT="68" HPOS="1819" ID="tl_69" VPOS="3526" WIDTH="192">
+<String CONTENT="perfide !" HEIGHT="68" HPOS="1819" ID="string_tl_69" VPOS="3526" WIDTH="192"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="870" HPOS="1748" ID="r_5_3" VPOS="3587" WIDTH="1380">
+<Shape>
+<Polygon POINTS="1748 3587 3128 3587 3128 4457 1748 4457"/>
+</Shape>
+<TextLine BASELINE="1749 3663 3116 3663" HEIGHT="75" HPOS="1749" ID="tl_70" VPOS="3588" WIDTH="1367">
+<String CONTENT="A e$t $ouvent un article pour decliner les noms propres" HEIGHT="75" HPOS="1749" ID="string_tl_70" VPOS="3588" WIDTH="1367"/>
+</TextLine>
+<TextLine BASELINE="1819 3727 3118 3727" HEIGHT="73" HPOS="1819" ID="tl_71" VPOS="3654" WIDTH="1299">
+<String CONTENT="$eulement, &amp; pour en marquer le datif. Ce livre e$t à" HEIGHT="73" HPOS="1819" ID="string_tl_71" VPOS="3654" WIDTH="1299"/>
+</TextLine>
+<TextLine BASELINE="1819 3795 3119 3795" HEIGHT="75" HPOS="1819" ID="tl_72" VPOS="3720" WIDTH="1300">
+<String CONTENT="Pierre ; cet éventail e$t à Agnés. Quand il $ert à de-" HEIGHT="75" HPOS="1819" ID="string_tl_72" VPOS="3720" WIDTH="1300"/>
+</TextLine>
+<TextLine BASELINE="1822 3860 3123 3860" HEIGHT="72" HPOS="1822" ID="tl_73" VPOS="3788" WIDTH="1301">
+<String CONTENT="cliner des noms ordinaires qui commencent par une" HEIGHT="72" HPOS="1822" ID="string_tl_73" VPOS="3788" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="1821 3926 3118 3926" HEIGHT="72" HPOS="1821" ID="tl_74" VPOS="3854" WIDTH="1297">
+<String CONTENT="con$onne, on dit au pour les ma$culins, à la pour les" HEIGHT="72" HPOS="1821" ID="string_tl_74" VPOS="3854" WIDTH="1297"/>
+</TextLine>
+<TextLine BASELINE="1821 3981 3122 3981" HEIGHT="61" HPOS="1821" ID="tl_75" VPOS="3920" WIDTH="1301">
+<String CONTENT="feminins : Au soleil, à la lune. Mais s’ils commen-" HEIGHT="61" HPOS="1821" ID="string_tl_75" VPOS="3920" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="1821 4057 3124 4057" HEIGHT="69" HPOS="1821" ID="tl_76" VPOS="3988" WIDTH="1303">
+<String CONTENT="cent par des voyelles, on dit à l’ par contraction, de" HEIGHT="69" HPOS="1821" ID="string_tl_76" VPOS="3988" WIDTH="1303"/>
+</TextLine>
+<TextLine BASELINE="1821 4125 3125 4125" HEIGHT="74" HPOS="1821" ID="tl_77" VPOS="4051" WIDTH="1304">
+<String CONTENT="quelque genre que $oient ces noms : A l'époux, à l'é-" HEIGHT="74" HPOS="1821" ID="string_tl_77" VPOS="4051" WIDTH="1304"/>
+</TextLine>
+<TextLine BASELINE="1824 4194 3125 4194" HEIGHT="78" HPOS="1824" ID="tl_78" VPOS="4116" WIDTH="1301">
+<String CONTENT="pou$e ; au lieu de à le époux, à la épouse, parce que" HEIGHT="78" HPOS="1824" ID="string_tl_78" VPOS="4116" WIDTH="1301"/>
+</TextLine>
+<TextLine BASELINE="1821 4257 3127 4257" HEIGHT="72" HPOS="1821" ID="tl_79" VPOS="4185" WIDTH="1306">
+<String CONTENT="la langue Françoi$e ne peut $ouffrir cette rencontre de" HEIGHT="72" HPOS="1821" ID="string_tl_79" VPOS="4185" WIDTH="1306"/>
+</TextLine>
+<TextLine BASELINE="1824 4324 3126 4324" HEIGHT="72" HPOS="1824" ID="tl_80" VPOS="4252" WIDTH="1302">
+<String CONTENT="voyelles. Pour les datifs pluriers, on dit aux en tout" HEIGHT="72" HPOS="1824" ID="string_tl_80" VPOS="4252" WIDTH="1302"/>
+</TextLine>
+<TextLine BASELINE="1825 4394 3127 4394" HEIGHT="75" HPOS="1825" ID="tl_81" VPOS="4319" WIDTH="1302">
+<String CONTENT="genre, par quelque lettre que les noms commencent." HEIGHT="75" HPOS="1825" ID="string_tl_81" VPOS="4319" WIDTH="1302"/>
+</TextLine>
+<TextLine BASELINE="1829 4456 2415 4456" HEIGHT="70" HPOS="1829" ID="tl_82" VPOS="4386" WIDTH="586">
+<String CONTENT="Aux époux, Aux Césars." HEIGHT="70" HPOS="1829" ID="string_tl_82" VPOS="4386" WIDTH="586"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="675" HPOS="1763" ID="r_5_4" VPOS="4450" WIDTH="1373">
+<Shape>
+<Polygon POINTS="1763 4450 3136 4450 3136 5125 1763 5125"/>
+</Shape>
+<TextLine BASELINE="1764 4524 3131 4524" HEIGHT="73" HPOS="1764" ID="tl_83" VPOS="4451" WIDTH="1367">
+<String CONTENT="A $ert à marquer 1. la $ituation : A droit, à gauche : être" HEIGHT="73" HPOS="1764" ID="string_tl_83" VPOS="4451" WIDTH="1367"/>
+</TextLine>
+<TextLine BASELINE="1833 4592 3131 4592" HEIGHT="76" HPOS="1833" ID="tl_84" VPOS="4516" WIDTH="1298">
+<String CONTENT="bien à cheval, 2. La po$ture &amp; le ge$te : A genoux, à" HEIGHT="76" HPOS="1833" ID="string_tl_84" VPOS="4516" WIDTH="1298"/>
+</TextLine>
+<TextLine BASELINE="1834 4660 3129 4660" HEIGHT="75" HPOS="1834" ID="tl_85" VPOS="4585" WIDTH="1295">
+<String CONTENT="bras ouverts. 3. La di$tance: A vingt lieuës de là. 4. La" HEIGHT="75" HPOS="1834" ID="string_tl_85" VPOS="4585" WIDTH="1295"/>
+</TextLine>
+<TextLine BASELINE="1836 4723 3127 4723" HEIGHT="72" HPOS="1836" ID="tl_86" VPOS="4651" WIDTH="1291">
+<String CONTENT="qualité : De l’or à tant de carats. 5. Le prix : A dix" HEIGHT="72" HPOS="1836" ID="string_tl_86" VPOS="4651" WIDTH="1291"/>
+</TextLine>
+<TextLine BASELINE="1840 4790 3126 4790" HEIGHT="72" HPOS="1840" ID="tl_87" VPOS="4718" WIDTH="1286">
+<String CONTENT="écus. 6. La quantité : L’eau e$t à la hauteur d’une" HEIGHT="72" HPOS="1840" ID="string_tl_87" VPOS="4718" WIDTH="1286"/>
+</TextLine>
+<TextLine BASELINE="1840 4854 3127 4854" HEIGHT="71" HPOS="1840" ID="tl_88" VPOS="4783" WIDTH="1287">
+<String CONTENT="toi$e. 7. La maniere : Il e$t habillé à l’E$pagnole." HEIGHT="71" HPOS="1840" ID="string_tl_88" VPOS="4783" WIDTH="1287"/>
+</TextLine>
+<TextLine BASELINE="1843 4924 3131 4924" HEIGHT="73" HPOS="1843" ID="tl_89" VPOS="4851" WIDTH="1288">
+<String CONTENT="II faut dire à coups de trait, à coups de canon : &amp; non" HEIGHT="73" HPOS="1843" ID="string_tl_89" VPOS="4851" WIDTH="1288"/>
+</TextLine>
+<TextLine BASELINE="1845 4991 3133 4991" HEIGHT="75" HPOS="1845" ID="tl_90" VPOS="4916" WIDTH="1288">
+<String CONTENT="pas à coups de traits , &amp; à coups de canons. Men." HEIGHT="75" HPOS="1845" ID="string_tl_90" VPOS="4916" WIDTH="1288"/>
+</TextLine>
+<TextLine BASELINE="1847 5053 3135 5053" HEIGHT="69" HPOS="1847" ID="tl_91" VPOS="4984" WIDTH="1288">
+<String CONTENT="8. La fin : Les fraudes à bonne intention ne manquent" HEIGHT="69" HPOS="1847" ID="string_tl_91" VPOS="4984" WIDTH="1288"/>
+</TextLine>
+<TextLine BASELINE="1849 5124 3020 5124" HEIGHT="72" HPOS="1849" ID="tl_92" VPOS="5052" WIDTH="1171">
+<String CONTENT="point d’approbateurs parmi les devots. Port-R." HEIGHT="72" HPOS="1849" ID="string_tl_92" VPOS="5052" WIDTH="1171"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="268" HPOS="1775" ID="r_5_5" VPOS="5114" WIDTH="1366">
+<Shape>
+<Polygon POINTS="1775 5114 3141 5114 3141 5382 1775 5382"/>
+</Shape>
+<TextLine BASELINE="1776 5192 3139 5192" HEIGHT="77" HPOS="1776" ID="tl_93" VPOS="5115" WIDTH="1363">
+<String CONTENT="A $ignifie $ucce$$ivement : Pas à pas. Il $e $ent mourir peu" HEIGHT="77" HPOS="1776" ID="string_tl_93" VPOS="5115" WIDTH="1363"/>
+</TextLine>
+<TextLine BASELINE="1846 5262 3138 5262" HEIGHT="82" HPOS="1846" ID="tl_94" VPOS="5180" WIDTH="1292">
+<String CONTENT="à peu. Il $ignifie avec : Je l’abandonne à regret. Les" HEIGHT="82" HPOS="1846" ID="string_tl_94" VPOS="5180" WIDTH="1292"/>
+</TextLine>
+<TextLine BASELINE="1847 5329 3140 5329" HEIGHT="83" HPOS="1847" ID="tl_95" VPOS="5246" WIDTH="1293">
+<String CONTENT="douleurs à grand bruit $ont d’ordinaire $u$pectes d'affec-" HEIGHT="83" HPOS="1847" ID="string_tl_95" VPOS="5246" WIDTH="1293"/>
+</TextLine>
+<TextLine BASELINE="1921 5381 3140 5381" HEIGHT="64" HPOS="1921" ID="tl_96" VPOS="5317" WIDTH="1219">
+<String CONTENT="A	 tation." HEIGHT="64" HPOS="1921" ID="string_tl_96" VPOS="5317" WIDTH="1219"/>
+</TextLine>
+</TextBlock>
+<GraphicalElement HEIGHT="8" HPOS="3144" ID="r_6" VPOS="17" WIDTH="334"/>
+<GraphicalElement HEIGHT="13" HPOS="2878" ID="r_7" VPOS="19" WIDTH="224"/>
+<GraphicalElement HEIGHT="16" HPOS="2526" ID="r_8" VPOS="28" WIDTH="352"/>
+<GraphicalElement HEIGHT="536" HPOS="4120" ID="r_9" VPOS="737" WIDTH="14"/>
+<GraphicalElement HEIGHT="413" HPOS="4130" ID="r_10" VPOS="1313" WIDTH="19"/>
+<GraphicalElement HEIGHT="264" HPOS="4171" ID="r_11" VPOS="3040" WIDTH="16"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>
