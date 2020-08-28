@@ -200,6 +200,6 @@ While `metadata.xml` contains metadata on the document from which the transcript
 </ns3:mets>
 ```
 
-Because `//ns3:fileGrp[ID="ALTO"]/ns3:file/Flocat/@ns2:href` doesn't point towards the local xml file but towards the download link (for which one has to provide an authentication token), we can't simply pair the name this value with that of `//ns3:fileGrp[ID="IMG"]/ns3:file/Flocat/@ns2:href`.  
+Because `//ns3:fileGrp[@ID="ALTO"]/ns3:file/ns3:Flocat/@ns2:href` doesn't point towards the local xml file but towards the download link (for which one has to provide an authentication token), we can't simply pair the name this value with that of `//ns3:fileGrp[@ID="IMG"]/ns3:file/ns3:Flocat/@ns2:href`.  
 In stead, we'll work our way around this by trying to pair the local ALTO XML file with the corresponding image file in `mets.xml`. Since we are working within an export from Transkribus, the basename should be identical and only the extension should differ.
 
