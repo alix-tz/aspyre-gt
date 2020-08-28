@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-08-28T16:17:15.673+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="3508" WIDTH="2170">
+         <TopMargin HEIGHT="243" WIDTH="2170" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2957" WIDTH="163" VPOS="243" HPOS="0"/>
+         <RightMargin HEIGHT="2957" WIDTH="21" VPOS="243" HPOS="2149"/>
+         <BottomMargin HEIGHT="308" WIDTH="2170" VPOS="3200" HPOS="0"/>
+         <PrintSpace HEIGHT="2957" WIDTH="1986" VPOS="243" HPOS="163">
+            <TextBlock ID="r_1_1" HEIGHT="42" WIDTH="80" VPOS="287" HPOS="175">
+               <Shape>
+                  <Polygon POINTS="175,287 255,287 255,329 175,329"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="328"
+                         HEIGHT="40"
+                         WIDTH="78"
+                         VPOS="288"
+                         HPOS="176">
+                  <String ID="string_tl_1"
+                          HEIGHT="40"
+                          WIDTH="78"
+                          VPOS="288"
+                          HPOS="176"
+                          CONTENT="278"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_2_1" HEIGHT="65" WIDTH="1229" VPOS="256" HPOS="514">
+               <Shape>
+                  <Polygon POINTS="514,256 1743,256 1743,321 514,321"/>
+               </Shape>
+               <TextLine ID="tl_2"
+                         BASELINE="320"
+                         HEIGHT="63"
+                         WIDTH="1227"
+                         VPOS="257"
+                         HPOS="515">
+                  <String ID="string_tl_2"
+                          HEIGHT="63"
+                          WIDTH="1227"
+                          VPOS="257"
+                          HPOS="515"
+                          CONTENT="N° 43. — BRIGADIER 1)E LA GARDE RÉPUBLICAINE."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_1" HEIGHT="81" WIDTH="1238" VPOS="356" HPOS="514">
+               <Shape>
+                  <Polygon POINTS="514,356 1752,356 1752,437 514,437"/>
+               </Shape>
+               <TextLine ID="tl_3"
+                         BASELINE="436"
+                         HEIGHT="79"
+                         WIDTH="1236"
+                         VPOS="357"
+                         HPOS="515">
+                  <String ID="string_tl_3"
+                          HEIGHT="79"
+                          WIDTH="1236"
+                          VPOS="357"
+                          HPOS="515"
+                          CONTENT="§ 14. — BUDGET DES RECETTES DE L’ANNÉE."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_4_1" HEIGHT="45" WIDTH="572" VPOS="572" HPOS="732">
+               <Shape>
+                  <Polygon POINTS="732,572 1304,572 1304,617 732,617"/>
+               </Shape>
+               <TextLine ID="tl_4"
+                         BASELINE="616"
+                         HEIGHT="43"
+                         WIDTH="570"
+                         VPOS="573"
+                         HPOS="733">
+                  <String ID="string_tl_4"
+                          HEIGHT="43"
+                          WIDTH="570"
+                          VPOS="573"
+                          HPOS="733"
+                          CONTENT="SOURCES DES RECETTES."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_5_1" HEIGHT="41" WIDTH="283" VPOS="874" HPOS="878">
+               <Shape>
+                  <Polygon POINTS="878,874 1161,874 1161,915 878,915"/>
+               </Shape>
+               <TextLine ID="tl_5"
+                         BASELINE="914"
+                         HEIGHT="39"
+                         WIDTH="281"
+                         VPOS="875"
+                         HPOS="879">
+                  <String ID="string_tl_5"
+                          HEIGHT="39"
+                          WIDTH="281"
+                          VPOS="875"
+                          HPOS="879"
+                          CONTENT="SECTION I&#34;."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_5_2" HEIGHT="53" WIDTH="846" VPOS="988" HPOS="600">
+               <Shape>
+                  <Polygon POINTS="600,988 1446,988 1446,1041 600,1041"/>
+               </Shape>
+               <TextLine ID="tl_6"
+                         BASELINE="1040"
+                         HEIGHT="51"
+                         WIDTH="844"
+                         VPOS="989"
+                         HPOS="601">
+                  <String ID="string_tl_6"
+                          HEIGHT="51"
+                          WIDTH="844"
+                          VPOS="989"
+                          HPOS="601"
+                          CONTENT="Propriétés possédées par la famille."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_5_3" HEIGHT="46" WIDTH="788" VPOS="1094" HPOS="643">
+               <Shape>
+                  <Polygon POINTS="643,1094 1431,1094 1431,1140 643,1140"/>
+               </Shape>
+               <TextLine ID="tl_7"
+                         BASELINE="1139"
+                         HEIGHT="44"
+                         WIDTH="786"
+                         VPOS="1095"
+                         HPOS="644">
+                  <String ID="string_tl_7"
+                          HEIGHT="44"
+                          WIDTH="786"
+                          VPOS="1095"
+                          HPOS="644"
+                          CONTENT="Akt. 1&#34;. — Propriétés immobilières."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_5_4" HEIGHT="168" WIDTH="1602" VPOS="1216" HPOS="226">
+               <Shape>
+                  <Polygon POINTS="226,1216 1828,1216 1828,1384 226,1384"/>
+               </Shape>
+               <TextLine ID="tl_8"
+                         BASELINE="1286"
+                         HEIGHT="69"
+                         WIDTH="1600"
+                         VPOS="1217"
+                         HPOS="227">
+                  <String ID="string_tl_8"
+                          HEIGHT="69"
+                          WIDTH="1600"
+                          VPOS="1217"
+                          HPOS="227"
+                          CONTENT="La famille possède dans le département des Pyrénées-Orientales, à Olet, une"/>
+               </TextLine>
+               <TextLine ID="tl_9"
+                         BASELINE="1339"
+                         HEIGHT="67"
+                         WIDTH="1558"
+                         VPOS="1272"
+                         HPOS="269">
+                  <String ID="string_tl_9"
+                          HEIGHT="67"
+                          WIDTH="1558"
+                          VPOS="1272"
+                          HPOS="269"
+                          CONTENT="petite propriété achetée par le mari il y a quatre ans et administrée par"/>
+               </TextLine>
+               <TextLine ID="tl_10"
+                         BASELINE="1383"
+                         HEIGHT="59"
+                         WIDTH="1557"
+                         VPOS="1324"
+                         HPOS="270">
+                  <String ID="string_tl_10"
+                          HEIGHT="59"
+                          WIDTH="1557"
+                          VPOS="1324"
+                          HPOS="270"
+                          CONTENT="une de ses tantes. .(tî)"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_6_1" HEIGHT="47" WIDTH="665" VPOS="1459" HPOS="691">
+               <Shape>
+                  <Polygon POINTS="691,1459 1356,1459 1356,1506 691,1506"/>
+               </Shape>
+               <TextLine ID="tl_11"
+                         BASELINE="1505"
+                         HEIGHT="45"
+                         WIDTH="663"
+                         VPOS="1460"
+                         HPOS="692">
+                  <String ID="string_tl_11"
+                          HEIGHT="45"
+                          WIDTH="663"
+                          VPOS="1460"
+                          HPOS="692"
+                          CONTENT="Art. 2. — Valeurs mobilières."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_6_2" HEIGHT="69" WIDTH="1606" VPOS="1594" HPOS="226">
+               <Shape>
+                  <Polygon POINTS="226,1594 1832,1594 1832,1663 226,1663"/>
+               </Shape>
+               <TextLine ID="tl_12"
+                         BASELINE="1662"
+                         HEIGHT="67"
+                         WIDTH="1604"
+                         VPOS="1595"
+                         HPOS="227">
+                  <String ID="string_tl_12"
+                          HEIGHT="67"
+                          WIDTH="1604"
+                          VPOS="1595"
+                          HPOS="227"
+                          CONTENT="2 obligations 3 pour cent de la Ville de Paris, emprunt 1871.(6)"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_6_3" HEIGHT="59" WIDTH="950" VPOS="1705" HPOS="230">
+               <Shape>
+                  <Polygon POINTS="230,1705 1180,1705 1180,1764 230,1764"/>
+               </Shape>
+               <TextLine ID="tl_13"
+                         BASELINE="1763"
+                         HEIGHT="57"
+                         WIDTH="948"
+                         VPOS="1706"
+                         HPOS="231">
+                  <String ID="string_tl_13"
+                          HEIGHT="57"
+                          WIDTH="948"
+                          VPOS="1706"
+                          HPOS="231"
+                          CONTENT="Matériel spécial des travaux et industries :"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_6_4" HEIGHT="65" WIDTH="1376" VPOS="1768" HPOS="459">
+               <Shape>
+                  <Polygon POINTS="459,1768 1835,1768 1835,1833 459,1833"/>
+               </Shape>
+               <TextLine ID="tl_14"
+                         BASELINE="1832"
+                         HEIGHT="63"
+                         WIDTH="1374"
+                         VPOS="1769"
+                         HPOS="460">
+                  <String ID="string_tl_14"
+                          HEIGHT="63"
+                          WIDTH="1374"
+                          VPOS="1769"
+                          HPOS="460"
+                          CONTENT="Matériel de repassage du linge.(61"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_6_5" HEIGHT="66" WIDTH="1379" VPOS="1821" HPOS="459">
+               <Shape>
+                  <Polygon POINTS="459,1821 1838,1821 1838,1887 459,1887"/>
+               </Shape>
+               <TextLine ID="tl_15"
+                         BASELINE="1886"
+                         HEIGHT="64"
+                         WIDTH="1377"
+                         VPOS="1822"
+                         HPOS="460">
+                  <String ID="string_tl_15"
+                          HEIGHT="64"
+                          WIDTH="1377"
+                          VPOS="1822"
+                          HPOS="460"
+                          CONTENT="Machine à coudre pour les travaux de la femme.(6)"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_7_1" HEIGHT="60" WIDTH="1525" VPOS="1911" HPOS="272">
+               <Shape>
+                  <Polygon POINTS="272,1911 1797,1911 1797,1971 272,1971"/>
+               </Shape>
+               <TextLine ID="tl_16"
+                         BASELINE="1970"
+                         HEIGHT="58"
+                         WIDTH="1523"
+                         VPOS="1912"
+                         HPOS="273">
+                  <String ID="string_tl_16"
+                          HEIGHT="58"
+                          WIDTH="1523"
+                          VPOS="1912"
+                          HPOS="273"
+                          CONTENT="Art. 3.— Droits aux allocations de sociétés d’assurances mutuelles."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_7_2" HEIGHT="67" WIDTH="1584" VPOS="2011" HPOS="227">
+               <Shape>
+                  <Polygon POINTS="227,2011 1811,2011 1811,2078 227,2078"/>
+               </Shape>
+               <TextLine ID="tl_17"
+                         BASELINE="2077"
+                         HEIGHT="65"
+                         WIDTH="1582"
+                         VPOS="2012"
+                         HPOS="228">
+                  <String ID="string_tl_17"
+                          HEIGHT="65"
+                          WIDTH="1582"
+                          VPOS="2012"
+                          HPOS="228"
+                          CONTENT="(La famille n’est liée à aucune société île ce genre)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_7_3" HEIGHT="61" WIDTH="1147" VPOS="2090" HPOS="665">
+               <Shape>
+                  <Polygon POINTS="665,2090 1812,2090 1812,2151 665,2151"/>
+               </Shape>
+               <TextLine ID="tl_18"
+                         BASELINE="2150"
+                         HEIGHT="59"
+                         WIDTH="1145"
+                         VPOS="2091"
+                         HPOS="666">
+                  <String ID="string_tl_18"
+                          HEIGHT="59"
+                          WIDTH="1145"
+                          VPOS="2091"
+                          HPOS="666"
+                          CONTENT="Valeur totale des propriétés."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_7_4" HEIGHT="37" WIDTH="266" VPOS="2189" HPOS="898">
+               <Shape>
+                  <Polygon POINTS="898,2189 1164,2189 1164,2226 898,2226"/>
+               </Shape>
+               <TextLine ID="tl_19"
+                         BASELINE="2225"
+                         HEIGHT="35"
+                         WIDTH="264"
+                         VPOS="2190"
+                         HPOS="899">
+                  <String ID="string_tl_19"
+                          HEIGHT="35"
+                          WIDTH="264"
+                          VPOS="2190"
+                          HPOS="899"
+                          CONTENT="SECTION II."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_8_1" HEIGHT="23" WIDTH="173" VPOS="497" HPOS="1870">
+               <Shape>
+                  <Polygon POINTS="1870,497 2043,497 2043,520 1870,520"/>
+               </Shape>
+               <TextLine ID="tl_20"
+                         BASELINE="519"
+                         HEIGHT="21"
+                         WIDTH="171"
+                         VPOS="498"
+                         HPOS="1871">
+                  <String ID="string_tl_20"
+                          HEIGHT="21"
+                          WIDTH="171"
+                          VPOS="498"
+                          HPOS="1871"
+                          CONTENT="EVALUATION"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_8_2" HEIGHT="41" WIDTH="195" VPOS="524" HPOS="1859">
+               <Shape>
+                  <Polygon POINTS="1859,524 2054,524 2054,565 1859,565"/>
+               </Shape>
+               <TextLine ID="tl_21"
+                         BASELINE="564"
+                         HEIGHT="39"
+                         WIDTH="193"
+                         VPOS="525"
+                         HPOS="1860">
+                  <String ID="string_tl_21"
+                          HEIGHT="39"
+                          WIDTH="193"
+                          VPOS="525"
+                          HPOS="1860"
+                          CONTENT="approximative"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_8_3" HEIGHT="61" WIDTH="213" VPOS="604" HPOS="1849">
+               <Shape>
+                  <Polygon POINTS="1849,604 2062,604 2062,665 1849,665"/>
+               </Shape>
+               <TextLine ID="tl_22"
+                         BASELINE="629"
+                         HEIGHT="24"
+                         WIDTH="138"
+                         VPOS="605"
+                         HPOS="1889">
+                  <String ID="string_tl_22"
+                          HEIGHT="24"
+                          WIDTH="138"
+                          VPOS="605"
+                          HPOS="1889"
+                          CONTENT="sources"/>
+               </TextLine>
+               <TextLine ID="tl_23"
+                         BASELINE="664"
+                         HEIGHT="32"
+                         WIDTH="211"
+                         VPOS="632"
+                         HPOS="1850">
+                  <String ID="string_tl_23"
+                          HEIGHT="32"
+                          WIDTH="211"
+                          VPOS="632"
+                          HPOS="1850"
+                          CONTENT="de recettes."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_9_1" HEIGHT="42" WIDTH="210" VPOS="845" HPOS="1855">
+               <Shape>
+                  <Polygon POINTS="1855,845 2065,845 2065,887 1855,887"/>
+               </Shape>
+               <TextLine ID="tl_24"
+                         BASELINE="886"
+                         HEIGHT="40"
+                         WIDTH="208"
+                         VPOS="846"
+                         HPOS="1856">
+                  <String ID="string_tl_24"
+                          HEIGHT="40"
+                          WIDTH="208"
+                          VPOS="846"
+                          HPOS="1856"
+                          CONTENT="propriétés."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_10_1" HEIGHT="35" WIDTH="125" VPOS="1314" HPOS="1909">
+               <Shape>
+                  <Polygon POINTS="1909,1314 2034,1314 2034,1349 1909,1349"/>
+               </Shape>
+               <TextLine ID="tl_25"
+                         BASELINE="1348"
+                         HEIGHT="33"
+                         WIDTH="123"
+                         VPOS="1315"
+                         HPOS="1910">
+                  <String ID="string_tl_25"
+                          HEIGHT="33"
+                          WIDTH="123"
+                          VPOS="1315"
+                          HPOS="1910"
+                          CONTENT="1800 f."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_11_1" HEIGHT="35" WIDTH="124" VPOS="1593" HPOS="1933">
+               <Shape>
+                  <Polygon POINTS="1933,1593 2057,1593 2057,1628 1933,1628"/>
+               </Shape>
+               <TextLine ID="tl_26"
+                         BASELINE="1627"
+                         HEIGHT="33"
+                         WIDTH="122"
+                         VPOS="1594"
+                         HPOS="1934">
+                  <String ID="string_tl_26"
+                          HEIGHT="33"
+                          WIDTH="122"
+                          VPOS="1594"
+                          HPOS="1934"
+                          CONTENT="796 00"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_12_1" HEIGHT="89" WIDTH="125" VPOS="1765" HPOS="1946">
+               <Shape>
+                  <Polygon POINTS="1946,1765 2071,1765 2071,1854 1946,1854"/>
+               </Shape>
+               <TextLine ID="tl_27"
+                         BASELINE="1799"
+                         HEIGHT="33"
+                         WIDTH="78"
+                         VPOS="1766"
+                         HPOS="1990">
+                  <String ID="string_tl_27"
+                          HEIGHT="33"
+                          WIDTH="78"
+                          VPOS="1766"
+                          HPOS="1990"
+                          CONTENT="4 10"/>
+               </TextLine>
+               <TextLine ID="tl_28"
+                         BASELINE="1853"
+                         HEIGHT="34"
+                         WIDTH="123"
+                         VPOS="1819"
+                         HPOS="1947">
+                  <String ID="string_tl_28"
+                          HEIGHT="34"
+                          WIDTH="123"
+                          VPOS="1819"
+                          HPOS="1947"
+                          CONTENT="250 00"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_13_1"
+                       HEIGHT="-9.999999E6"
+                       WIDTH="-9.999999E6"
+                       VPOS="9999999"
+                       HPOS="9999999">
+               <Shape>
+                  <Polygon POINTS=", , , ,"/>
+               </Shape>
+            </TextBlock>
+            <TextBlock ID="r_14_1" HEIGHT="40" WIDTH="162" VPOS="2102" HPOS="1912">
+               <Shape>
+                  <Polygon POINTS="1912,2102 2074,2102 2074,2142 1912,2142"/>
+               </Shape>
+               <TextLine ID="tl_29"
+                         BASELINE="2141"
+                         HEIGHT="38"
+                         WIDTH="160"
+                         VPOS="2103"
+                         HPOS="1913">
+                  <String ID="string_tl_29"
+                          HEIGHT="38"
+                          WIDTH="160"
+                          VPOS="2103"
+                          HPOS="1913"
+                          CONTENT="2,850 10"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_1" HEIGHT="55" WIDTH="803" VPOS="2247" HPOS="627">
+               <Shape>
+                  <Polygon POINTS="627,2247 1430,2247 1430,2302 627,2302"/>
+               </Shape>
+               <TextLine ID="tl_30"
+                         BASELINE="2301"
+                         HEIGHT="53"
+                         WIDTH="801"
+                         VPOS="2248"
+                         HPOS="628">
+                  <String ID="string_tl_30"
+                          HEIGHT="53"
+                          WIDTH="801"
+                          VPOS="2248"
+                          HPOS="628"
+                          CONTENT="Subventions reçues par la famille."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_2" HEIGHT="56" WIDTH="936" VPOS="2304" HPOS="556">
+               <Shape>
+                  <Polygon POINTS="556,2304 1492,2304 1492,2360 556,2360"/>
+               </Shape>
+               <TextLine ID="tl_31"
+                         BASELINE="2359"
+                         HEIGHT="54"
+                         WIDTH="934"
+                         VPOS="2305"
+                         HPOS="557">
+                  <String ID="string_tl_31"
+                          HEIGHT="54"
+                          WIDTH="934"
+                          VPOS="2305"
+                          HPOS="557"
+                          CONTENT="Art. 1er. — Propriétés reçues en usufruit."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_3" HEIGHT="74" WIDTH="1908" VPOS="2352" HPOS="225">
+               <Shape>
+                  <Polygon POINTS="225,2352 2133,2352 2133,2426 225,2426"/>
+               </Shape>
+               <TextLine ID="tl_32"
+                         BASELINE="2425"
+                         HEIGHT="72"
+                         WIDTH="1906"
+                         VPOS="2353"
+                         HPOS="226">
+                  <String ID="string_tl_32"
+                          HEIGHT="72"
+                          WIDTH="1906"
+                          VPOS="2353"
+                          HPOS="226"
+                          CONTENT="(I.a famille ne reçoit aucune propriété en usufruit)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_4" HEIGHT="53" WIDTH="1174" VPOS="2421" HPOS="450">
+               <Shape>
+                  <Polygon POINTS="450,2421 1624,2421 1624,2474 450,2474"/>
+               </Shape>
+               <TextLine ID="tl_33"
+                         BASELINE="2473"
+                         HEIGHT="51"
+                         WIDTH="1172"
+                         VPOS="2422"
+                         HPOS="451">
+                  <String ID="string_tl_33"
+                          HEIGHT="51"
+                          WIDTH="1172"
+                          VPOS="2422"
+                          HPOS="451"
+                          CONTENT="Art. 2. — Droits d'usages sur les propriétés voisines."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_5" HEIGHT="74" WIDTH="1907" VPOS="2470" HPOS="228">
+               <Shape>
+                  <Polygon POINTS="228,2470 2135,2470 2135,2544 228,2544"/>
+               </Shape>
+               <TextLine ID="tl_34"
+                         BASELINE="2543"
+                         HEIGHT="72"
+                         WIDTH="1905"
+                         VPOS="2471"
+                         HPOS="229">
+                  <String ID="string_tl_34"
+                          HEIGHT="72"
+                          WIDTH="1905"
+                          VPOS="2471"
+                          HPOS="229"
+                          CONTENT="(La famille ne jouit d'aucun droit de ce genre)..."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_6" HEIGHT="51" WIDTH="1001" VPOS="2543" HPOS="525">
+               <Shape>
+                  <Polygon POINTS="525,2543 1526,2543 1526,2594 525,2594"/>
+               </Shape>
+               <TextLine ID="tl_35"
+                         BASELINE="2593"
+                         HEIGHT="49"
+                         WIDTH="999"
+                         VPOS="2544"
+                         HPOS="526">
+                  <String ID="string_tl_35"
+                          HEIGHT="49"
+                          WIDTH="999"
+                          VPOS="2544"
+                          HPOS="526"
+                          CONTENT="Art. 3. — Allocations d'objets et de services."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_15_7"
+                       HEIGHT="123"
+                       WIDTH="1910"
+                       VPOS="2588"
+                       HPOS="228">
+               <Shape>
+                  <Polygon POINTS="228,2588 2138,2588 2138,2711 228,2711"/>
+               </Shape>
+               <TextLine ID="tl_36"
+                         BASELINE="2665"
+                         HEIGHT="76"
+                         WIDTH="1907"
+                         VPOS="2589"
+                         HPOS="229">
+                  <String ID="string_tl_36"
+                          HEIGHT="76"
+                          WIDTH="1907"
+                          VPOS="2589"
+                          HPOS="229"
+                          CONTENT="Allocations concernant la nourriture ou le surcroît de dépense occasionné par le séjour"/>
+               </TextLine>
+               <TextLine ID="tl_37"
+                         BASELINE="2710"
+                         HEIGHT="61"
+                         WIDTH="1614"
+                         VPOS="2649"
+                         HPOS="523">
+                  <String ID="string_tl_37"
+                          HEIGHT="61"
+                          WIDTH="1614"
+                          VPOS="2649"
+                          HPOS="523"
+                          CONTENT="dans Paris, et indemnités de diverses natures."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_16_1" HEIGHT="63" WIDTH="1284" VPOS="2784" HPOS="480">
+               <Shape>
+                  <Polygon POINTS="480,2784 1764,2784 1764,2847 480,2847"/>
+               </Shape>
+               <TextLine ID="tl_38"
+                         BASELINE="2846"
+                         HEIGHT="61"
+                         WIDTH="1282"
+                         VPOS="2785"
+                         HPOS="481">
+                  <String ID="string_tl_38"
+                          HEIGHT="61"
+                          WIDTH="1282"
+                          VPOS="2785"
+                          HPOS="481"
+                          CONTENT="concernant l'habitation, le blanchissage et les vêtements."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_17_1" HEIGHT="55" WIDTH="837" VPOS="2974" HPOS="482">
+               <Shape>
+                  <Polygon POINTS="482,2974 1319,2974 1319,3029 482,3029"/>
+               </Shape>
+               <TextLine ID="tl_39"
+                         BASELINE="3028"
+                         HEIGHT="53"
+                         WIDTH="835"
+                         VPOS="2975"
+                         HPOS="483">
+                  <String ID="string_tl_39"
+                          HEIGHT="53"
+                          WIDTH="835"
+                          VPOS="2975"
+                          HPOS="483"
+                          CONTENT="concernant les besoins moraux, etc.."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_18" HEIGHT="51" WIDTH="1910" VPOS="445" HPOS="183"/>
+            <GraphicalElement ID="r_19" HEIGHT="44" WIDTH="1897" VPOS="461" HPOS="196"/>
+            <GraphicalElement ID="r_20" HEIGHT="11" WIDTH="202" VPOS="693" HPOS="1859"/>
+            <GraphicalElement ID="r_21" HEIGHT="37" WIDTH="1616" VPOS="698" HPOS="209"/>
+            <GraphicalElement ID="r_22" HEIGHT="11" WIDTH="198" VPOS="959" HPOS="1868"/>
+            <GraphicalElement ID="r_23" HEIGHT="11" WIDTH="206" VPOS="2079" HPOS="1880"/>
+            <GraphicalElement ID="r_24" HEIGHT="13" WIDTH="202" VPOS="2161" HPOS="1883"/>
+            <GraphicalElement ID="r_25" HEIGHT="318" WIDTH="24" VPOS="2882" HPOS="186"/>
+            <GraphicalElement ID="r_26" HEIGHT="2388" WIDTH="38" VPOS="494" HPOS="174"/>
+            <GraphicalElement ID="r_27" HEIGHT="393" WIDTH="11" VPOS="2679" HPOS="201"/>
+            <GraphicalElement ID="r_28" HEIGHT="1426" WIDTH="22" VPOS="505" HPOS="190"/>
+            <GraphicalElement ID="r_29" HEIGHT="1698" WIDTH="40" VPOS="478" HPOS="1832"/>
+            <GraphicalElement ID="r_30" HEIGHT="1690" WIDTH="39" VPOS="475" HPOS="2066"/>
+            <GraphicalElement ID="r_31" HEIGHT="12" WIDTH="434" VPOS="1365" HPOS="670"/>
+            <GraphicalElement ID="r_32" HEIGHT="17" WIDTH="614" VPOS="1795" HPOS="1172"/>
+            <GraphicalElement ID="r_33" HEIGHT="17" WIDTH="482" VPOS="2036" HPOS="1358"/>
+            <GraphicalElement ID="r_34" HEIGHT="13" WIDTH="312" VPOS="2114" HPOS="1527"/>
+            <GraphicalElement ID="r_35" HEIGHT="7" WIDTH="120" VPOS="2122" HPOS="1343"/>
+            <GraphicalElement ID="r_36" HEIGHT="19" WIDTH="744" VPOS="2380" HPOS="1389"/>
+            <GraphicalElement ID="r_37" HEIGHT="22" WIDTH="868" VPOS="2498" HPOS="1266"/>
+            <GraphicalElement ID="r_38" HEIGHT="18" WIDTH="574" VPOS="2674" HPOS="1563"/>
+            <GraphicalElement ID="r_39" HEIGHT="16" WIDTH="374" VPOS="2806" HPOS="1757"/>
+            <GraphicalElement ID="r_40" HEIGHT="20" WIDTH="826" VPOS="2992" HPOS="1315"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit><sourceImageInformation><fileName>lesouvriersdesde05sociuoft_0369.tif</fileName></sourceImageInformation>
+<OCRProcessing ID="IdOcr">
+<ocrProcessingStep>
+<processingDateTime>2020-08-28T16:17:15.155+02:00</processingDateTime>
+<processingSoftware>
+<softwareCreator>READ COOP</softwareCreator>
+<softwareName>Transkribus</softwareName>
+</processingSoftware>
+</ocrProcessingStep>
+</OCRProcessing>
+</Description>
+<Layout>
+<Page HEIGHT="3508" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="2170">
+<TopMargin HEIGHT="296" HPOS="0" VPOS="0" WIDTH="2170"/>
+<LeftMargin HEIGHT="2994" HPOS="0" VPOS="296" WIDTH="115"/>
+<RightMargin HEIGHT="2994" HPOS="1797" VPOS="296" WIDTH="373"/>
+<BottomMargin HEIGHT="218" HPOS="0" VPOS="3290" WIDTH="2170"/>
+<PrintSpace HEIGHT="2994" HPOS="115" VPOS="296" WIDTH="1682">
+<TextBlock HEIGHT="47" HPOS="593" ID="r_1_1" VPOS="303" WIDTH="737">
+<Shape>
+<Polygon POINTS="593 303 1330 303 1330 350 593 350"/>
+</Shape>
+<TextLine BASELINE="594 349 1329 349" HEIGHT="45" HPOS="594" ID="tl_1" VPOS="304" WIDTH="735">
+<String CONTENT="OBSERVATIONS PRÉLIMINAIRES." HEIGHT="45" HPOS="594" ID="string_tl_1" VPOS="304" WIDTH="735"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="40" HPOS="1699" ID="r_2_1" VPOS="308" WIDTH="79">
+<Shape>
+<Polygon POINTS="1699 308 1778 308 1778 348 1699 348"/>
+</Shape>
+<TextLine BASELINE="1700 347 1777 347" HEIGHT="38" HPOS="1700" ID="tl_2" VPOS="309" WIDTH="77">
+<String CONTENT="277" HEIGHT="38" HPOS="1700" ID="string_tl_2" VPOS="309" WIDTH="77"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="320" HPOS="151" ID="r_3_1" VPOS="410" WIDTH="1629">
+<Shape>
+<Polygon POINTS="151 410 1780 410 1780 730 151 730"/>
+</Shape>
+<TextLine BASELINE="155 466 1779 466" HEIGHT="55" HPOS="155" ID="tl_3" VPOS="411" WIDTH="1624">
+<String CONTENT="soldat français. Pendant la guerre de 1870, il fut blessé à Grave-" HEIGHT="55" HPOS="155" ID="string_tl_3" VPOS="411" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="153 533 1779 533" HEIGHT="56" HPOS="153" ID="tl_4" VPOS="477" WIDTH="1626">
+<String CONTENT="lotte-, fait prisonnier après la capitulation de Met/, il passa son" HEIGHT="56" HPOS="153" ID="string_tl_4" VPOS="477" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="154 599 1776 599" HEIGHT="56" HPOS="154" ID="tl_5" VPOS="543" WIDTH="1622">
+<String CONTENT="temps de captivité dans un camp, en Hanovre. De retour en" HEIGHT="56" HPOS="154" ID="string_tl_5" VPOS="543" WIDTH="1622"/>
+</TextLine>
+<TextLine BASELINE="152 663 1779 663" HEIGHT="56" HPOS="152" ID="tl_6" VPOS="607" WIDTH="1627">
+<String CONTENT="France, il entra dans la Garde républicaine, devint rapidement" HEIGHT="56" HPOS="152" ID="string_tl_6" VPOS="607" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="153 729 685 729" HEIGHT="53" HPOS="153" ID="tl_7" VPOS="676" WIDTH="532">
+<String CONTENT="brigadier et se maria." HEIGHT="53" HPOS="153" ID="string_tl_7" VPOS="676" WIDTH="532"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="970" HPOS="140" ID="r_3_2" VPOS="737" WIDTH="1640">
+<Shape>
+<Polygon POINTS="140 737 1780 737 1780 1707 140 1707"/>
+</Shape>
+<TextLine BASELINE="203 792 1777 792" HEIGHT="54" HPOS="203" ID="tl_8" VPOS="738" WIDTH="1574">
+<String CONTENT="Sa femme est issue d’une famille d’Auvergnats qui vinrent" HEIGHT="54" HPOS="203" ID="string_tl_8" VPOS="738" WIDTH="1574"/>
+</TextLine>
+<TextLine BASELINE="150 860 1779 860" HEIGHT="56" HPOS="150" ID="tl_9" VPOS="804" WIDTH="1629">
+<String CONTENT="s’établir à Paris pour y ramasser un pécule ; ils parvinrent à" HEIGHT="56" HPOS="150" ID="string_tl_9" VPOS="804" WIDTH="1629"/>
+</TextLine>
+<TextLine BASELINE="150 925 1777 925" HEIGHT="55" HPOS="150" ID="tl_10" VPOS="870" WIDTH="1627">
+<String CONTENT="acquérir une position modeste et conservèrent avec ténacité les" HEIGHT="55" HPOS="150" ID="string_tl_10" VPOS="870" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="148 989 1778 989" HEIGHT="55" HPOS="148" ID="tl_11" VPOS="934" WIDTH="1630">
+<String CONTENT="habitudes de leur pays. Leurs enfants reçurent une saine éduca¬" HEIGHT="55" HPOS="148" ID="string_tl_11" VPOS="934" WIDTH="1630"/>
+</TextLine>
+<TextLine BASELINE="146 1055 1777 1055" HEIGHT="55" HPOS="146" ID="tl_12" VPOS="1000" WIDTH="1631">
+<String CONTENT="tion qui les préserva de l'influence démoralisatrice du milieu" HEIGHT="55" HPOS="146" ID="string_tl_12" VPOS="1000" WIDTH="1631"/>
+</TextLine>
+<TextLine BASELINE="147 1120 1778 1120" HEIGHT="54" HPOS="147" ID="tl_13" VPOS="1066" WIDTH="1631">
+<String CONTENT="parisien ; aussi I)'&quot;, en se mariant, choisit-il une épouse sé¬" HEIGHT="54" HPOS="147" ID="string_tl_13" VPOS="1066" WIDTH="1631"/>
+</TextLine>
+<TextLine BASELINE="146 1180 1778 1180" HEIGHT="49" HPOS="146" ID="tl_14" VPOS="1131" WIDTH="1632">
+<String CONTENT="rieuse, aimant le travail et la vie d’intérieur, active et habile à" HEIGHT="49" HPOS="146" ID="string_tl_14" VPOS="1131" WIDTH="1632"/>
+</TextLine>
+<TextLine BASELINE="147 1251 1776 1251" HEIGHT="54" HPOS="147" ID="tl_15" VPOS="1197" WIDTH="1629">
+<String CONTENT="la coulure et aux travaux du ménage. Elle n’éprouverait aucun" HEIGHT="54" HPOS="147" ID="string_tl_15" VPOS="1197" WIDTH="1629"/>
+</TextLine>
+<TextLine BASELINE="144 1317 1776 1317" HEIGHT="55" HPOS="144" ID="tl_16" VPOS="1262" WIDTH="1632">
+<String CONTENT="regret de quitter Paris, où elle et ses enfants s’étiolent. Elle voit" HEIGHT="55" HPOS="144" ID="string_tl_16" VPOS="1262" WIDTH="1632"/>
+</TextLine>
+<TextLine BASELINE="145 1383 1774 1383" HEIGHT="56" HPOS="145" ID="tl_17" VPOS="1327" WIDTH="1629">
+<String CONTENT="avec satisfaction approcher l'époque de la retraite de son mari." HEIGHT="56" HPOS="145" ID="string_tl_17" VPOS="1327" WIDTH="1629"/>
+</TextLine>
+<TextLine BASELINE="144 1446 1777 1446" HEIGHT="54" HPOS="144" ID="tl_18" VPOS="1392" WIDTH="1633">
+<String CONTENT="Celui-ci attend le moment, qui est proche, où il recevra la croix" HEIGHT="54" HPOS="144" ID="string_tl_18" VPOS="1392" WIDTH="1633"/>
+</TextLine>
+<TextLine BASELINE="145 1511 1777 1511" HEIGHT="54" HPOS="145" ID="tl_19" VPOS="1457" WIDTH="1632">
+<String CONTENT="de la Légion-d’Honneur : alors il se retirera avec sa famille et" HEIGHT="54" HPOS="145" ID="string_tl_19" VPOS="1457" WIDTH="1632"/>
+</TextLine>
+<TextLine BASELINE="144 1577 1777 1577" HEIGHT="55" HPOS="144" ID="tl_20" VPOS="1522" WIDTH="1633">
+<String CONTENT="les parents de sa femme dans les Pyrénées-Orientales, où il trou¬" HEIGHT="55" HPOS="144" ID="string_tl_20" VPOS="1522" WIDTH="1633"/>
+</TextLine>
+<TextLine BASELINE="141 1643 1775 1643" HEIGHT="56" HPOS="141" ID="tl_21" VPOS="1587" WIDTH="1634">
+<String CONTENT="vera une installation plus confortable et tout le bien-être que" HEIGHT="56" HPOS="141" ID="string_tl_21" VPOS="1587" WIDTH="1634"/>
+</TextLine>
+<TextLine BASELINE="143 1706 672 1706" HEIGHT="50" HPOS="143" ID="tl_22" VPOS="1656" WIDTH="529">
+<String CONTENT="procure la vie rurale." HEIGHT="50" HPOS="143" ID="string_tl_22" VPOS="1656" WIDTH="529"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="117" HPOS="221" ID="r_3_3" VPOS="1762" WIDTH="1475">
+<Shape>
+<Polygon POINTS="221 1762 1696 1762 1696 1879 221 1879"/>
+</Shape>
+<TextLine BASELINE="222 1813 1695 1813" HEIGHT="50" HPOS="222" ID="tl_23" VPOS="1763" WIDTH="1473">
+<String CONTENT="§ 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ETRE" HEIGHT="50" HPOS="222" ID="string_tl_23" VPOS="1763" WIDTH="1473"/>
+</TextLine>
+<TextLine BASELINE="502 1878 1406 1878" HEIGHT="41" HPOS="502" ID="tl_24" VPOS="1837" WIDTH="904">
+<String CONTENT="PHYSIQUE ET MORAL DE LA FAMILLE." HEIGHT="41" HPOS="502" ID="string_tl_24" VPOS="1837" WIDTH="904"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="1292" HPOS="132" ID="r_3_4" VPOS="1925" WIDTH="1645">
+<Shape>
+<Polygon POINTS="132 1925 1777 1925 1777 3217 132 3217"/>
+</Shape>
+<TextLine BASELINE="196 1980 1776 1980" HEIGHT="54" HPOS="196" ID="tl_25" VPOS="1926" WIDTH="1580">
+<String CONTENT="La famille doit son bien-être à la position du mari, aux qua¬" HEIGHT="54" HPOS="196" ID="string_tl_25" VPOS="1926" WIDTH="1580"/>
+</TextLine>
+<TextLine BASELINE="144 2046 1774 2046" HEIGHT="55" HPOS="144" ID="tl_26" VPOS="1991" WIDTH="1630">
+<String CONTENT="lités de la femme et à l’accord qui règne entre eux. Ce bien-être" HEIGHT="55" HPOS="144" ID="string_tl_26" VPOS="1991" WIDTH="1630"/>
+</TextLine>
+<TextLine BASELINE="144 2111 1771 2111" HEIGHT="54" HPOS="144" ID="tl_27" VPOS="2057" WIDTH="1627">
+<String CONTENT="ne serait que temporaire, si le brigadier I)“* n’avait pas reçu un" HEIGHT="54" HPOS="144" ID="string_tl_27" VPOS="2057" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="143 2177 1771 2177" HEIGHT="56" HPOS="143" ID="tl_28" VPOS="2121" WIDTH="1628">
+<String CONTENT="petit héritage et s’il n’avait pas eu la sagesse d’en consacrer une" HEIGHT="56" HPOS="143" ID="string_tl_28" VPOS="2121" WIDTH="1628"/>
+</TextLine>
+<TextLine BASELINE="144 2241 1768 2241" HEIGHT="54" HPOS="144" ID="tl_29" VPOS="2187" WIDTH="1624">
+<String CONTENT="partie à l’achat d’un bien rural. La rétribution pécuniaire qui lui" HEIGHT="54" HPOS="144" ID="string_tl_29" VPOS="2187" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="146 2306 1771 2306" HEIGHT="54" HPOS="146" ID="tl_30" VPOS="2252" WIDTH="1625">
+<String CONTENT="sera donnée, sous forme de pension, à sa retraite, serait insuffi¬" HEIGHT="54" HPOS="146" ID="string_tl_30" VPOS="2252" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="146 2371 1771 2371" HEIGHT="54" HPOS="146" ID="tl_31" VPOS="2317" WIDTH="1625">
+<String CONTENT="sante pour lui permettre de vivre indépendant à Paris et il devrait" HEIGHT="54" HPOS="146" ID="string_tl_31" VPOS="2317" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="145 2437 1767 2437" HEIGHT="55" HPOS="145" ID="tl_32" VPOS="2382" WIDTH="1622">
+<String CONTENT="alors se livrer à des travaux pénibles qui l'épuiseraient vite." HEIGHT="55" HPOS="145" ID="string_tl_32" VPOS="2382" WIDTH="1622"/>
+</TextLine>
+<TextLine BASELINE="143 2504 1769 2504" HEIGHT="56" HPOS="143" ID="tl_33" VPOS="2448" WIDTH="1626">
+<String CONTENT="Aucun lien du reste n'attache les époux à la capitale ; ils n’y ont" HEIGHT="56" HPOS="143" ID="string_tl_33" VPOS="2448" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="141 2567 1768 2567" HEIGHT="53" HPOS="141" ID="tl_34" VPOS="2514" WIDTH="1627">
+<String CONTENT="contracté aucune relation sérieuse et ils sont toujours restés" HEIGHT="53" HPOS="141" ID="string_tl_34" VPOS="2514" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="142 2634 1767 2634" HEIGHT="56" HPOS="142" ID="tl_35" VPOS="2578" WIDTH="1625">
+<String CONTENT="étrangers aux préoccupations politiques et aux haines envieuses" HEIGHT="56" HPOS="142" ID="string_tl_35" VPOS="2578" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="139 2699 1765 2699" HEIGHT="57" HPOS="139" ID="tl_36" VPOS="2642" WIDTH="1626">
+<String CONTENT="de la population parisienne. Le mari aura 1,200 francs de retraite;" HEIGHT="57" HPOS="139" ID="string_tl_36" VPOS="2642" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="140 2764 1766 2764" HEIGHT="55" HPOS="140" ID="tl_37" VPOS="2709" WIDTH="1626">
+<String CONTENT="il sera logé gratuitement dans son bien et pourra obtenir de" HEIGHT="55" HPOS="140" ID="string_tl_37" VPOS="2709" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="138 2828 1766 2828" HEIGHT="62" HPOS="138" ID="tl_38" VPOS="2766" WIDTH="1628">
+<String CONTENT="l’État un bureau de tabac à Olet; pendant la belle saison, il sera" HEIGHT="62" HPOS="138" ID="string_tl_38" VPOS="2766" WIDTH="1628"/>
+</TextLine>
+<TextLine BASELINE="137 2893 1764 2893" HEIGHT="55" HPOS="137" ID="tl_39" VPOS="2838" WIDTH="1627">
+<String CONTENT="employé au Graous, établissement de bains à quatre kilomètres" HEIGHT="55" HPOS="137" ID="string_tl_39" VPOS="2838" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="136 2958 1763 2958" HEIGHT="56" HPOS="136" ID="tl_40" VPOS="2902" WIDTH="1627">
+<String CONTENT="d’Olet, qui communique avec cet endroit par un service de voitures" HEIGHT="56" HPOS="136" ID="string_tl_40" VPOS="2902" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="137 3023 1760 3023" HEIGHT="55" HPOS="137" ID="tl_41" VPOS="2968" WIDTH="1623">
+<String CONTENT="publiques. En ce moment le petit bien où doit se retirer la famille," HEIGHT="55" HPOS="137" ID="string_tl_41" VPOS="2968" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="136 3087 1759 3087" HEIGHT="55" HPOS="136" ID="tl_42" VPOS="3032" WIDTH="1623">
+<String CONTENT="est administré par une tante de D*“ et amélioré chaque année." HEIGHT="55" HPOS="136" ID="string_tl_42" VPOS="3032" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="135 3152 1759 3152" HEIGHT="55" HPOS="135" ID="tl_43" VPOS="3097" WIDTH="1624">
+<String CONTENT="Il y a donc là pour elle une source certaine de bien-être, qui lui" HEIGHT="55" HPOS="135" ID="string_tl_43" VPOS="3097" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="133 3216 1660 3216" HEIGHT="54" HPOS="133" ID="tl_44" VPOS="3162" WIDTH="1527">
+<String CONTENT="permettra de bien élever les enfants et d’assurer leur avenir." HEIGHT="54" HPOS="133" ID="string_tl_44" VPOS="3162" WIDTH="1527"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="41" HPOS="1560" ID="r_3_5" VPOS="3234" WIDTH="51">
+<Shape>
+<Polygon POINTS="1560 3234 1611 3234 1611 3275 1560 3275"/>
+</Shape>
+<TextLine BASELINE="1561 3274 1610 3274" HEIGHT="39" HPOS="1561" ID="tl_45" VPOS="3235" WIDTH="49">
+<String CONTENT="10" HEIGHT="39" HPOS="1561" ID="string_tl_45" VPOS="3235" WIDTH="49"/>
+</TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

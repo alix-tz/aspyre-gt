@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit><sourceImageInformation><fileName>lesouvriersdesde05sociuoft_0368.tif</fileName></sourceImageInformation>
+<OCRProcessing ID="IdOcr">
+<ocrProcessingStep>
+<processingDateTime>2020-08-28T16:17:14.538+02:00</processingDateTime>
+<processingSoftware>
+<softwareCreator>READ COOP</softwareCreator>
+<softwareName>Transkribus</softwareName>
+</processingSoftware>
+</ocrProcessingStep>
+</OCRProcessing>
+</Description>
+<Layout>
+<Page HEIGHT="3508" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="2170">
+<TopMargin HEIGHT="236" HPOS="0" VPOS="0" WIDTH="2170"/>
+<LeftMargin HEIGHT="2928" HPOS="0" VPOS="236" WIDTH="292"/>
+<RightMargin HEIGHT="2928" HPOS="1948" VPOS="236" WIDTH="222"/>
+<BottomMargin HEIGHT="344" HPOS="0" VPOS="3164" WIDTH="2170"/>
+<PrintSpace HEIGHT="2928" HPOS="292" VPOS="236" WIDTH="1656">
+<TextBlock HEIGHT="44" HPOS="309" ID="r_1_1" VPOS="247" WIDTH="1426">
+<Shape>
+<Polygon POINTS="309 247 1735 247 1735 291 309 291"/>
+</Shape>
+<TextLine BASELINE="310 290 1734 290" HEIGHT="42" HPOS="310" ID="tl_1" VPOS="248" WIDTH="1424">
+<String CONTENT="276 N° 43. — BRIGADIER DE LA GARDE RÉPUBLICAINE." HEIGHT="42" HPOS="310" ID="string_tl_1" VPOS="248" WIDTH="1424"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="378" HPOS="308" ID="r_1_2" VPOS="355" WIDTH="1627">
+<Shape>
+<Polygon POINTS="308 355 1935 355 1935 733 308 733"/>
+</Shape>
+<TextLine BASELINE="312 408 1933 408" HEIGHT="52" HPOS="312" ID="tl_2" VPOS="356" WIDTH="1621">
+<String CONTENT="Pendant la Révolution, chargé de procéder à l’arrestation de" HEIGHT="52" HPOS="312" ID="string_tl_2" VPOS="356" WIDTH="1621"/>
+</TextLine>
+<TextLine BASELINE="310 474 1932 474" HEIGHT="52" HPOS="310" ID="tl_3" VPOS="422" WIDTH="1622">
+<String CONTENT="plusieurs familles nobles du pays, il les faisait avertir secrète¬" HEIGHT="52" HPOS="310" ID="string_tl_3" VPOS="422" WIDTH="1622"/>
+</TextLine>
+<TextLine BASELINE="310 538 1933 538" HEIGHT="52" HPOS="310" ID="tl_4" VPOS="486" WIDTH="1623">
+<String CONTENT="ment et trouvait leurs maisons vides quand il arrivait : il sauva" HEIGHT="52" HPOS="310" ID="string_tl_4" VPOS="486" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="309 603 1934 603" HEIGHT="51" HPOS="309" ID="tl_5" VPOS="552" WIDTH="1625">
+<String CONTENT="ainsi le comte de Monferré dont le fils, devenu plus tard chef de" HEIGHT="51" HPOS="309" ID="string_tl_5" VPOS="552" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="309 668 1932 668" HEIGHT="51" HPOS="309" ID="tl_6" VPOS="617" WIDTH="1623">
+<String CONTENT="légion de gendarmerie dans les Pyrénées-Orientales, lui en" HEIGHT="51" HPOS="309" ID="string_tl_6" VPOS="617" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="310 732 1521 732" HEIGHT="50" HPOS="310" ID="tl_7" VPOS="682" WIDTH="1211">
+<String CONTENT="témoigna sa gratitude en protégeant ses enfants." HEIGHT="50" HPOS="310" ID="string_tl_7" VPOS="682" WIDTH="1211"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="899" HPOS="304" ID="r_1_3" VPOS="746" WIDTH="1632">
+<Shape>
+<Polygon POINTS="304 746 1936 746 1936 1645 304 1645"/>
+</Shape>
+<TextLine BASELINE="362 797 1933 797" HEIGHT="50" HPOS="362" ID="tl_8" VPOS="747" WIDTH="1571">
+<String CONTENT="Le père de D“* naquit à Olet. Engagé sous la Restauration dans" HEIGHT="50" HPOS="362" ID="string_tl_8" VPOS="747" WIDTH="1571"/>
+</TextLine>
+<TextLine BASELINE="307 862 1933 862" HEIGHT="50" HPOS="307" ID="tl_9" VPOS="812" WIDTH="1626">
+<String CONTENT="une légion départementale, il arriva vite sous-lieutenant, grâce" HEIGHT="50" HPOS="307" ID="string_tl_9" VPOS="812" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="308 928 1934 928" HEIGHT="51" HPOS="308" ID="tl_10" VPOS="877" WIDTH="1626">
+<String CONTENT="à l’appui des Mont ferré. Il se distingua par sa bravoure au siège" HEIGHT="51" HPOS="308" ID="string_tl_10" VPOS="877" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 992 1932 992" HEIGHT="50" HPOS="307" ID="tl_11" VPOS="942" WIDTH="1625">
+<String CONTENT="d’Anvers, au Panthéon en 1830, puis dans la guerre d’Afrique." HEIGHT="50" HPOS="307" ID="string_tl_11" VPOS="942" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="307 1057 1933 1057" HEIGHT="50" HPOS="307" ID="tl_12" VPOS="1007" WIDTH="1626">
+<String CONTENT="Il devint ainsi capitaine de grenadiers. Revenu en France, il" HEIGHT="50" HPOS="307" ID="string_tl_12" VPOS="1007" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 1123 1931 1123" HEIGHT="50" HPOS="307" ID="tl_13" VPOS="1073" WIDTH="1624">
+<String CONTENT="occupa avec son régiment plusieurs villes de garnison : Avignon," HEIGHT="50" HPOS="307" ID="string_tl_13" VPOS="1073" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="306 1189 1935 1189" HEIGHT="51" HPOS="306" ID="tl_14" VPOS="1138" WIDTH="1629">
+<String CONTENT="Besançon, Lons-le-Saulnier, Montmédy, Amiens, Montreuil-sur-" HEIGHT="51" HPOS="306" ID="string_tl_14" VPOS="1138" WIDTH="1629"/>
+</TextLine>
+<TextLine BASELINE="308 1251 1934 1251" HEIGHT="48" HPOS="308" ID="tl_15" VPOS="1203" WIDTH="1626">
+<String CONTENT="Mer, Ham. Ces changements continuels étaient très onéreux et" HEIGHT="48" HPOS="308" ID="string_tl_15" VPOS="1203" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 1319 1932 1319" HEIGHT="52" HPOS="307" ID="tl_16" VPOS="1267" WIDTH="1625">
+<String CONTENT="très pénibles, car il s’était marié à Olet avec une parente éloi¬" HEIGHT="52" HPOS="307" ID="string_tl_16" VPOS="1267" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="305 1383 1931 1383" HEIGHT="51" HPOS="305" ID="tl_17" VPOS="1332" WIDTH="1626">
+<String CONTENT="gnée, tille d’un pharmacien, et cette union avait été féconde." HEIGHT="51" HPOS="305" ID="string_tl_17" VPOS="1332" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 1448 1931 1448" HEIGHT="52" HPOS="307" ID="tl_18" VPOS="1396" WIDTH="1624">
+<String CONTENT="Il prit sa retraite dans ce pays et sa femme y mourut en 1850;" HEIGHT="52" HPOS="307" ID="string_tl_18" VPOS="1396" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="308 1512 1933 1512" HEIGHT="51" HPOS="308" ID="tl_19" VPOS="1461" WIDTH="1625">
+<String CONTENT="lui-mèine mourut en 1858, à l’âge de 61 ans, des suites d’une" HEIGHT="51" HPOS="308" ID="string_tl_19" VPOS="1461" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="306 1579 1932 1579" HEIGHT="51" HPOS="306" ID="tl_20" VPOS="1528" WIDTH="1626">
+<String CONTENT="chute de cheval, en allant au pèlerinage de Font-Romeu, en" HEIGHT="51" HPOS="306" ID="string_tl_20" VPOS="1528" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 1644 1596 1644" HEIGHT="51" HPOS="307" ID="tl_21" VPOS="1593" WIDTH="1289">
+<String CONTENT="France, sanctuaire très fréquenté par les Espagnols." HEIGHT="51" HPOS="307" ID="string_tl_21" VPOS="1593" WIDTH="1289"/>
+</TextLine>
+</TextBlock>
+<TextBlock HEIGHT="1489" HPOS="304" ID="r_1_4" VPOS="1663" WIDTH="1630">
+<Shape>
+<Polygon POINTS="304 1663 1934 1663 1934 3152 304 3152"/>
+</Shape>
+<TextLine BASELINE="360 1715 1931 1715" HEIGHT="51" HPOS="360" ID="tl_22" VPOS="1664" WIDTH="1571">
+<String CONTENT="1)’** naquit à Olet en 1838. Il suivit, tout enfant, son père dans" HEIGHT="51" HPOS="360" ID="string_tl_22" VPOS="1664" WIDTH="1571"/>
+</TextLine>
+<TextLine BASELINE="307 1780 1932 1780" HEIGHT="49" HPOS="307" ID="tl_23" VPOS="1731" WIDTH="1625">
+<String CONTENT="plusieurs garnisons et revint avec lui au lieu de sa retraite. A sa" HEIGHT="49" HPOS="307" ID="string_tl_23" VPOS="1731" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="305 1846 1931 1846" HEIGHT="51" HPOS="305" ID="tl_24" VPOS="1795" WIDTH="1626">
+<String CONTENT="mort, il entra comme enfant de troupe dans un régiment d’infan¬" HEIGHT="51" HPOS="305" ID="string_tl_24" VPOS="1795" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="307 1911 1932 1911" HEIGHT="50" HPOS="307" ID="tl_25" VPOS="1861" WIDTH="1625">
+<String CONTENT="terie â Perpignan : les enfants de troupe, qui sont, aujourd'hui" HEIGHT="50" HPOS="307" ID="string_tl_25" VPOS="1861" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="306 1978 1933 1978" HEIGHT="52" HPOS="306" ID="tl_26" VPOS="1926" WIDTH="1627">
+<String CONTENT="l’objet d’une grande sollicitude, étaient alors complètement" HEIGHT="52" HPOS="306" ID="string_tl_26" VPOS="1926" WIDTH="1627"/>
+</TextLine>
+<TextLine BASELINE="306 2042 1929 2042" HEIGHT="51" HPOS="306" ID="tl_27" VPOS="1991" WIDTH="1623">
+<String CONTENT="abandonnés. I)*** s’engagea â 17 ans dans l’infanterie de ligne ;" HEIGHT="51" HPOS="306" ID="string_tl_27" VPOS="1991" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="306 2107 1932 2107" HEIGHT="51" HPOS="306" ID="tl_28" VPOS="2056" WIDTH="1626">
+<String CONTENT="à 18 ans, il était caporal et entrait avec ce grade aux grenadiers" HEIGHT="51" HPOS="306" ID="string_tl_28" VPOS="2056" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="306 2172 1932 2172" HEIGHT="51" HPOS="306" ID="tl_29" VPOS="2121" WIDTH="1626">
+<String CONTENT="de la Garde impériale. Il resta deux ans à Paris ; mais, écœuré" HEIGHT="51" HPOS="306" ID="string_tl_29" VPOS="2121" WIDTH="1626"/>
+</TextLine>
+<TextLine BASELINE="306 2238 1931 2238" HEIGHT="51" HPOS="306" ID="tl_30" VPOS="2187" WIDTH="1625">
+<String CONTENT="du spectacle de la vie dissolue de la capitale et se sentant mal à" HEIGHT="51" HPOS="306" ID="string_tl_30" VPOS="2187" WIDTH="1625"/>
+</TextLine>
+<TextLine BASELINE="308 2304 1931 2304" HEIGHT="52" HPOS="308" ID="tl_31" VPOS="2252" WIDTH="1623">
+<String CONTENT="l’aise vis-â-vis des vieux soldats de Crimée, il partit en Afrique" HEIGHT="52" HPOS="308" ID="string_tl_31" VPOS="2252" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="308 2368 1932 2368" HEIGHT="52" HPOS="308" ID="tl_32" VPOS="2316" WIDTH="1624">
+<String CONTENT="aux zouaves. Il lit la campagne d’Italie, prit part aux batailles" HEIGHT="52" HPOS="308" ID="string_tl_32" VPOS="2316" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="308 2432 1932 2432" HEIGHT="51" HPOS="308" ID="tl_33" VPOS="2381" WIDTH="1624">
+<String CONTENT="de Montebello et de Marignan, et lâ reçut quatre blessures; il" HEIGHT="51" HPOS="308" ID="string_tl_33" VPOS="2381" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="308 2498 1929 2498" HEIGHT="51" HPOS="308" ID="tl_34" VPOS="2447" WIDTH="1621">
+<String CONTENT="resta en Italie, à Milan et à Pavie, avec l’année d’occupation," HEIGHT="51" HPOS="308" ID="string_tl_34" VPOS="2447" WIDTH="1621"/>
+</TextLine>
+<TextLine BASELINE="309 2565 1928 2565" HEIGHT="53" HPOS="309" ID="tl_35" VPOS="2512" WIDTH="1619">
+<String CONTENT="puis revint en Afrique faire la campagne du Maroc, où il éprouva," HEIGHT="53" HPOS="309" ID="string_tl_35" VPOS="2512" WIDTH="1619"/>
+</TextLine>
+<TextLine BASELINE="309 2629 1933 2629" HEIGHT="51" HPOS="309" ID="tl_36" VPOS="2578" WIDTH="1624">
+<String CONTENT="ainsi (pie toute l'expédition, de grandes misères. Il lit la cam¬" HEIGHT="51" HPOS="309" ID="string_tl_36" VPOS="2578" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="308 2695 1932 2695" HEIGHT="53" HPOS="308" ID="tl_37" VPOS="2642" WIDTH="1624">
+<String CONTENT="pagne de Syrie et lut témoin des affreux massacres de Deir-el-" HEIGHT="53" HPOS="308" ID="string_tl_37" VPOS="2642" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="307 2756 1930 2756" HEIGHT="49" HPOS="307" ID="tl_38" VPOS="2707" WIDTH="1623">
+<String CONTENT="Kamar et de Damas ; car, â l’arrivée des Français, les cadavres" HEIGHT="49" HPOS="307" ID="string_tl_38" VPOS="2707" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="309 2825 1931 2825" HEIGHT="52" HPOS="309" ID="tl_39" VPOS="2773" WIDTH="1622">
+<String CONTENT="égorgés n’avaient pas encore été enlevés et on les voyait serrés" HEIGHT="52" HPOS="309" ID="string_tl_39" VPOS="2773" WIDTH="1622"/>
+</TextLine>
+<TextLine BASELINE="308 2888 1930 2888" HEIGHT="50" HPOS="308" ID="tl_40" VPOS="2838" WIDTH="1622">
+<String CONTENT="dans les bras l’un de l’autre. Il fut ensuite envoyé au Mexique où" HEIGHT="50" HPOS="308" ID="string_tl_40" VPOS="2838" WIDTH="1622"/>
+</TextLine>
+<TextLine BASELINE="308 2953 1931 2953" HEIGHT="50" HPOS="308" ID="tl_41" VPOS="2903" WIDTH="1623">
+<String CONTENT="il eut de grandes fatigues â supporter; il lit partie de colonnes" HEIGHT="50" HPOS="308" ID="string_tl_41" VPOS="2903" WIDTH="1623"/>
+</TextLine>
+<TextLine BASELINE="307 3019 1931 3019" HEIGHT="52" HPOS="307" ID="tl_42" VPOS="2967" WIDTH="1624">
+<String CONTENT="volantes qui sillonnèrent tout le pays et il y vécut toujours en" HEIGHT="52" HPOS="307" ID="string_tl_42" VPOS="2967" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="308 3084 1932 3084" HEIGHT="52" HPOS="308" ID="tl_43" VPOS="3032" WIDTH="1624">
+<String CONTENT="très bonne intelligence avec les indigènes, dont il parlait la" HEIGHT="52" HPOS="308" ID="string_tl_43" VPOS="3032" WIDTH="1624"/>
+</TextLine>
+<TextLine BASELINE="309 3151 1930 3151" HEIGHT="55" HPOS="309" ID="tl_44" VPOS="3096" WIDTH="1621">
+<String CONTENT="langue et qui étaient généralement pleins d’urbanité pour le" HEIGHT="55" HPOS="309" ID="string_tl_44" VPOS="3096" WIDTH="1621"/>
+</TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

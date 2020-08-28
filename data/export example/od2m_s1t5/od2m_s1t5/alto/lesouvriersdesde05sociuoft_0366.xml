@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-08-28T16:17:13.225+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="3508" WIDTH="2170">
+         <TopMargin HEIGHT="253" WIDTH="2170" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2942" WIDTH="297" VPOS="253" HPOS="0"/>
+         <RightMargin HEIGHT="2942" WIDTH="189" VPOS="253" HPOS="1981"/>
+         <BottomMargin HEIGHT="313" WIDTH="2170" VPOS="3195" HPOS="0"/>
+         <PrintSpace HEIGHT="2942" WIDTH="1684" VPOS="253" HPOS="297">
+            <TextBlock ID="r_1_1" HEIGHT="39" WIDTH="78" VPOS="273" HPOS="334">
+               <Shape>
+                  <Polygon POINTS="334,273 412,273 412,312 334,312"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="311"
+                         HEIGHT="37"
+                         WIDTH="76"
+                         VPOS="274"
+                         HPOS="335">
+                  <String ID="string_tl_1"
+                          HEIGHT="37"
+                          WIDTH="76"
+                          VPOS="274"
+                          HPOS="335"
+                          CONTENT="274"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_2_1" HEIGHT="51" WIDTH="1229" VPOS="264" HPOS="531">
+               <Shape>
+                  <Polygon POINTS="531,264 1760,264 1760,315 531,315"/>
+               </Shape>
+               <TextLine ID="tl_2"
+                         BASELINE="314"
+                         HEIGHT="49"
+                         WIDTH="1227"
+                         VPOS="265"
+                         HPOS="532">
+                  <String ID="string_tl_2"
+                          HEIGHT="49"
+                          WIDTH="1227"
+                          VPOS="265"
+                          HPOS="532"
+                          CONTENT=".N&#34; 43. — BRIGADIËR DE LA GARDÉ RÉPUBLICAINE."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_1" HEIGHT="232" WIDTH="1626" VPOS="368" HPOS="333">
+               <Shape>
+                  <Polygon POINTS="333,368 1959,368 1959,600 333,600"/>
+               </Shape>
+               <TextLine ID="tl_3"
+                         BASELINE="427"
+                         HEIGHT="58"
+                         WIDTH="1621"
+                         VPOS="369"
+                         HPOS="336">
+                  <String ID="string_tl_3"
+                          HEIGHT="58"
+                          WIDTH="1621"
+                          VPOS="369"
+                          HPOS="336"
+                          CONTENT="Total : 6.'î fr. 44. — II. Appartenant à l’homme. — 1 épée, 7 fr. KO. —"/>
+               </TextLine>
+               <TextLine ID="tl_4"
+                         BASELINE="485"
+                         HEIGHT="57"
+                         WIDTH="1623"
+                         VPOS="428"
+                         HPOS="335">
+                  <String ID="string_tl_4"
+                          HEIGHT="57"
+                          WIDTH="1623"
+                          VPOS="428"
+                          HPOS="335"
+                          CONTENT="1 revolver à fi coups, avec un étui et 200 cartouches, 2K fr. — 1 petit"/>
+               </TextLine>
+               <TextLine ID="tl_5"
+                         BASELINE="545"
+                         HEIGHT="57"
+                         WIDTH="1624"
+                         VPOS="488"
+                         HPOS="334">
+                  <String ID="string_tl_5"
+                          HEIGHT="57"
+                          WIDTH="1624"
+                          VPOS="488"
+                          HPOS="334"
+                          CONTENT="revolver à fi coups, avec 12 cartouches. 12 fr. — 1 pistolet de salon, sys¬"/>
+               </TextLine>
+               <TextLine ID="tl_6"
+                         BASELINE="599"
+                         HEIGHT="53"
+                         WIDTH="1624"
+                         VPOS="546"
+                         HPOS="334">
+                  <String ID="string_tl_6"
+                          HEIGHT="53"
+                          WIDTH="1624"
+                          VPOS="546"
+                          HPOS="334"
+                          CONTENT="tème Flaubert, 10 fr. — 1 boite, avec 80 cartouches Flaubert, 1 fr. 80. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_2" HEIGHT="57" WIDTH="1625" VPOS="605" HPOS="331">
+               <Shape>
+                  <Polygon POINTS="331,605 1956,605 1956,662 331,662"/>
+               </Shape>
+               <TextLine ID="tl_7"
+                         BASELINE="661"
+                         HEIGHT="55"
+                         WIDTH="1623"
+                         VPOS="606"
+                         HPOS="332">
+                  <String ID="string_tl_7"
+                          HEIGHT="55"
+                          WIDTH="1623"
+                          VPOS="606"
+                          HPOS="332"
+                          CONTENT="1 plaque de tôle pour tirer avec le pistolet Flaubert, I fr. — Total :"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_3" HEIGHT="39" WIDTH="213" VPOS="671" HPOS="331">
+               <Shape>
+                  <Polygon POINTS="331,671 544,671 544,710 331,710"/>
+               </Shape>
+               <TextLine ID="tl_8"
+                         BASELINE="709"
+                         HEIGHT="37"
+                         WIDTH="211"
+                         VPOS="672"
+                         HPOS="332">
+                  <String ID="string_tl_8"
+                          HEIGHT="37"
+                          WIDTH="211"
+                          VPOS="672"
+                          HPOS="332"
+                          CONTENT="87 fr. 30."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_4" HEIGHT="44" WIDTH="985" VPOS="725" HPOS="378">
+               <Shape>
+                  <Polygon POINTS="378,725 1363,725 1363,769 378,769"/>
+               </Shape>
+               <TextLine ID="tl_9"
+                         BASELINE="768"
+                         HEIGHT="42"
+                         WIDTH="983"
+                         VPOS="726"
+                         HPOS="379">
+                  <String ID="string_tl_9"
+                          HEIGHT="42"
+                          WIDTH="983"
+                          VPOS="726"
+                          HPOS="379"
+                          CONTENT="Total des armes et des munitions : 122 fr. 74."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_5" HEIGHT="232" WIDTH="1627" VPOS="783" HPOS="330">
+               <Shape>
+                  <Polygon POINTS="330,783 1957,783 1957,1015 330,1015"/>
+               </Shape>
+               <TextLine ID="tl_10"
+                         BASELINE="836"
+                         HEIGHT="52"
+                         WIDTH="1578"
+                         VPOS="784"
+                         HPOS="378">
+                  <String ID="string_tl_10"
+                          HEIGHT="52"
+                          WIDTH="1578"
+                          VPOS="784"
+                          HPOS="378"
+                          CONTENT="6° décorations cl bijoux. — 1 médaille militaire neuve, 13 fr. — 1 mé¬"/>
+               </TextLine>
+               <TextLine ID="tl_11"
+                         BASELINE="896"
+                         HEIGHT="53"
+                         WIDTH="1625"
+                         VPOS="843"
+                         HPOS="331">
+                  <String ID="string_tl_11"
+                          HEIGHT="53"
+                          WIDTH="1625"
+                          VPOS="843"
+                          HPOS="331"
+                          CONTENT="daille d'Italie, fi fr. OU. — 1 médaille du Mexique, fi fr. — 1 montre en or à"/>
+               </TextLine>
+               <TextLine ID="tl_12"
+                         BASELINE="956"
+                         HEIGHT="54"
+                         WIDTH="1625"
+                         VPOS="902"
+                         HPOS="331">
+                  <String ID="string_tl_12"
+                          HEIGHT="54"
+                          WIDTH="1625"
+                          VPOS="902"
+                          HPOS="331"
+                          CONTENT="cylindre et 8 rubis, loo fr. — 1 chaine en jais, 4 fr. — 1 alliance de famille"/>
+               </TextLine>
+               <TextLine ID="tl_13"
+                         BASELINE="1014"
+                         HEIGHT="50"
+                         WIDTH="1217"
+                         VPOS="964"
+                         HPOS="333">
+                  <String ID="string_tl_13"
+                          HEIGHT="50"
+                          WIDTH="1217"
+                          VPOS="964"
+                          HPOS="333"
+                          CONTENT="(venue de la mère du mari). 10 l'r. — dotal : 130 francs."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_6" HEIGHT="49" WIDTH="806" VPOS="1041" HPOS="377">
+               <Shape>
+                  <Polygon POINTS="377,1041 1183,1041 1183,1090 377,1090"/>
+               </Shape>
+               <TextLine ID="tl_14"
+                         BASELINE="1089"
+                         HEIGHT="47"
+                         WIDTH="804"
+                         VPOS="1042"
+                         HPOS="378">
+                  <String ID="string_tl_14"
+                          HEIGHT="47"
+                          WIDTH="804"
+                          VPOS="1042"
+                          HPOS="378"
+                          CONTENT="VÈTKXir.NTS ni. I.A FEMME (K09 fr. fiü)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_7" HEIGHT="54" WIDTH="1582" VPOS="1116" HPOS="376">
+               <Shape>
+                  <Polygon POINTS="376,1116 1958,1116 1958,1170 376,1170"/>
+               </Shape>
+               <TextLine ID="tl_15"
+                         BASELINE="1169"
+                         HEIGHT="52"
+                         WIDTH="1580"
+                         VPOS="1117"
+                         HPOS="377">
+                  <String ID="string_tl_15"
+                          HEIGHT="52"
+                          WIDTH="1580"
+                          VPOS="1117"
+                          HPOS="377"
+                          CONTENT="1° Vêtements du dimanche. — 1 robe en cachemire noire, 23 fr. 80. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_8" HEIGHT="57" WIDTH="1628" VPOS="1178" HPOS="328">
+               <Shape>
+                  <Polygon POINTS="328,1178 1956,1178 1956,1235 328,1235"/>
+               </Shape>
+               <TextLine ID="tl_16"
+                         BASELINE="1234"
+                         HEIGHT="55"
+                         WIDTH="1626"
+                         VPOS="1179"
+                         HPOS="329">
+                  <String ID="string_tl_16"
+                          HEIGHT="55"
+                          WIDTH="1626"
+                          VPOS="1179"
+                          HPOS="329"
+                          CONTENT="1 robe fantaisie couleur verte, 7 fr. 10. — 1 paletot en drap, 17 fr. KO. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_9" HEIGHT="116" WIDTH="1632" VPOS="1237" HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1237 1958,1237 1958,1353 326,1353"/>
+               </Shape>
+               <TextLine ID="tl_17"
+                         BASELINE="1294"
+                         HEIGHT="56"
+                         WIDTH="1628"
+                         VPOS="1238"
+                         HPOS="329">
+                  <String ID="string_tl_17"
+                          HEIGHT="56"
+                          WIDTH="1628"
+                          VPOS="1238"
+                          HPOS="329"
+                          CONTENT="1 vêtement dit visite. 7 fr. 70. — 1 chapeau de velours, K fr. — 3 jupons"/>
+               </TextLine>
+               <TextLine ID="tl_18"
+                         BASELINE="1352"
+                         HEIGHT="55"
+                         WIDTH="1627"
+                         VPOS="1297"
+                         HPOS="327">
+                  <String ID="string_tl_18"
+                          HEIGHT="55"
+                          WIDTH="1627"
+                          VPOS="1297"
+                          HPOS="327"
+                          CONTENT="blancs. 3 fr. (50. — 3 jupons blancs, 2 fr. 30. — 1 jupon de moire anglaise,"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_10" HEIGHT="58" WIDTH="1630" VPOS="1355" HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1355 1956,1355 1956,1413 326,1413"/>
+               </Shape>
+               <TextLine ID="tl_19"
+                         BASELINE="1412"
+                         HEIGHT="56"
+                         WIDTH="1628"
+                         VPOS="1356"
+                         HPOS="327">
+                  <String ID="string_tl_19"
+                          HEIGHT="56"
+                          WIDTH="1628"
+                          VPOS="1356"
+                          HPOS="327"
+                          CONTENT="1 fr. 2K. — 1 jupon de soie, 10 fr. — 1 paire de jarretières, 0 fr. 3K. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_11"
+                       HEIGHT="104"
+                       WIDTH="1629"
+                       VPOS="1415"
+                       HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1415 1955,1415 1955,1519 326,1519"/>
+               </Shape>
+               <TextLine ID="tl_20"
+                         BASELINE="1472"
+                         HEIGHT="56"
+                         WIDTH="1627"
+                         VPOS="1416"
+                         HPOS="327">
+                  <String ID="string_tl_20"
+                          HEIGHT="56"
+                          WIDTH="1627"
+                          VPOS="1416"
+                          HPOS="327"
+                          CONTENT="2 paires de gants de peau, 4 fr. — 1 paire de bottines en cuir, 4 fr. —"/>
+               </TextLine>
+               <TextLine ID="tl_21"
+                         BASELINE="1518"
+                         HEIGHT="37"
+                         WIDTH="351"
+                         VPOS="1481"
+                         HPOS="328">
+                  <String ID="string_tl_21"
+                          HEIGHT="37"
+                          WIDTH="351"
+                          VPOS="1481"
+                          HPOS="328"
+                          CONTENT="Total : 8(5 fr. fit)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_12"
+                       HEIGHT="175"
+                       WIDTH="1630"
+                       VPOS="1534"
+                       HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1534 1956,1534 1956,1709 326,1709"/>
+               </Shape>
+               <TextLine ID="tl_22"
+                         BASELINE="1589"
+                         HEIGHT="54"
+                         WIDTH="1579"
+                         VPOS="1535"
+                         HPOS="374">
+                  <String ID="string_tl_22"
+                          HEIGHT="54"
+                          WIDTH="1579"
+                          VPOS="1535"
+                          HPOS="374"
+                          CONTENT="2U Vêtements de travail. — 2 robes de laine pour la journée. 24 fr. KO."/>
+               </TextLine>
+               <TextLine ID="tl_23"
+                         BASELINE="1649"
+                         HEIGHT="56"
+                         WIDTH="1628"
+                         VPOS="1593"
+                         HPOS="327">
+                  <String ID="string_tl_23"
+                          HEIGHT="56"
+                          WIDTH="1628"
+                          VPOS="1593"
+                          HPOS="327"
+                          CONTENT="— 4 robes de laine pour le matin, provenant des précédentes. 24 fr. Ko. —"/>
+               </TextLine>
+               <TextLine ID="tl_24"
+                         BASELINE="1708"
+                         HEIGHT="55"
+                         WIDTH="1626"
+                         VPOS="1653"
+                         HPOS="327">
+                  <String ID="string_tl_24"
+                          HEIGHT="55"
+                          WIDTH="1626"
+                          VPOS="1653"
+                          HPOS="327"
+                          CONTENT="2 robes, 12 fr. 23. — 1 water-proof, 4 fr. KO. — 1 manteau mérinos,"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_13" HEIGHT="46" WIDTH="1630" VPOS="1712" HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1712 1956,1712 1956,1758 326,1758"/>
+               </Shape>
+               <TextLine ID="tl_25"
+                         BASELINE="1757"
+                         HEIGHT="44"
+                         WIDTH="1628"
+                         VPOS="1713"
+                         HPOS="327">
+                  <String ID="string_tl_25"
+                          HEIGHT="44"
+                          WIDTH="1628"
+                          VPOS="1713"
+                          HPOS="327"
+                          CONTENT="2 fr. 80. — 2 douzaines de chemises. 28 fr. 80. — 1 douzaine de mouchoirs"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_14" HEIGHT="59" WIDTH="1628" VPOS="1769" HPOS="326">
+               <Shape>
+                  <Polygon POINTS="326,1769 1954,1769 1954,1828 326,1828"/>
+               </Shape>
+               <TextLine ID="tl_26"
+                         BASELINE="1827"
+                         HEIGHT="57"
+                         WIDTH="1626"
+                         VPOS="1770"
+                         HPOS="327">
+                  <String ID="string_tl_26"
+                          HEIGHT="57"
+                          WIDTH="1626"
+                          VPOS="1770"
+                          HPOS="327"
+                          CONTENT="de poche, 1 fr. KO. — 1 douzaine de mouchoirs de poche, 3 fr. 30. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_15" HEIGHT="58" WIDTH="1627" VPOS="1829" HPOS="327">
+               <Shape>
+                  <Polygon POINTS="327,1829 1954,1829 1954,1887 327,1887"/>
+               </Shape>
+               <TextLine ID="tl_27"
+                         BASELINE="1886"
+                         HEIGHT="56"
+                         WIDTH="1625"
+                         VPOS="1830"
+                         HPOS="328">
+                  <String ID="string_tl_27"
+                          HEIGHT="56"
+                          WIDTH="1625"
+                          VPOS="1830"
+                          HPOS="328"
+                          CONTENT="1 douzaine de paires de bas. 12 fr. — 1 corset, 4 fr. — 2 tabliers en"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_16"
+                       HEIGHT="117"
+                       WIDTH="1628"
+                       VPOS="1888"
+                       HPOS="325">
+               <Shape>
+                  <Polygon POINTS="325,1888 1953,1888 1953,2005 325,2005"/>
+               </Shape>
+               <TextLine ID="tl_28"
+                         BASELINE="1944"
+                         HEIGHT="55"
+                         WIDTH="1625"
+                         VPOS="1889"
+                         HPOS="327">
+                  <String ID="string_tl_28"
+                          HEIGHT="55"
+                          WIDTH="1625"
+                          VPOS="1889"
+                          HPOS="327"
+                          CONTENT="colonnade. 2 fr. KK. — 2 paires de manchettes, 0 fr. 7K. — 3 cols, 1 fr. —"/>
+               </TextLine>
+               <TextLine ID="tl_29"
+                         BASELINE="2004"
+                         HEIGHT="55"
+                         WIDTH="1626"
+                         VPOS="1949"
+                         HPOS="326">
+                  <String ID="string_tl_29"
+                          HEIGHT="55"
+                          WIDTH="1626"
+                          VPOS="1949"
+                          HPOS="326"
+                          CONTENT="4 foulards, fi fr. KO.— fi bonnets, 3 fr. —1 paire de bottines en étoffe,"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_17" HEIGHT="58" WIDTH="1429" VPOS="2008" HPOS="325">
+               <Shape>
+                  <Polygon POINTS="325,2008 1754,2008 1754,2066 325,2066"/>
+               </Shape>
+               <TextLine ID="tl_30"
+                         BASELINE="2065"
+                         HEIGHT="56"
+                         WIDTH="1427"
+                         VPOS="2009"
+                         HPOS="326">
+                  <String ID="string_tl_30"
+                          HEIGHT="56"
+                          WIDTH="1427"
+                          VPOS="2009"
+                          HPOS="326"
+                          CONTENT="3 fr. KO. — 1 paire de caoutchoucs, 0 fr. (50. — Total : 13fi fr. OK."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_18"
+                       HEIGHT="239"
+                       WIDTH="1629"
+                       VPOS="2066"
+                       HPOS="324">
+               <Shape>
+                  <Polygon POINTS="324,2066 1953,2066 1953,2305 324,2305"/>
+               </Shape>
+               <TextLine ID="tl_31"
+                         BASELINE="2123"
+                         HEIGHT="56"
+                         WIDTH="1578"
+                         VPOS="2067"
+                         HPOS="372">
+                  <String ID="string_tl_31"
+                          HEIGHT="56"
+                          WIDTH="1578"
+                          VPOS="2067"
+                          HPOS="372"
+                          CONTENT="3° Bijoux. — Une montre de femme remontoir, système Louis XV."/>
+               </TextLine>
+               <TextLine ID="tl_32"
+                         BASELINE="2181"
+                         HEIGHT="54"
+                         WIDTH="1624"
+                         VPOS="2127"
+                         HPOS="328">
+                  <String ID="string_tl_32"
+                          HEIGHT="54"
+                          WIDTH="1624"
+                          VPOS="2127"
+                          HPOS="328"
+                          CONTENT="lot) fr. — 1 alliance, 18 fr. — 1 bague avec un grenat, 20 fr. — 1 médail¬"/>
+               </TextLine>
+               <TextLine ID="tl_33"
+                         BASELINE="2239"
+                         HEIGHT="54"
+                         WIDTH="1625"
+                         VPOS="2185"
+                         HPOS="325">
+                  <String ID="string_tl_33"
+                          HEIGHT="54"
+                          WIDTH="1625"
+                          VPOS="2185"
+                          HPOS="325"
+                          CONTENT="lon en or, 40 fr. — 1 Jeannette, ou croix en or, avec collier en or, 37 fr. —"/>
+               </TextLine>
+               <TextLine ID="tl_34"
+                         BASELINE="2304"
+                         HEIGHT="57"
+                         WIDTH="1350"
+                         VPOS="2247"
+                         HPOS="325">
+                  <String ID="string_tl_34"
+                          HEIGHT="57"
+                          WIDTH="1350"
+                          VPOS="2247"
+                          HPOS="325"
+                          CONTENT="1 paire de boucles d’oreilles en or, 22 fr. — Total : 287 francs."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_19" HEIGHT="53" WIDTH="742" VPOS="2337" HPOS="371">
+               <Shape>
+                  <Polygon POINTS="371,2337 1113,2337 1113,2390 371,2390"/>
+               </Shape>
+               <TextLine ID="tl_35"
+                         BASELINE="2389"
+                         HEIGHT="51"
+                         WIDTH="740"
+                         VPOS="2338"
+                         HPOS="372">
+                  <String ID="string_tl_35"
+                          HEIGHT="51"
+                          WIDTH="740"
+                          VPOS="2338"
+                          HPOS="372"
+                          CONTENT="VÊTEMENTS DU GARÇON (41 fr. Oo)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_20" HEIGHT="53" WIDTH="1580" VPOS="2411" HPOS="371">
+               <Shape>
+                  <Polygon POINTS="371,2411 1951,2411 1951,2464 371,2464"/>
+               </Shape>
+               <TextLine ID="tl_36"
+                         BASELINE="2463"
+                         HEIGHT="51"
+                         WIDTH="1578"
+                         VPOS="2412"
+                         HPOS="372">
+                  <String ID="string_tl_36"
+                          HEIGHT="51"
+                          WIDTH="1578"
+                          VPOS="2412"
+                          HPOS="372"
+                          CONTENT="1° Vêtements du dimanche. — 1 robe bleue en cachemire, 4 fr. 20. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_21"
+                       HEIGHT="116"
+                       WIDTH="1629"
+                       VPOS="2471"
+                       HPOS="323">
+               <Shape>
+                  <Polygon POINTS="323,2471 1952,2471 1952,2587 323,2587"/>
+               </Shape>
+               <TextLine ID="tl_37"
+                         BASELINE="2531"
+                         HEIGHT="59"
+                         WIDTH="1627"
+                         VPOS="2472"
+                         HPOS="324">
+                  <String ID="string_tl_37"
+                          HEIGHT="59"
+                          WIDTH="1627"
+                          VPOS="2472"
+                          HPOS="324"
+                          CONTENT="1 paletot en drap gris, 1 fr. KO. — 1 toque astrakan. 1 fr. KO. — 1 paire de"/>
+               </TextLine>
+               <TextLine ID="tl_38"
+                         BASELINE="2586"
+                         HEIGHT="56"
+                         WIDTH="1627"
+                         VPOS="2530"
+                         HPOS="324">
+                  <String ID="string_tl_38"
+                          HEIGHT="56"
+                          WIDTH="1627"
+                          VPOS="2530"
+                          HPOS="324"
+                          CONTENT="bottines blanches en peau, 2 fr. — 2 pantalons blancs en calicot, 3 fr. —"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_22"
+                       HEIGHT="123"
+                       WIDTH="1630"
+                       VPOS="2588"
+                       HPOS="322">
+               <Shape>
+                  <Polygon POINTS="322,2588 1952,2588 1952,2711 322,2711"/>
+               </Shape>
+               <TextLine ID="tl_39"
+                         BASELINE="2650"
+                         HEIGHT="61"
+                         WIDTH="1628"
+                         VPOS="2589"
+                         HPOS="323">
+                  <String ID="string_tl_39"
+                          HEIGHT="61"
+                          WIDTH="1628"
+                          VPOS="2589"
+                          HPOS="323"
+                          CONTENT="4 jupons blancs en calicot, 2 fr. — 2 tabliers blancs, 2 fr. KO. — 1 paire de"/>
+               </TextLine>
+               <TextLine ID="tl_40"
+                         BASELINE="2710"
+                         HEIGHT="60"
+                         WIDTH="1440"
+                         VPOS="2650"
+                         HPOS="323">
+                  <String ID="string_tl_40"
+                          HEIGHT="60"
+                          WIDTH="1440"
+                          VPOS="2650"
+                          HPOS="323"
+                          CONTENT="gants. 0 fr. 2K. — 1 paire de mitaines, 0 fr. 2K. — Total : 17 fr. 20."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_23"
+                       HEIGHT="178"
+                       WIDTH="1632"
+                       VPOS="2707"
+                       HPOS="320">
+               <Shape>
+                  <Polygon POINTS="320,2707 1952,2707 1952,2885 320,2885"/>
+               </Shape>
+               <TextLine ID="tl_41"
+                         BASELINE="2762"
+                         HEIGHT="54"
+                         WIDTH="1582"
+                         VPOS="2708"
+                         HPOS="369">
+                  <String ID="string_tl_41"
+                          HEIGHT="54"
+                          WIDTH="1582"
+                          VPOS="2708"
+                          HPOS="369"
+                          CONTENT="2° Vêlements de la semaine. — 1 robe bleue en drap, 1 fr. — 3 robes"/>
+               </TextLine>
+               <TextLine ID="tl_42"
+                         BASELINE="2829"
+                         HEIGHT="61"
+                         WIDTH="1627"
+                         VPOS="2768"
+                         HPOS="322">
+                  <String ID="string_tl_42"
+                          HEIGHT="61"
+                          WIDTH="1627"
+                          VPOS="2768"
+                          HPOS="322"
+                          CONTENT="grises, 2 fr. — 1 manteau, 1 fr. — 1 loque astrakan, 0 fr. KO. — 4 che¬"/>
+               </TextLine>
+               <TextLine ID="tl_43"
+                         BASELINE="2884"
+                         HEIGHT="57"
+                         WIDTH="1626"
+                         VPOS="2827"
+                         HPOS="321">
+                  <String ID="string_tl_43"
+                          HEIGHT="57"
+                          WIDTH="1626"
+                          VPOS="2827"
+                          HPOS="321"
+                          CONTENT="mises, 3 fr. — 6 mouchoirs de poche, U fr. (50. — fi paires de bas de colon,"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_24"
+                       HEIGHT="180"
+                       WIDTH="1630"
+                       VPOS="2884"
+                       HPOS="319">
+               <Shape>
+                  <Polygon POINTS="319,2884 1949,2884 1949,3064 319,3064"/>
+               </Shape>
+               <TextLine ID="tl_44"
+                         BASELINE="2944"
+                         HEIGHT="59"
+                         WIDTH="1626"
+                         VPOS="2885"
+                         HPOS="321">
+                  <String ID="string_tl_44"
+                          HEIGHT="59"
+                          WIDTH="1626"
+                          VPOS="2885"
+                          HPOS="321"
+                          CONTENT="2 fr. — 2 paires de bas de laine, 2 fr. — I paire de bas de laine, 0 fr. 7K.—"/>
+               </TextLine>
+               <TextLine ID="tl_45"
+                         BASELINE="2996"
+                         HEIGHT="52"
+                         WIDTH="1628"
+                         VPOS="2944"
+                         HPOS="320">
+                  <String ID="string_tl_45"
+                          HEIGHT="52"
+                          WIDTH="1628"
+                          VPOS="2944"
+                          HPOS="320"
+                          CONTENT="4 bonnets de nuit en couleur, 1 fr. — fi fichus de cou, 1 fr. Ko. — 2 fou¬"/>
+               </TextLine>
+               <TextLine ID="tl_46"
+                         BASELINE="3063"
+                         HEIGHT="60"
+                         WIDTH="1623"
+                         VPOS="3003"
+                         HPOS="322">
+                  <String ID="string_tl_46"
+                          HEIGHT="60"
+                          WIDTH="1623"
+                          VPOS="3003"
+                          HPOS="322"
+                          CONTENT="lards, 0 fr. KO. — 3 tabliers en cotonnade, 3 fr. — 1 paire de galoches."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_25"
+                       HEIGHT="123"
+                       WIDTH="1630"
+                       VPOS="3061"
+                       HPOS="319">
+               <Shape>
+                  <Polygon POINTS="319,3061 1949,3061 1949,3184 319,3184"/>
+               </Shape>
+               <TextLine ID="tl_47"
+                         BASELINE="3121"
+                         HEIGHT="59"
+                         WIDTH="1627"
+                         VPOS="3062"
+                         HPOS="321">
+                  <String ID="string_tl_47"
+                          HEIGHT="59"
+                          WIDTH="1627"
+                          VPOS="3062"
+                          HPOS="321"
+                          CONTENT="1 fr. KO. — 1 paires de [bottines noires, 3 fr. — 1 paire de souliers pour"/>
+               </TextLine>
+               <TextLine ID="tl_48"
+                         BASELINE="3183"
+                         HEIGHT="57"
+                         WIDTH="728"
+                         VPOS="3126"
+                         HPOS="320">
+                  <String ID="string_tl_48"
+                          HEIGHT="57"
+                          WIDTH="728"
+                          VPOS="3126"
+                          HPOS="320"
+                          CONTENT="l’été, 0 fr. 50. — Total : 23 fr. 85."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

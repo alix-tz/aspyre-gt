@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit><sourceImageInformation><fileName>PH 1858-520.jpg</fileName></sourceImageInformation>
+<OCRProcessing ID="IdOcr">
+<ocrProcessingStep>
+<processingDateTime>2020-08-28T09:48:31.122+02:00</processingDateTime>
+<processingSoftware>
+<softwareCreator>READ COOP</softwareCreator>
+<softwareName>Transkribus</softwareName>
+</processingSoftware>
+</ocrProcessingStep>
+</OCRProcessing>
+</Description>
+<Layout>
+<Page HEIGHT="4608" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="3072">
+<TopMargin HEIGHT="0" HPOS="0" VPOS="0" WIDTH="3072"/>
+<LeftMargin HEIGHT="4608" HPOS="0" VPOS="0" WIDTH="0"/>
+<RightMargin HEIGHT="4608" HPOS="3072" VPOS="0" WIDTH="0"/>
+<BottomMargin HEIGHT="0" HPOS="0" VPOS="4608" WIDTH="3072"/>
+<PrintSpace HEIGHT="4608" HPOS="0" VPOS="0" WIDTH="3072">
+<TextBlock HEIGHT="3513" HPOS="645" ID="r3" VPOS="494" WIDTH="2168">
+<Shape>
+<Polygon POINTS="645 498 645 4007 2813 4003 2813 494"/>
+</Shape>
+<TextLine BASELINE="1196 581 1964 581" HEIGHT="127" HPOS="1196" ID="r3l1" VPOS="454" WIDTH="768">
+<String CONTENT="Du dit jour vingt huit Mi" HEIGHT="127" HPOS="1196" ID="string_r3l1" VPOS="454" WIDTH="768"/>
+</TextLine>
+<TextLine BASELINE="711 664 2569 664" HEIGHT="148" HPOS="711" ID="r3l2" VPOS="516" WIDTH="1858">
+<String CONTENT="Entre Madame Elisa lécité Prévert, cocsetière, épause " HEIGHT="148" HPOS="711" ID="string_r3l2" VPOS="516" WIDTH="1858"/>
+</TextLine>
+<TextLine BASELINE="685 735 2490 735" HEIGHT="128" HPOS="685" ID="r3l3" VPOS="607" WIDTH="1805">
+<String CONTENT="assittée, et autorisée du sieur conatale cenest Palhctisi, et ce " HEIGHT="128" HPOS="685" ID="string_r3l3" VPOS="607" WIDTH="1805"/>
+</TextLine>
+<TextLine BASELINE="700 805 2601 805" HEIGHT="114" HPOS="700" ID="r3l4" VPOS="691" WIDTH="1901">
+<String CONTENT="rerier demeurant et domocidiés ensemble, les dits époux, à Paris,rue  " HEIGHT="114" HPOS="700" ID="string_r3l4" VPOS="691" WIDTH="1901"/>
+</TextLine>
+<TextLine BASELINE="707 907 2558 907" HEIGHT="146" HPOS="707" ID="r3l5" VPOS="761" WIDTH="1851">
+<String CONTENT="hu facutouroissomere, numér sopt ; Deatandeurs, Comparant ; " HEIGHT="146" HPOS="707" ID="string_r3l5" VPOS="761" WIDTH="1851"/>
+</TextLine>
+<TextLine BASELINE="698 987 2541 987" HEIGHT="137" HPOS="698" ID="r3l6" VPOS="850" WIDTH="1843">
+<String CONTENT="D’une part; t Monsieur Durey, demeuvant à Paril ue du " HEIGHT="137" HPOS="698" ID="string_r3l6" VPOS="850" WIDTH="1843"/>
+</TextLine>
+<TextLine BASELINE="712 1047 2557 1047" HEIGHT="112" HPOS="712" ID="r3l7" VPOS="935" WIDTH="1845">
+<String CONTENT="sioibourg ois sonniére, nméro cinqnchez Monsneur Bouve " HEIGHT="112" HPOS="712" ID="string_r3l7" VPOS="935" WIDTH="1845"/>
+</TextLine>
+<TextLine BASELINE="726 1147 2576 1147" HEIGHT="149" HPOS="726" ID="r3l8" VPOS="998" WIDTH="1850">
+<String CONTENT="age dent an momet comme eaigé le l’admanis tratien dela " HEIGHT="149" HPOS="726" ID="string_r3l8" VPOS="998" WIDTH="1850"/>
+</TextLine>
+<TextLine BASELINE="716 1210 2456 1210" HEIGHT="122" HPOS="716" ID="r3l9" VPOS="1088" WIDTH="1740">
+<String CONTENT="personne et des biens de sa fille mineure Maria Duraie " HEIGHT="122" HPOS="716" ID="string_r3l9" VPOS="1088" WIDTH="1740"/>
+</TextLine>
+<TextLine BASELINE="728 1312 2550 1312" HEIGHT="151" HPOS="728" ID="r3l10" VPOS="1161" WIDTH="1822">
+<String CONTENT="apprentre ; Défendeut ; Défaitiant.; D’autre part, Pont " HEIGHT="151" HPOS="728" ID="string_r3l10" VPOS="1161" WIDTH="1822"/>
+</TextLine>
+<TextLine BASELINE="719 1382 2504 1382" HEIGHT="126" HPOS="719" ID="r3l11" VPOS="1256" WIDTH="1785">
+<String CONTENT="te fait  Par letre du seccétesée du Conseil de Prudhommes du " HEIGHT="126" HPOS="719" ID="string_r3l11" VPOS="1256" WIDTH="1785"/>
+</TextLine>
+<TextLine BASELINE="699 1467 2543 1467" HEIGHT="140" HPOS="699" ID="r3l12" VPOS="1327" WIDTH="1844">
+<String CONTENT="Département de la Seine pour l’ondustrie des tissus tabli à Paris " HEIGHT="140" HPOS="699" ID="string_r3l12" VPOS="1327" WIDTH="1844"/>
+</TextLine>
+<TextLine BASELINE="715 1569 2585 1569" HEIGHT="153" HPOS="715" ID="r3l13" VPOS="1416" WIDTH="1870">
+<String CONTENT="en date du Lundi dux sépt Mai mil huit cent cinquante huit " HEIGHT="153" HPOS="715" ID="string_r3l13" VPOS="1416" WIDTH="1870"/>
+</TextLine>
+<TextLine BASELINE="706 1629 2554 1629" HEIGHT="129" HPOS="706" ID="r3l14" VPOS="1500" WIDTH="1848">
+<String CONTENT="lesepoux bsathêtier ft oiter Daray, ès nom et quaites qu’il agit " HEIGHT="129" HPOS="706" ID="string_r3l14" VPOS="1500" WIDTH="1848"/>
+</TextLine>
+<TextLine BASELINE="718 1714 2600 1714" HEIGHT="144" HPOS="718" ID="r3l15" VPOS="1570" WIDTH="1882">
+<String CONTENT="à comparaître pardevant le dit Conseil de Prud’hommes éant en " HEIGHT="144" HPOS="718" ID="string_r3l15" VPOS="1570" WIDTH="1882"/>
+</TextLine>
+<TextLine BASELINE="719 1796 2584 1796" HEIGHT="130" HPOS="719" ID="r3l16" VPOS="1666" WIDTH="1865">
+<String CONTENT="Bureau Particulier le Mardi dix hoit Maimil huit cent " HEIGHT="130" HPOS="719" ID="string_r3l16" VPOS="1666" WIDTH="1865"/>
+</TextLine>
+<TextLine BASELINE="713 1887 2558 1887" HEIGHT="146" HPOS="713" ID="r3l17" VPOS="1741" WIDTH="1845">
+<String CONTENT="ciinquante huit pour s concilier i faire se ouvant sar la demande " HEIGHT="146" HPOS="713" ID="string_r3l17" VPOS="1741" WIDTH="1845"/>
+</TextLine>
+<TextLine BASELINE="734 1978 2585 1978" HEIGHT="156" HPOS="734" ID="r3l18" VPOS="1822" WIDTH="1851">
+<String CONTENT="qu’its entendaent former coutre lui devant le dit Conscil en exécntion " HEIGHT="156" HPOS="734" ID="string_r3l18" VPOS="1822" WIDTH="1851"/>
+</TextLine>
+<TextLine BASELINE="733 2061 2630 2061" HEIGHT="143" HPOS="733" ID="r3l19" VPOS="1918" WIDTH="1897">
+<String CONTENT="de Conventions verbale d’uppientissage. A l’appel de la cause " HEIGHT="143" HPOS="733" ID="string_r3l19" VPOS="1918" WIDTH="1897"/>
+</TextLine>
+<TextLine BASELINE="750 2146 2619 2146" HEIGHT="149" HPOS="750" ID="r3l20" VPOS="1997" WIDTH="1869">
+<String CONTENT="le dit jour, les époux Pate lier se présentérent et exposèrent au " HEIGHT="149" HPOS="750" ID="string_r3l20" VPOS="1997" WIDTH="1869"/>
+</TextLine>
+<TextLine BASELINE="732 2250 2622 2250" HEIGHT="167" HPOS="732" ID="r3l21" VPOS="2083" WIDTH="1890">
+<String CONTENT="Conseil que suivant conventians verbales intervenies ents ’e uxres le " HEIGHT="167" HPOS="732" ID="string_r3l21" VPOS="2083" WIDTH="1890"/>
+</TextLine>
+<TextLine BASELINE="734 2347 2595 2347" HEIGHT="169" HPOS="734" ID="r3l22" VPOS="2178" WIDTH="1861">
+<String CONTENT="sieur Duroy le premier septembre mil huit cent cinquante apt " HEIGHT="169" HPOS="734" ID="string_r3l22" VPOS="2178" WIDTH="1861"/>
+</TextLine>
+<TextLine BASELINE="721 2407 2645 2407" HEIGHT="159" HPOS="721" ID="r3l23" VPOS="2248" WIDTH="1924">
+<String CONTENT="Duray à place chefuie sa fille mineure Marda pour dux amer " HEIGHT="159" HPOS="721" ID="string_r3l23" VPOS="2248" WIDTH="1924"/>
+</TextLine>
+<TextLine BASELINE="749 2529 2653 2529" HEIGHT="201" HPOS="749" ID="r3l24" VPOS="2328" WIDTH="1904">
+<String CONTENT="à partir du dit jour; à chargeper eux de lui apprendre l’adat douvrière " HEIGHT="201" HPOS="749" ID="string_r3l24" VPOS="2328" WIDTH="1904"/>
+</TextLine>
+<TextLine BASELINE="743 2589 2660 2589" HEIGHT="166" HPOS="743" ID="r3l25" VPOS="2423" WIDTH="1917">
+<String CONTENT="encorset, de la nourivet lges pensant taute la durée de l’apprentissute " HEIGHT="166" HPOS="743" ID="string_r3l25" VPOS="2423" WIDTH="1917"/>
+</TextLine>
+<TextLine BASELINE="755 2687 2618 2687" HEIGHT="205" HPOS="755" ID="r3l26" VPOS="2482" WIDTH="1863">
+<String CONTENT="que molgre ces conventians Duray à rétiré du fille sans eucun mofift " HEIGHT="205" HPOS="755" ID="string_r3l26" VPOS="2482" WIDTH="1863"/>
+</TextLine>
+<TextLine BASELINE="762 2763 2652 2763" HEIGHT="176" HPOS="762" ID="r3l27" VPOS="2587" WIDTH="1890">
+<String CONTENT="plausile  qu’ils deman dent sa rentrée qule puiement de la somme " HEIGHT="176" HPOS="762" ID="string_r3l27" VPOS="2587" WIDTH="1890"/>
+</TextLine>
+<TextLine BASELINE="741 2846 2626 2846" HEIGHT="189" HPOS="741" ID="r3l28" VPOS="2657" WIDTH="1885">
+<String CONTENT="de tris cents francr à titre dindemite . La dame Duraque " HEIGHT="189" HPOS="741" ID="string_r3l28" VPOS="2657" WIDTH="1885"/>
+</TextLine>
+<TextLine BASELINE="726 2952 2641 2952" HEIGHT="219" HPOS="726" ID="r3l29" VPOS="2733" WIDTH="1915">
+<String CONTENT="présenta et déclava au Conseil avair retiré su fille des otetiers des " HEIGHT="219" HPOS="726" ID="string_r3l29" VPOS="2733" WIDTH="1915"/>
+</TextLine>
+<TextLine BASELINE="736 3040 2673 3040" HEIGHT="200" HPOS="736" ID="r3l30" VPOS="2840" WIDTH="1937">
+<String CONTENT="épau Gathelier parcejue ceueit se quérellaient souvent en " HEIGHT="200" HPOS="736" ID="string_r3l30" VPOS="2840" WIDTH="1937"/>
+</TextLine>
+<TextLine BASELINE="768 3112 2686 3112" HEIGHT="192" HPOS="768" ID="r3l31" VPOS="2920" WIDTH="1918">
+<String CONTENT="présence de l’apprentie qau soineprayait au pont de sen fairérmat; " HEIGHT="192" HPOS="768" ID="string_r3l31" VPOS="2920" WIDTH="1918"/>
+</TextLine>
+<TextLine BASELINE="775 3204 2710 3204" HEIGHT="186" HPOS="775" ID="r3l32" VPOS="3018" WIDTH="1935">
+<String CONTENT="que de plus les demandeurs ne t’uployaient pas aux travaux quiont " HEIGHT="186" HPOS="775" ID="string_r3l32" VPOS="3018" WIDTH="1935"/>
+</TextLine>
+<TextLine BASELINE="774 3286 2693 3286" HEIGHT="202" HPOS="774" ID="r3l33" VPOS="3084" WIDTH="1919">
+<String CONTENT="lot er cditi. ité l’rdjet des cnditions demba esnqud’itmelaunpsayen " HEIGHT="202" HPOS="774" ID="string_r3l33" VPOS="3084" WIDTH="1919"/>
+</TextLine>
+<TextLine BASELINE="764 3393 2718 3393" HEIGHT="211" HPOS="764" ID="r3l34" VPOS="3182" WIDTH="1954">
+<String CONTENT="qu’a condre des Jupons et inon à la confection de eorset. Le toureau " HEIGHT="211" HPOS="764" ID="string_r3l34" VPOS="3182" WIDTH="1954"/>
+</TextLine>
+<TextLine BASELINE="781 3470 2682 3470" HEIGHT="205" HPOS="781" ID="r3l35" VPOS="3265" WIDTH="1901">
+<String CONTENT="Particle lat d’avis qu’une en qaiête serait faite au omeile des " HEIGHT="205" HPOS="781" ID="string_r3l35" VPOS="3265" WIDTH="1901"/>
+</TextLine>
+<TextLine BASELINE="788 3562 2683 3562" HEIGHT="194" HPOS="788" ID="r3l36" VPOS="3368" WIDTH="1895">
+<String CONTENT="époux lsattelien à luffes de s’enquerur de la veaité à eux éproites. " HEIGHT="194" HPOS="788" ID="string_r3l36" VPOS="3368" WIDTH="1895"/>
+</TextLine>
+<TextLine BASELINE="780 3649 2693 3649" HEIGHT="208" HPOS="780" ID="r3l37" VPOS="3441" WIDTH="1913">
+<String CONTENT="lajourna la cause au Mercredi vingt six Mai meme mons. Le " HEIGHT="208" HPOS="780" ID="string_r3l37" VPOS="3441" WIDTH="1913"/>
+</TextLine>
+<TextLine BASELINE="779 3729 2716 3729" HEIGHT="209" HPOS="779" ID="r3l38" VPOS="3520" WIDTH="1937">
+<String CONTENT="Bureon Particulier du vingt sux Mai fus daisqu’il n’iy avans purnnit " HEIGHT="209" HPOS="779" ID="string_r3l38" VPOS="3520" WIDTH="1937"/>
+</TextLine>
+<TextLine BASELINE="781 3835 2733 3835" HEIGHT="216" HPOS="781" ID="r3l39" VPOS="3619" WIDTH="1952">
+<String CONTENT="poir rompre les concentions verbale d’apprentissage Lengagea " HEIGHT="216" HPOS="781" ID="string_r3l39" VPOS="3619" WIDTH="1952"/>
+</TextLine>
+<TextLine BASELINE="799 3902 2746 3902" HEIGHT="198" HPOS="799" ID="r3l40" VPOS="3704" WIDTH="1947">
+<String CONTENT="la une Duroya faire rentier sa fte chaz tes époux retedenan " HEIGHT="198" HPOS="799" ID="string_r3l40" VPOS="3704" WIDTH="1947"/>
+</TextLine>
+<TextLine BASELINE="802 4038 2765 4038" HEIGHT="252" HPOS="802" ID="r3l41" VPOS="3786" WIDTH="1963">
+<String CONTENT="à leux payer la somme te quatre vinges franes locepux ttetete " HEIGHT="252" HPOS="802" ID="string_r3l41" VPOS="3786" WIDTH="1963"/>
+</TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>
