@@ -42,7 +42,7 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 - [ ] If transforming multiple ALTO XML files, zip all new ALTO XML in a single `.zip` archive
 > You can also load each ALTO XML file one by one but, well, it might take a while!  
 
-- [ ] Provided that the names of the image files are identical to the ones loaded on eScriptorium, hit the 'Import Transcription (XML)' and go with the flow! 🌊
+- [ ] Provided that the names of the image files are identical to the ones loaded on eScriptorium, hit the 'Import Transcription (XML)' button and go with the flow! 🤙
 > Note that you have to have uploaded the images before you can upload the transcription.  
 > You don't need to select which image is associated with the transcription, the ALTO XML file already contains that information.
 
