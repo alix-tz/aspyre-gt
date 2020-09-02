@@ -300,7 +300,7 @@ parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', 
 # parser.add_argument('-m', '--mode', action='store', nargs=1, default='test', help="default|test")
 parser.add_argument('-t', '--talktome', action='store_true', help="Will display highlighted messages if activated")
 # TODO @alix: remove default to source argument
-parser.add_argument('-i', '--source', action='store', nargs=1, default=[False], help='Location of the TRP Export directory')
+parser.add_argument('-i', '--source', action='store', nargs=1, help='Location of the TRP Export directory')
 parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False], help='Location where processing result should be stored (path to an existing directory)')
 args = parser.parse_args()
 
