@@ -157,3 +157,4 @@ For each image in a given document, *Transkribus* produces an **ALTO-2** XML fil
 1. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/3)
 2. [Extrapolation of baseline coordinates](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/4)
 3. [Working directly from a Transrkibus export](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/5)
+4. [Algorithm diagramm](static/image/diagram.png)
