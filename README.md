@@ -8,8 +8,8 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 1. [Instructions](#instructions)
 2. [Reporting Errors](#reporting-errors) 
 3. [What was the problem?](#what-was-the-problem)
-4. [Developping notes](developping-notes)
-5. [Diagram](diagram)
+4. [Developping notes](#developping-notes)
+5. [Diagram](#diagram)
 
 
 ## Instructions
