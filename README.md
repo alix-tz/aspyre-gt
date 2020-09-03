@@ -9,6 +9,7 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 2. [Reporting Errors](#reporting-errors) 
 3. [What was the problem?](#what-was-the-problem)
 4. [Developping notes](developping-notes)
+5. [Diagram](diagram)
 
 
 ## Instructions
@@ -150,11 +151,17 @@ The resulting XML file is similar to the following example:
 
 For each image in a given document, *Transkribus* produces an **ALTO-2** XML file. 
 
-😤 **In conclusion, the ALTO files exported from Transkribus are not compatible with the import module in eScriptorium. We want to change this.**
+🙄 **In conclusion, the ALTO files exported from Transkribus are not compatible with the import module in eScriptorium. We want to change this.**
 
 
 ## Developping notes
-1. [Known import errors](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/3)
+1. [Known "import errors" in eScriptorium](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/3)
 2. [Extrapolation of baseline coordinates](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/4)
 3. [Working directly from a Transrkibus export](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/5)
-4. [Algorithm diagramm](static/image/diagram.png)
+4. [Document issues raised when switching to eScriptorium-flavored ALTO 4](https://gitlab.inria.fr/dh-projects/aspyre-gt/-/issues/9)
+
+---
+
+## Diagram
+
+![commented diagram describing the program](static/image/diagram.png)
