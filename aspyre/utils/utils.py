@@ -90,7 +90,7 @@ def list_directory(dirpath):
     :param path str: path to a directory
     :return list: list of absolute paths | None if not a directory
     """
-    files = False
+    files = []
     if os.path.isdir(dirpath):
         files = [os.path.join(os.path.abspath(dirpath), f) for f in os.listdir(dirpath) if f != ".DS_Store"]
     else:
