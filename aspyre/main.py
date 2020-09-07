@@ -281,17 +281,37 @@ def locate_alto_files(package):
     else:
         # There cannot be 2 'alto' directories
         alto_dir_content = utils.list_directory(alto_dir[0])
-        #alto_dir_content = [f for f in alto_dir_content if f.endswith('.xml')]
+        alto_dir_content = [f for f in alto_dir_content if f.endswith('.xml')]
     return alto_dir_content
 
 
-def main():
+def main(talktome, orig_source, orig_destination):
+    # 1. parsing params
+    global talkative
+    global source
+    global destination
+    talkative = talktome
+    source = orig_source
+    if not orig_destination:
+        destination = os.path.join(source, 'alto_escriptorium')
+    else:
+        destination = orig_destination
+        if not utils.path_is_valid(destination):
+            destination = os.path.join(source, 'alto_escriptorium')
+            utils.report(
+                f"'{orig_destination}' is not a valid path, will save output in default location: {destination}",
+                "W")
+
+    # 2. collecting data
     package = utils.list_directory(source)
     images_files = extract_mets(package, source)
     alto_files = locate_alto_files(package)
+
+    # 3. modifying files
     if alto_files:
         for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
             handle_a_file(file, images_files)
+    utils.report("Finished!", "S")
 
 
 # ============================================================================================================
@@ -299,34 +319,18 @@ parser = argparse.ArgumentParser(description="How much wood would a wood chop ch
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', help="default|test")
 # parser.add_argument('-m', '--mode', action='store', nargs=1, default='test', help="default|test")
 parser.add_argument('-t', '--talktome', action='store_true', help="Will display highlighted messages if activated")
-# TODO @alix: remove default to source argument
 parser.add_argument('-i', '--source', action='store', nargs=1, help='Location of the TRP Export directory')
 parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False], help='Location where processing result should be stored (path to an existing directory)')
-args = parser.parse_args()
+args = vars(parser.parse_args())
 
-# process arguments
-global talkative
-talkative = vars(args)['talktome']
-
-global source
-source = vars(args)['source'][0]
-
-global destination
-if vars(args)['destination'][0] == False:
-    destination = os.path.join(source, 'alto_escriptorium')
-else:
-    destination = vars(args)['destination'][0]
-    if not utils.path_is_valid(destination):
-        destination = os.path.join(source, 'alto_escriptorium')
-        utils.report(f"'{vars(args)['destination'][0]}' is not a valid path, will save output in default location: {destination}", "W")
 
 # start main task
-if vars(args)['mode'].lower() == 'test':
+if args['mode'].lower() == 'test':
     pass
-elif vars(args)['mode'].lower() == 'default':
-    main()
+elif args['mode'].lower() == 'default':
+    main(args['talktome'], args['source'][0], args['destination'][0])
 else:
-    utils.report(f"{vars(args)['mode']} is not a valid mode", "E")
+    utils.report(f"{args['mode']} is not a valid mode", "E")
 
 
 
