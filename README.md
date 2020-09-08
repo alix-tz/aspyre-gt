@@ -5,8 +5,11 @@ A pipeline to transfer ground truth from [Transkribus](https://transkribus.eu/Tr
 ![Mascot Aspyre](static/image/aspyre_mini.png)
 
 
+## ASPYRE GUI
+
 You can now access Aspyre as a service online!
-:arrow_left: https://aspyre-gui.herokuapp.com/ :arrow_left:
+
+:arrow_right: [**`go to Aspyre GUI`**](https://aspyre-gui.herokuapp.com/)
 
 
 ## SUMMARY 
