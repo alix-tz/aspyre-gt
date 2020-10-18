@@ -11,6 +11,7 @@ import argparse
 import os
 
 from aspyrelib import aspyre
+from aspyrelib.utils import utils as utils
 
 
 parser = argparse.ArgumentParser(description="Aspyre is a program transforming ALTO XML files exported from Transkribus (ALTO 2.x) to make them compatible with eScriptorium (ALTO 4.x)")
@@ -25,7 +26,8 @@ args = vars(parser.parse_args())
 if args['mode'].lower() == 'test':
     pass
 elif args['mode'].lower() == 'default':
-    aspyre.main(orig_source=args['source'][0], orig_destination=args['destination'][0], talktome=args['talktome'])
+    aspyre_report = aspyre.main(orig_source=args['source'][0], orig_destination=args['destination'][0], talktome=args['talktome'])
+    utils.report(f"report:{aspyre_report}")
 else:
     utils.report(f"{args['mode']} is not a valid mode", "E")
 

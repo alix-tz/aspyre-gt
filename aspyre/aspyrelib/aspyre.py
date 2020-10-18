@@ -323,7 +323,7 @@ def main(orig_source, orig_destination, talktome):
     if len(images_files) == 0:
         utils.report("Aspyre can't run properly: there is no image reference to pair with the ALTO XML files", "E")
         utils.report("Interrupting execution", "E")
-        return {"failed": True, "msg": "There is no references to images in the METS XML file you provided."}
+        return {"failed": True, "msg": "There is no reference to images in the METS XML file you provided. Make sure to check the \"Export Image\" option in Transkribus."}
 
     if alto_files is False:
         utils.report("Aspyre can't run without ALTO XML files.", "E")
@@ -337,5 +337,5 @@ def main(orig_source, orig_destination, talktome):
 
     # 5. in some case knowing the program ran until the end can be useful,
     # so we always return True if main() successfully reach this point.
-    return {"failed": False, "msg": "Aspyre successfully ran."}
+    return {"failed": False, "msg": "Aspyre ran successfully."}
 
