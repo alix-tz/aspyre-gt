@@ -243,6 +243,11 @@ def get_list_of_source_images(mets):
     source_images = []
     for mets_file in mets:
         content = utils.read_file(mets_file, 'xml')
+        # if "Image" option wasn't checked when requesting export on Transkribus
+        # there will be no #//ns3:fileGrp[@ID="IMG"]/ns3:file/ns3:Flocat/@ns2:href
+        # so Aspyre will not be able to run
+        if len(content.find_all("ns3:fileGrp", ID="IMG")) == 0:
+            utils.report("There is no reference to images in mets.xml! Make sure to check the \"Export Image\" option in Transkribus", "W")
         # image filename location : #//ns3:fileGrp[@ID="IMG"]/ns3:file/ns3:Flocat/@ns2:href
         for image_file_tag in content.find_all("ns3:fileGrp", ID="IMG"):
             for flocat in image_file_tag.find_all("ns3:FLocat"):
@@ -260,8 +265,9 @@ def extract_mets(package, trp_export):
     mets = [element for element in package if os.path.basename(element) == "mets.xml"]
     if len(mets) > 0:
         list_of_image_filenames = get_list_of_source_images(mets)
-        if len(list_of_image_filenames) == 0:
-            utils.report("Strangely, I couldn't find any reference to image files in mets.xml...", "W")
+        # commenting this because it is now redundant
+        #if len(list_of_image_filenames) == 0:
+        #    utils.report("I couldn't find any reference to image files in mets.xml...", "W")
     else:
         utils.report(f"There is no 'mets.xml' file in the indicated location. Are you sure '{trp_export}' is an export from Transkribus?", "E")
         list_of_image_filenames = False
@@ -276,7 +282,7 @@ def locate_alto_files(package):
     """
     alto_dir = [element for element in package if os.path.basename(element) == "alto" and os.path.isdir(element)]
     if len(alto_dir) == 0:
-        utils.report(f"There is no 'alto' directory in '{source}'", "E")
+        utils.report(f"There is no 'alto' directory in '{source}'", "W")
         return False
     else:
         # There cannot be 2 'alto' directories
@@ -290,7 +296,7 @@ def main(orig_source, orig_destination, talktome):
     # if orig_source is False the program will not be able to do anything...
     if orig_source is False:
         utils.report("No path to input was provided, Apsyre can't proceed.", "E")
-        return False
+        return {"failed": True, "msg": "Something went wrong locating the source files."}
 
     # 2. parsing params
     global talkative
@@ -313,13 +319,23 @@ def main(orig_source, orig_destination, talktome):
     images_files = extract_mets(package, source)
     alto_files = locate_alto_files(package)
 
+    # if data wasn't properly collected, Aspyre has to stop.
+    if len(images_files) == 0:
+        utils.report("Aspyre can't run properly: there is no image reference to pair with the ALTO XML files", "E")
+        utils.report("Interrupting execution", "E")
+        return {"failed": True, "msg": "There is no references to images in the METS XML file you provided."}
+
+    if alto_files is False:
+        utils.report("Aspyre can't run without ALTO XML files.", "E")
+        utils.report("Interrupting execution", "E")
+        return {"failed": True, "msg": "There is no ALTO XML file in the data you provided."}
+
     # 4. modifying files
-    if alto_files:
-        for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
-            handle_a_file(file, images_files)
+    for file in tqdm(alto_files, desc="Processing ALTO XML files", unit=' file'):
+        handle_a_file(file, images_files)
     utils.report("Finished!", "S")
 
     # 5. in some case knowing the program ran until the end can be useful,
     # so we always return True if main() successfully reach this point.
-    return True
+    return {"failed": False, "msg": "Aspyre successfully ran."}
 
