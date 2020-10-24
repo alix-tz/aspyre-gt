@@ -15,7 +15,7 @@ from aspyrelib.utils import utils as utils
 
 
 parser = argparse.ArgumentParser(description="Aspyre is a program transforming ALTO XML files exported from Transkribus (ALTO 2.x) to make them compatible with eScriptorium (ALTO 4.x)")
-parser.add_argument('-i', '--source', action='store', nargs=1, default=[False], help='Location of the TRP Export directory')
+parser.add_argument('-i', '--source', action='store', nargs=1, default=[False], help='Location of the Transkirbus Export directory')
 parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False], help='Location where resulting files should be stored (path to an existing directory)')
 parser.add_argument('-t', '--talktome', action='store_true', help="Will display highlighted messages if activated")
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', help="default|test")
