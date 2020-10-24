@@ -26,7 +26,7 @@ args = vars(parser.parse_args())
 if args['mode'].lower() == 'test':
     pass
 elif args['mode'].lower() == 'default':
-    aspyre_report = aspyre.main(orig_source=args['source'][0], orig_destination=args['destination'][0], talktome=args['talktome'])
+    aspyre_report = aspyre.main(src=args['source'][0], dest=args['destination'][0], talktome=args['talktome'])
     utils.report(f"report:{aspyre_report}")
 else:
     utils.report(f"{args['mode']} is not a valid mode", "E")
