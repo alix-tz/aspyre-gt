@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT utils
+"""ASPYRE GT Lib.utils
 
 author: Alix Chagué
-date: 27/08/2020
+date: 24/10/2020
 """
 
 import csv
