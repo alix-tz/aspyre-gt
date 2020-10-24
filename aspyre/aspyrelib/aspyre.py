@@ -291,10 +291,21 @@ def locate_alto_files(package):
     return alto_dir_content
 
 
-def main(orig_source, orig_destination, talktome):
+def main(src, dest=None, talktome=False):
+    """Aspyre is a program transforming ALTO XML files exported from Transkribus (ALTO 2.x) to make them compatible with eScriptorium (ALTO 4.x)
+
+    :param src: path to the source containing a 'mets.xml' file and a 'alto/' directory full of ALTO XML files
+    :param dest: path to where new files should be save
+    :param talktome: highlighted messages will be displayed if activated (verbosity)
+    :type talktome: bool
+    :type src: str
+    :type dest: str
+    :return: an execution status and a description of the possible error
+    :rtype: dict
+    """
     # 1. do we proceed?
     # if orig_source is False the program will not be able to do anything...
-    if orig_source is False:
+    if src is False:
         utils.report("No path to input was provided, Apsyre can't proceed.", "E")
         return {"failed": True, "msg": "Something went wrong locating the source files."}
 
@@ -303,15 +314,15 @@ def main(orig_source, orig_destination, talktome):
     global source
     global destination
     talkative = talktome
-    source = orig_source
-    if not orig_destination:
+    source = src
+    if not dest:
         destination = os.path.join(source, 'alto_escriptorium')
     else:
-        destination = orig_destination
+        destination = dest
         if not utils.path_is_valid(destination):
             destination = os.path.join(source, 'alto_escriptorium')
             utils.report(
-                f"'{orig_destination}' is not a valid path, will save output in default location: {destination}",
+                f"'{dest}' is not a valid path, will save output in default location: {destination}",
                 "W")
 
     # 3. collecting data
