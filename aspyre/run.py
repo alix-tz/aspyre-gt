@@ -19,7 +19,6 @@ parser.add_argument('-i', '--source', action='store', nargs=1, default=[False], 
 parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False], help='Location where resulting files should be stored (path to an existing directory)')
 parser.add_argument('-t', '--talktome', action='store_true', help="Will display highlighted messages if activated")
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default', help="default|test")
-# parser.add_argument('-m', '--mode', action='store', nargs=1, default='test', help="default|test")
 args = vars(parser.parse_args())
 
 # start main task
