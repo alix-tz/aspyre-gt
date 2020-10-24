@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)   [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.2.2&color=blue)](https://img.shields.io/badge/version-0.2.2-blue)
+[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.2.3&color=blue)]()
 
 # ASPYRE GT
 
