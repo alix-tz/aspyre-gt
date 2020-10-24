@@ -292,6 +292,17 @@ def locate_alto_files(package):
 
 
 def main(orig_source, orig_destination, talktome):
+    """Aspyre is a program transforming ALTO XML files exported from Transkribus (ALTO 2.x) to make them compatible with eScriptorium (ALTO 4.x)
+
+    :param orig_source: path to the source containing a 'mets.xml' file and a 'alto/' directory full of ALTO XML files
+    :param orig_destination: path to where new files should be save
+    :param talktome: highlighted messages will be displayed if activated (verbosity)
+    :type talktome: bool
+    :type orig_source: str
+    :type orig_destination: str
+    :return: an execution status and a description of the possible error
+    :rtype: dict
+    """
     # 1. do we proceed?
     # if orig_source is False the program will not be able to do anything...
     if orig_source is False:
