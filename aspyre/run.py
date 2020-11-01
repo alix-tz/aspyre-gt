@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT PROGRAM
+"""ASPYRE GT CLI
 
 author: Alix Chagué
-date: 26/08/2020
+date: 24/10/2020
 """
 
 import argparse

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT PROGRAM
+"""ASPYRE GT Lib
 
 author: Alix Chagué
 date: 01/11/2020
