@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT utils
+"""ASPYRE GT utils package
 
 author: Alix Chagué
-date: 27/08/2020
+date: 01/11/2020
 """
 
 import csv
@@ -18,9 +18,12 @@ from termcolor import cprint
 # ---- I/O
 def read_file(path, mode="default"):
     """Open a file and return its content (parsed if possible)
-    :param path str: (abs) path to the file
-    :param mode str: "default|json" mode de lecture du fichier
-    :return str|dict: content of the file
+    :param path: (abs) path to the file
+    :param mode: "default|json"
+    :type path: str
+    :type mode: str
+    :return: content of the file
+    :rtype: str or dict
     """
     if mode == "default":
         with open(path, "r", encoding="utf-8") as fh:
@@ -43,9 +46,12 @@ def read_file(path, mode="default"):
 def write_file(path, content, mode=False):
     """Create/Open a file and write a content in it
 
-    :param path str: (abs) path to file
-    :param content str: content to write in the file
-    :param mode str:
+    :param path: (abs) path to file
+    :param content: content to write in the file
+    :param mode: mode (json)
+    :type path: str
+    :type content: str
+    :type mode: str or bool
     :return: None
     """
     if mode is False:
@@ -62,22 +68,22 @@ def write_file(path, content, mode=False):
 
 
 # ---- LOG
-def report(message, type="I"):
+def report(message, code_type="I"):
     """Print a (colored) report
 
     :param message: message to display
-    :param type: letter code to specify type of report [I]nfo | [W]arning | [E]rror | [S]uccess | [H]ighlight
+    :param code_type: letter code to specify type of report [I]nfo | [W]arning | [E]rror | [S]uccess | [H]ighlight
     :return: None
     """
-    if type == "I":  # Info
+    if code_type == "I":  # Info
         print(f"[I] {message}")
-    elif type == "W":  # Warning
+    elif code_type == "W":  # Warning
         cprint(f"[W] {message}", "yellow")
-    elif type == "E":  # Error
+    elif code_type == "E":  # Error
         cprint(f"[E] {message}", "red")
-    elif type == "S":  # Success
+    elif code_type == "S":  # Success
         cprint(f"[S] {message}", "green")
-    elif type == "H":  # Highlight
+    elif code_type == "H":  # Highlight
         cprint(f"[H] {message}", "blue")
     else:
         # unknown color parameter, treated as "normal" text
@@ -87,8 +93,10 @@ def report(message, type="I"):
 def list_directory(dirpath):
     """Get the list of files and directories contained in a given directory excluding .DS_Store files
 
-    :param path str: path to a directory
-    :return list: list of absolute paths | None if not a directory
+    :param dirpath: path to a directory
+    :type dirpath: str
+    :return: list of absolute paths | None if not a directory
+    :retype: list
     """
     files = []
     if os.path.isdir(dirpath):
@@ -101,7 +109,8 @@ def list_directory(dirpath):
 def path_is_valid(tested_path):
     """Verify if a given path to a directory is valid
 
-    :return bool: True is the path is valid, False otherwise
+    :return: True is the path is valid, False otherwise
+    :rtype: bool
     """
     try:
         valid = os.path.isdir(tested_path)

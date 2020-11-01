@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT manage
+"""ASPYRE GT manage package
 
 author: Alix Chagué
 date: 01/11/2020
@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 from ..utils import utils
 
-ALLOWED_EXTENSIONS = ["zip"]
+
 # ALTO_V_4_0 = 'http://www.loc.gov/standards/alto/v4/alto-4-0.xsd'
 # ALTO_V_4_1 = 'http://www.loc.gov/standards/alto/v4/alto-4-1.xsd'
 ALTO_V_SCRIPTA = 'https://gitlab.inria.fr/scripta/escriptorium/-/raw/develop/app/escriptorium/static/alto-4-1-baselines.xsd'
@@ -28,14 +28,15 @@ ALTO4SPECS = ['http://www.loc.gov/standards/alto/v4/alto.xsd',
 # for ACCEPTED_SCHEMAS in eScriptorium, see:
 # https://gitlab.inria.fr/scripta/escriptorium/-/blob/master/app/apps/imports/parsers.py#L297
 
-
 # ------------------------- TRP
 
 def get_schema_spec(xml_tree):
     """Look for ALTO schema specification(s) in an XML document
 
     :param xml_tree: parsed xml tree
+    :type xml_tree: type(BeautifulSoup())
     :return: False if not a valid ALTO file, else the value(s) in //alto/xsi:schemaLocation as a list
+    :rtype: bool or list
     """
     schema = False
     root = xml_tree.find_all("alto")
@@ -54,6 +55,7 @@ def control_schema_version(schemas):
     :param schemas: list of values contained in //alto/xsi:schemaLocation
     :type schemas: list
     :return: 2 if ALTO v2, 4 if ALTO v4, None otherwise
+    :rtype: int or None
     """
     # This syntax is not very pythonesque...
     for spec4 in ALTO4SPECS:
@@ -72,6 +74,7 @@ def switch_to_v4(xml_tree):
     """Replace schema and namespace declaration in <alto> to ALTO v4
 
     :param xml_tree: ALTO XML tree
+    :type xml_tree: type(BeautifulSoup())
     :return: None
     """
     if "xmlns:page" in [k for k in xml_tree.alto.attrs.keys()]:
@@ -86,6 +89,7 @@ def remove_commas_in_points(xml_tree):
     """Remove the commas in the value of all //Polygon/@POINTS in an ALTO XML tree
 
     :param xml_tree: ALTO XML tree
+    :type xml_tree: type(BeautifulSoup())
     :return: None
     """
     for polygon in xml_tree.find_all('Polygon', POINTS=True):
@@ -146,6 +150,7 @@ def remove_composed_block(xml_tree):
     """Remove every ComposedBlock in an ALTO XML tree by unwrapping its content
 
     :param xml_tree: ALTO XML tree
+    :type xml_tree: type(BeautifulSoup())
     :return: None
     """
     # We simply remove the <composedBlock> element
@@ -158,6 +163,7 @@ def extrapolate_baseline_coordinates(xml_tree):
     """Parse the values in all //TextLine/@BASELINE and extrapolate complete coordinates if necessary
 
     :param xml_tree: ALTO XML tree
+    :type xml_tree: type(BeautifulSoup())
     :return: None
     """
     """
