@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.2.3&color=blue)]()
+[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.2.4&color=blue)]()
 
 # ASPYRE GT
 
@@ -26,10 +26,10 @@ Aspyre is now a library. To install it, simply download `aspyrelib/` and make su
 
 
 #### `aspyre.main(orig_source, orig_destination, talktome)`
-- `aspyre.main() is... the main function in Aspyre. It will take a path to a directory structured the same way as an archive exported from Transkribus containing references to images and ALTO 2 XML files, and will create new XML files conform to ALTO 4 in a new directory.
+- `aspyre.main() is... the main function in Aspyre. It will take a path to a directory or a zip structured the same way as an archive exported from Transkribus (it must contain references to images and ALTO 2 XML files), and will create new XML files conform to ALTO 4 in a new directory. Additionnally, it will save all these new files into a ZIP that you load onto eScriptorium.
 
-  - **`orig_source`** (str): a path to a directory containing ALTO XML files in a "alto" subdirectory and a "mets.xml" file.
-  - **`orig_destination`** (str): a path to the location where resulting files should be stored. If not path is provided, the new files will be created in a directory named "alto_escriptorium/" within the source directory.
+  - **`src`** (str): a path to a directory or a zip containing ALTO XML files in a "alto" subdirectory and a "mets.xml" file.
+  - **`dest`** (str): a path to the location where resulting files should be stored (and zipped). If not path is provided, the new files will be created in a directory named "alto_escriptorium/" within the source directory.
   - **`talktome`** (bool): if True, will display highlighted messages; if False, Aspyre will only show information, warning and error messages.
 
 
@@ -39,10 +39,11 @@ A legacy script from earlier stage enables you to use Aspyre as a CLI fairly eas
 
 #### Step by step
 - Export the transcriptions and the images from Transkribus; you now have a zip file
-- Unzip the file to a directory you will serve to Aspyre as the location of the sources
+- ~~Unzip the file to a directory you will serve to Aspyre as the location of the sources~~ *(unnecessary with Aspyre 0.2.4!)*
 - Create a virtual environment based on Python 3 and install dependencies (cf. *requirements.txt*)
 - Run *aspyre/run.py* (`python3 aspyre/run.py`) with the fitting options
 - See the CLI's options with *--help** (`python3 aspyre/run.py --help`)
+- Aspyre will create a new ZIP that can be loaded onto eScriptorium
 
 #### Example 
 
@@ -60,8 +61,9 @@ You can now access Aspyre as a service online (GUI)! :arrow_right: [**`go to Asp
 #### Step by step
 
 - Export the transcriptions and the images from Transkribus; you now have a zip file
-- Remove the images from the zip file to remain under 500 Mb
-- Load the zip file onto the application and download the returned zip file, you can now directly load it onto eScriptorium
+- If your archive weighs more than 500 MB, remove the images from the zip file (unzip the archive and rezip it keeping only the alto/ directory and the 'mets.xml' file)
+- Load the zip file onto the application and download the returned zip file
+- You can now directly load this new ZIP onto eScriptorium
 
 ---
 
