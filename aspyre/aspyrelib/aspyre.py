@@ -28,6 +28,19 @@ class AspyreArgs():
         return self.execution_status == "Running"
 
     def __init__(self, scenario=None, source=None, destination=None, talkative=False, test_type=False):
+        """Process essentiel information to run Aspyre
+
+        :param scenario: keyword describing the scenario
+        :type scenario: bool or string
+        :param source: path to source file
+        :type source: bool or string
+        :param destination: path to output
+        :type destination: bool or string
+        :param talkative: activate a few print commands
+        :type talkative: bool
+        :param test_type: simple initiation for test purpose
+        :type test_type: bool
+        """
         if test_type == True:
             self.execution_status = "Debug"
         else:
@@ -78,11 +91,17 @@ class AspyreArgs():
 
 class TkbToEs():
     def show_warning(self):
+        """Display a message."""
         utils.report("Transferring data from Transkribus to eScriptorium using ALTO files and Aspyre", "W")
         utils.report("is not recommended: Trankribus' ALTO is too poor to guarantee the validity of the", "W")
         utils.report("resulting segments. Instead, use PAGE XML directly!", "W")
 
     def __init__(self, args):
+        """Handle a Transkribus to eScriptorium transformation scenario
+
+        :param args: essential information to run transformation scenario
+        :type args: AspyreArgs object
+        """
         self.show_warning()
         if isinstance(args, type(AspyreArgs(test_type=True))):
             self.args = args
@@ -163,10 +182,3 @@ class TkbToEs():
         else:
             self.args = None
             utils.report("Failed to run TkbToEs: args must be an AspyreArgs object!", "E")
-
-
-def test():
-    tested = AspyreArgs("transkribus", "hello")
-    proc = TkbToEs("hello")
-    for l in tested.log:
-        print(l)
