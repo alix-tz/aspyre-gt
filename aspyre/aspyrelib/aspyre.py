@@ -15,8 +15,9 @@ from tqdm import tqdm
 from .utils import utils
 from .manage import (manage_tkbtoes, manage_pdfaltotoes, zip)
 
-SUPPORTED_SCENARIOS = ["tkb", "pdfalto"] #+ ["limb", "finereader"]
+SUPPORTED_SCENARIOS = ["tkb", "pdfalto"]  # + ["limb", "finereader"]
 ARCHIVE_EXTENSIONS = ["zip"]
+
 
 class AspyreArgs():
     def add_log(self, msg):
@@ -47,7 +48,7 @@ class AspyreArgs():
             self.log = []
             self.add_log("Creation")
 
-            #parsing talkative
+            # parsing talkative
             self.talkative = talkative
             if self.talkative:
                 utils.report("Talkative mode activated.", "H")
@@ -61,7 +62,7 @@ class AspyreArgs():
                 self.execution_status = 'Running'
 
             if self.proceed():
-                #parsing destination
+                # parsing destination
                 if not destination:
                     self.destination = os.path.join('.'.join(source.split(".")[:-1]), 'alto_escriptorium')
                     self.add_log(f"Destination set to {self.destination}.")
@@ -78,7 +79,7 @@ class AspyreArgs():
                 self.destination = None
 
             if self.proceed():
-                #parsing scenario
+                # parsing scenario
                 if isinstance(scenario, type(str())) and scenario.lower() in SUPPORTED_SCENARIOS:
                     self.scenario = scenario.lower()
                 else:
@@ -183,8 +184,14 @@ class TkbToEs():
             self.args = None
             utils.report("Failed to run TkbToEs: args must be an AspyreArgs object!", "E")
 
+
 class PdfaltoToEs():
     def __init__(self, args):
+        """Handle a PDFALTO to eScriptorium transformation scenario
+
+        :param args: essential information to run transformation scenario
+        :type args: AspyreArgs object
+        """
         if isinstance(args, type(AspyreArgs(test_type=True))):
             self.args = args
             self.args.add_log("Starting PDFALTO transformation scenario.")
@@ -192,7 +199,7 @@ class PdfaltoToEs():
             # TODO gérer les tar.gz?
             """
             https://stackoverflow.com/questions/30887979/i-want-to-create-a-script-for-unzip-tar-gz-file-via-python
-            
+
             import tarfile
 
             if fname.endswith("tar.gz"):
@@ -227,7 +234,7 @@ class PdfaltoToEs():
 
                 # TODO gérer la partie interaction avec les images
 
-                #self.image_files = manage_tkbtoes.extract_mets(package, self.unzipped_source)
+                # self.image_files = manage_tkbtoes.extract_mets(package, self.unzipped_source)
                 self.alto_files, self.image_files = manage_pdfaltotoes.locate_alto_and_image_files(package)
                 """
                             if len(self.image_files) == 0:
