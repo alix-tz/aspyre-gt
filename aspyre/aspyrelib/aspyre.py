@@ -13,9 +13,9 @@ import time
 from tqdm import tqdm
 
 from .utils import utils
-from .manage import (manage_tkbtoes, zip)
+from .manage import (manage_tkbtoes, manage_pdfaltotoes, zip)
 
-SUPPORTED_SCENARIOS = ["transkribus", "limb", "finereader"]
+SUPPORTED_SCENARIOS = ["tkb", "pdfalto"] #+ ["limb", "finereader"]
 ARCHIVE_EXTENSIONS = ["zip"]
 
 class AspyreArgs():
@@ -112,7 +112,7 @@ class TkbToEs():
             if self.args.source.split(".")[-1] in ARCHIVE_EXTENSIONS:
                 if self.args.talkative:
                     utils.report("Source is an archive, running unzipping scenario.", "H")
-                self.unzipped_source = zip.unzip_scenario(self.args.source)
+                self.unzipped_source = zip.unzip_scenario(self.args.source, self.args.scenario)
                 if self.unzipped_source is False:
                     self.args.execution_status = "Failed"
                     self.add_log("Something went wrong while unpacking the source.")
@@ -182,3 +182,109 @@ class TkbToEs():
         else:
             self.args = None
             utils.report("Failed to run TkbToEs: args must be an AspyreArgs object!", "E")
+
+class PdfaltoToEs():
+    def __init__(self, args):
+        if isinstance(args, type(AspyreArgs(test_type=True))):
+            self.args = args
+            self.args.add_log("Starting PDFALTO transformation scenario.")
+
+            # TODO gérer les tar.gz?
+            """
+            https://stackoverflow.com/questions/30887979/i-want-to-create-a-script-for-unzip-tar-gz-file-via-python
+            
+            import tarfile
+
+            if fname.endswith("tar.gz"):
+                tar = tarfile.open(fname, "r:gz")
+                tar.extractall()
+                tar.close()
+            elif fname.endswith("tar"):
+                tar = tarfile.open(fname, "r:")
+                tar.extractall()
+                tar.close()
+            """
+
+            # 1. handling zip
+            self.unzipped_source = None
+            if self.args.source.split(".")[-1] in ARCHIVE_EXTENSIONS:
+                if self.args.talkative:
+                    utils.report("Source is an archive, running unzipping scenario.", "H")
+                self.unzipped_source = zip.unzip_scenario(self.args.source, self.args.scenario)
+                if self.unzipped_source is False:
+                    self.args.execution_status = "Failed"
+                    self.add_log("Something went wrong while unpacking the source.")
+                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.", "E")
+                else:
+                    self.args.add_log("Successfully unzipped source.")
+            else:
+                if self.args.talkative:
+                    utils.report("Source is not an archive.", "H")
+
+            if self.args.proceed():
+                # 2. collecting data
+                package = utils.list_directory(self.unzipped_source)
+
+                # TODO gérer la partie interaction avec les images
+
+                #self.image_files = manage_tkbtoes.extract_mets(package, self.unzipped_source)
+                self.alto_files, self.image_files = manage_pdfaltotoes.locate_alto_and_image_files(package)
+                """
+                            if len(self.image_files) == 0:
+                                self.add_log("There is no reference to images in the METS XML file you provided.")
+                                self.add_log("Make sure to check the \"Export Image\" option in Transkribus.")
+                                self.args.execution_status = 'Failed'
+                                if self.args.talkative:
+                                    utils.report("Aspyre can't pair unreferenced images with the ALTO XML files", "E")
+                                    utils.report("Interrupting execution", "E")
+                            elif self.alto_files is False:
+                """
+                if self.alto_files is False:
+                    self.args.add_log("Couldn't find any XML file or any image file.")
+                    utils.report("Aspyre can't run without either of these.", "E")
+                    self.args.execution_status = "Failed"
+                else:
+                    self.args.add_log("Successfully collected data.")
+
+            if self.args.proceed():
+                # 3. transforming files
+                if self.args.talkative:
+                    iterator = tqdm(self.alto_files, desc="Processing ALTO XML files", unit=' file')
+                else:
+                    iterator = self.alto_files
+                for file in iterator:
+                    processed = 0
+                    try:
+                        manage_pdfaltotoes.handle_a_file(file, self)
+                    except Exception as e:
+                        if self.args.talkative:
+                            utils.report(f"Error while processing {file} :", "E")
+                            print(e)
+                        self.args.add_log(f"Failed to process {file}.")
+                    else:
+                        processed += 1
+                if processed == 0:
+                    self.args.execution_status = "Failed"
+                elif processed < len(self.alto_files):
+                    self.args.add_log(f"Successfully transformed {processed} out of {len(self.alto_files)}")
+                else:
+                    self.args.add_log(f"Successfully processed sources files!")
+
+            if self.args.proceed():
+                # 4. serve a zip file
+                try:
+                    zip.zip_dir(self.args.destination, self.unzipped_source)
+                except Exception as e:
+                    if self.args.talkative:
+                        print(e)
+                    self.args.execution_status = "Failed"
+                    self.args.add_log('Failed to zip output.')
+                else:
+                    self.args.execution_status = 'Finished'
+                    self.args.add_log('Aspyre ran PDFALTO scenario successufully!')
+        else:
+            self.args = None
+            utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!", "E")
+
+
+

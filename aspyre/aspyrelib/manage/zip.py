@@ -36,7 +36,7 @@ def allowed_file(filename, allowed_extensions=ALLOWED_EXTENSIONS):
         return False
 
 
-def safely_unzip(zip_src, unpack_dest):
+def safely_unzip(zip_src, unpack_dest, scenario):
     """Unzip a zip file with as many precautions as possible
 
     :param zip_src: path to the directory where the uploaded zip file is located
@@ -49,8 +49,11 @@ def safely_unzip(zip_src, unpack_dest):
     zph = ZipFile(zip_src, 'r')
     files = zph.infolist()
     ignored_files = []
-    # no matter what, we are only interested in xml files
-    ignored_files += [f for f in files if not f.filename.lower().endswith('.xml')]
+    if scenario == "tkb":
+    # then we are only interested in xml files
+        ignored_files += [f for f in files if not f.filename.lower().endswith('.xml')]
+    elif scenario == "pdfalto":
+        ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or f.filename.lower().endswith('.png'))]
     # ignoring hidden files and folder
     ignored_files += [f for f in files if f.filename.split(os.sep)[-1].startswith('.') or f.filename.startswith('.')]
     # ignoring OSX generated folders
@@ -61,10 +64,10 @@ def safely_unzip(zip_src, unpack_dest):
     # note that this might cause unexpected errors TODO: test
     ignored_files += [f for f in files if '.exe' in f.filename.lower() or '.php' in f.filename.lower() or \
                       '.asp' in f.filename.lower() or '.py' in f.filename.lower()]
-
-    if 'mets.xml' not in [f.filename.split(os.sep)[-1] for f in files]:
-        zph.close()
-        return "error", "This is not a valid Transkribus Archive (not mets.xml file)"
+    if scenario == "tkb":
+        if 'mets.xml' not in [f.filename.split(os.sep)[-1] for f in files]:
+            zph.close()
+            return "error", "This is not a valid Transkribus Archive (not mets.xml file)"
 
     for file in files:
         zph.extract(file, path=unpack_dest)
@@ -73,7 +76,7 @@ def safely_unzip(zip_src, unpack_dest):
     return None, None
 
 
-def unzip_scenario(source):
+def unzip_scenario(source, scenario):
     """Take an archive and safely unzip it
 
     :param source: path to archive
@@ -82,7 +85,7 @@ def unzip_scenario(source):
     :rtype: bool or str
     """
     if not (os.path.basename(source) != "" and allowed_file(os.path.basename(source))):
-        utils.report("That file extension is not allowed", "E")
+        utils.report("This file extension is not allowed", "E")
         return False
 
     unpack_dest = os.path.join(os.path.dirname(source), f"{os.path.basename(source).split('.')[0]}_unpacking")
@@ -91,8 +94,8 @@ def unzip_scenario(source):
     except FileExistsError as e:
         utils.report("Got a FileExistsError while trying to unpack source archive:", "W")
         utils.report(e, "W")
-        utils.report("This may cause Aspyre to run on data not up to date with the content of the source archive", "W")
-    flag, msg = safely_unzip(source, unpack_dest)
+        utils.report("This may cause Aspyre to run on data not up-to-date with the content of the source archive", "W")
+    flag, msg = safely_unzip(source, unpack_dest, scenario)
     if flag == 'error':
         utils.report(msg, "E")
         return False
