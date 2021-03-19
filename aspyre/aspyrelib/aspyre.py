@@ -286,5 +286,3 @@ class PdfaltoToEs():
             self.args = None
             utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!", "E")
 
-
-

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-08-28T09:48:31.122+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="4608" WIDTH="3072">
+         <TopMargin HEIGHT="0" WIDTH="3072" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="4608" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="4608" WIDTH="0" VPOS="0" HPOS="3072"/>
+         <BottomMargin HEIGHT="0" WIDTH="3072" VPOS="4608" HPOS="0"/>
+         <PrintSpace HEIGHT="4608" WIDTH="3072" VPOS="0" HPOS="0">
+            <TextBlock ID="r3" HEIGHT="3513" WIDTH="2168" VPOS="494" HPOS="645">
+               <Shape>
+                  <Polygon POINTS="645,498 645,4007 2813,4003 2813,494"/>
+               </Shape>
+               <TextLine ID="r3l1"
+                         BASELINE="581"
+                         HEIGHT="127"
+                         WIDTH="768"
+                         VPOS="454"
+                         HPOS="1196">
+                  <String ID="string_r3l1"
+                          HEIGHT="127"
+                          WIDTH="768"
+                          VPOS="454"
+                          HPOS="1196"
+                          CONTENT="Du dit jour vingt huit Mi"/>
+               </TextLine>
+               <TextLine ID="r3l2"
+                         BASELINE="664"
+                         HEIGHT="148"
+                         WIDTH="1858"
+                         VPOS="516"
+                         HPOS="711">
+                  <String ID="string_r3l2"
+                          HEIGHT="148"
+                          WIDTH="1858"
+                          VPOS="516"
+                          HPOS="711"
+                          CONTENT="Entre Madame Elisa lécité Prévert, cocsetière, épause "/>
+               </TextLine>
+               <TextLine ID="r3l3"
+                         BASELINE="735"
+                         HEIGHT="128"
+                         WIDTH="1805"
+                         VPOS="607"
+                         HPOS="685">
+                  <String ID="string_r3l3"
+                          HEIGHT="128"
+                          WIDTH="1805"
+                          VPOS="607"
+                          HPOS="685"
+                          CONTENT="assittée, et autorisée du sieur conatale cenest Palhctisi, et ce "/>
+               </TextLine>
+               <TextLine ID="r3l4"
+                         BASELINE="805"
+                         HEIGHT="114"
+                         WIDTH="1901"
+                         VPOS="691"
+                         HPOS="700">
+                  <String ID="string_r3l4"
+                          HEIGHT="114"
+                          WIDTH="1901"
+                          VPOS="691"
+                          HPOS="700"
+                          CONTENT="rerier demeurant et domocidiés ensemble, les dits époux, à Paris,rue  "/>
+               </TextLine>
+               <TextLine ID="r3l5"
+                         BASELINE="907"
+                         HEIGHT="146"
+                         WIDTH="1851"
+                         VPOS="761"
+                         HPOS="707">
+                  <String ID="string_r3l5"
+                          HEIGHT="146"
+                          WIDTH="1851"
+                          VPOS="761"
+                          HPOS="707"
+                          CONTENT="hu facutouroissomere, numér sopt ; Deatandeurs, Comparant ; "/>
+               </TextLine>
+               <TextLine ID="r3l6"
+                         BASELINE="987"
+                         HEIGHT="137"
+                         WIDTH="1843"
+                         VPOS="850"
+                         HPOS="698">
+                  <String ID="string_r3l6"
+                          HEIGHT="137"
+                          WIDTH="1843"
+                          VPOS="850"
+                          HPOS="698"
+                          CONTENT="D’une part; t Monsieur Durey, demeuvant à Paril ue du "/>
+               </TextLine>
+               <TextLine ID="r3l7"
+                         BASELINE="1047"
+                         HEIGHT="112"
+                         WIDTH="1845"
+                         VPOS="935"
+                         HPOS="712">
+                  <String ID="string_r3l7"
+                          HEIGHT="112"
+                          WIDTH="1845"
+                          VPOS="935"
+                          HPOS="712"
+                          CONTENT="sioibourg ois sonniére, nméro cinqnchez Monsneur Bouve "/>
+               </TextLine>
+               <TextLine ID="r3l8"
+                         BASELINE="1147"
+                         HEIGHT="149"
+                         WIDTH="1850"
+                         VPOS="998"
+                         HPOS="726">
+                  <String ID="string_r3l8"
+                          HEIGHT="149"
+                          WIDTH="1850"
+                          VPOS="998"
+                          HPOS="726"
+                          CONTENT="age dent an momet comme eaigé le l’admanis tratien dela "/>
+               </TextLine>
+               <TextLine ID="r3l9"
+                         BASELINE="1210"
+                         HEIGHT="122"
+                         WIDTH="1740"
+                         VPOS="1088"
+                         HPOS="716">
+                  <String ID="string_r3l9"
+                          HEIGHT="122"
+                          WIDTH="1740"
+                          VPOS="1088"
+                          HPOS="716"
+                          CONTENT="personne et des biens de sa fille mineure Maria Duraie "/>
+               </TextLine>
+               <TextLine ID="r3l10"
+                         BASELINE="1312"
+                         HEIGHT="151"
+                         WIDTH="1822"
+                         VPOS="1161"
+                         HPOS="728">
+                  <String ID="string_r3l10"
+                          HEIGHT="151"
+                          WIDTH="1822"
+                          VPOS="1161"
+                          HPOS="728"
+                          CONTENT="apprentre ; Défendeut ; Défaitiant.; D’autre part, Pont "/>
+               </TextLine>
+               <TextLine ID="r3l11"
+                         BASELINE="1382"
+                         HEIGHT="126"
+                         WIDTH="1785"
+                         VPOS="1256"
+                         HPOS="719">
+                  <String ID="string_r3l11"
+                          HEIGHT="126"
+                          WIDTH="1785"
+                          VPOS="1256"
+                          HPOS="719"
+                          CONTENT="te fait  Par letre du seccétesée du Conseil de Prudhommes du "/>
+               </TextLine>
+               <TextLine ID="r3l12"
+                         BASELINE="1467"
+                         HEIGHT="140"
+                         WIDTH="1844"
+                         VPOS="1327"
+                         HPOS="699">
+                  <String ID="string_r3l12"
+                          HEIGHT="140"
+                          WIDTH="1844"
+                          VPOS="1327"
+                          HPOS="699"
+                          CONTENT="Département de la Seine pour l’ondustrie des tissus tabli à Paris "/>
+               </TextLine>
+               <TextLine ID="r3l13"
+                         BASELINE="1569"
+                         HEIGHT="153"
+                         WIDTH="1870"
+                         VPOS="1416"
+                         HPOS="715">
+                  <String ID="string_r3l13"
+                          HEIGHT="153"
+                          WIDTH="1870"
+                          VPOS="1416"
+                          HPOS="715"
+                          CONTENT="en date du Lundi dux sépt Mai mil huit cent cinquante huit "/>
+               </TextLine>
+               <TextLine ID="r3l14"
+                         BASELINE="1629"
+                         HEIGHT="129"
+                         WIDTH="1848"
+                         VPOS="1500"
+                         HPOS="706">
+                  <String ID="string_r3l14"
+                          HEIGHT="129"
+                          WIDTH="1848"
+                          VPOS="1500"
+                          HPOS="706"
+                          CONTENT="lesepoux bsathêtier ft oiter Daray, ès nom et quaites qu’il agit "/>
+               </TextLine>
+               <TextLine ID="r3l15"
+                         BASELINE="1714"
+                         HEIGHT="144"
+                         WIDTH="1882"
+                         VPOS="1570"
+                         HPOS="718">
+                  <String ID="string_r3l15"
+                          HEIGHT="144"
+                          WIDTH="1882"
+                          VPOS="1570"
+                          HPOS="718"
+                          CONTENT="à comparaître pardevant le dit Conseil de Prud’hommes éant en "/>
+               </TextLine>
+               <TextLine ID="r3l16"
+                         BASELINE="1796"
+                         HEIGHT="130"
+                         WIDTH="1865"
+                         VPOS="1666"
+                         HPOS="719">
+                  <String ID="string_r3l16"
+                          HEIGHT="130"
+                          WIDTH="1865"
+                          VPOS="1666"
+                          HPOS="719"
+                          CONTENT="Bureau Particulier le Mardi dix hoit Maimil huit cent "/>
+               </TextLine>
+               <TextLine ID="r3l17"
+                         BASELINE="1887"
+                         HEIGHT="146"
+                         WIDTH="1845"
+                         VPOS="1741"
+                         HPOS="713">
+                  <String ID="string_r3l17"
+                          HEIGHT="146"
+                          WIDTH="1845"
+                          VPOS="1741"
+                          HPOS="713"
+                          CONTENT="ciinquante huit pour s concilier i faire se ouvant sar la demande "/>
+               </TextLine>
+               <TextLine ID="r3l18"
+                         BASELINE="1978"
+                         HEIGHT="156"
+                         WIDTH="1851"
+                         VPOS="1822"
+                         HPOS="734">
+                  <String ID="string_r3l18"
+                          HEIGHT="156"
+                          WIDTH="1851"
+                          VPOS="1822"
+                          HPOS="734"
+                          CONTENT="qu’its entendaent former coutre lui devant le dit Conscil en exécntion "/>
+               </TextLine>
+               <TextLine ID="r3l19"
+                         BASELINE="2061"
+                         HEIGHT="143"
+                         WIDTH="1897"
+                         VPOS="1918"
+                         HPOS="733">
+                  <String ID="string_r3l19"
+                          HEIGHT="143"
+                          WIDTH="1897"
+                          VPOS="1918"
+                          HPOS="733"
+                          CONTENT="de Conventions verbale d’uppientissage. A l’appel de la cause "/>
+               </TextLine>
+               <TextLine ID="r3l20"
+                         BASELINE="2146"
+                         HEIGHT="149"
+                         WIDTH="1869"
+                         VPOS="1997"
+                         HPOS="750">
+                  <String ID="string_r3l20"
+                          HEIGHT="149"
+                          WIDTH="1869"
+                          VPOS="1997"
+                          HPOS="750"
+                          CONTENT="le dit jour, les époux Pate lier se présentérent et exposèrent au "/>
+               </TextLine>
+               <TextLine ID="r3l21"
+                         BASELINE="2250"
+                         HEIGHT="167"
+                         WIDTH="1890"
+                         VPOS="2083"
+                         HPOS="732">
+                  <String ID="string_r3l21"
+                          HEIGHT="167"
+                          WIDTH="1890"
+                          VPOS="2083"
+                          HPOS="732"
+                          CONTENT="Conseil que suivant conventians verbales intervenies ents ’e uxres le "/>
+               </TextLine>
+               <TextLine ID="r3l22"
+                         BASELINE="2347"
+                         HEIGHT="169"
+                         WIDTH="1861"
+                         VPOS="2178"
+                         HPOS="734">
+                  <String ID="string_r3l22"
+                          HEIGHT="169"
+                          WIDTH="1861"
+                          VPOS="2178"
+                          HPOS="734"
+                          CONTENT="sieur Duroy le premier septembre mil huit cent cinquante apt "/>
+               </TextLine>
+               <TextLine ID="r3l23"
+                         BASELINE="2407"
+                         HEIGHT="159"
+                         WIDTH="1924"
+                         VPOS="2248"
+                         HPOS="721">
+                  <String ID="string_r3l23"
+                          HEIGHT="159"
+                          WIDTH="1924"
+                          VPOS="2248"
+                          HPOS="721"
+                          CONTENT="Duray à place chefuie sa fille mineure Marda pour dux amer "/>
+               </TextLine>
+               <TextLine ID="r3l24"
+                         BASELINE="2529"
+                         HEIGHT="201"
+                         WIDTH="1904"
+                         VPOS="2328"
+                         HPOS="749">
+                  <String ID="string_r3l24"
+                          HEIGHT="201"
+                          WIDTH="1904"
+                          VPOS="2328"
+                          HPOS="749"
+                          CONTENT="à partir du dit jour; à chargeper eux de lui apprendre l’adat douvrière "/>
+               </TextLine>
+               <TextLine ID="r3l25"
+                         BASELINE="2589"
+                         HEIGHT="166"
+                         WIDTH="1917"
+                         VPOS="2423"
+                         HPOS="743">
+                  <String ID="string_r3l25"
+                          HEIGHT="166"
+                          WIDTH="1917"
+                          VPOS="2423"
+                          HPOS="743"
+                          CONTENT="encorset, de la nourivet lges pensant taute la durée de l’apprentissute "/>
+               </TextLine>
+               <TextLine ID="r3l26"
+                         BASELINE="2687"
+                         HEIGHT="205"
+                         WIDTH="1863"
+                         VPOS="2482"
+                         HPOS="755">
+                  <String ID="string_r3l26"
+                          HEIGHT="205"
+                          WIDTH="1863"
+                          VPOS="2482"
+                          HPOS="755"
+                          CONTENT="que molgre ces conventians Duray à rétiré du fille sans eucun mofift "/>
+               </TextLine>
+               <TextLine ID="r3l27"
+                         BASELINE="2763"
+                         HEIGHT="176"
+                         WIDTH="1890"
+                         VPOS="2587"
+                         HPOS="762">
+                  <String ID="string_r3l27"
+                          HEIGHT="176"
+                          WIDTH="1890"
+                          VPOS="2587"
+                          HPOS="762"
+                          CONTENT="plausile  qu’ils deman dent sa rentrée qule puiement de la somme "/>
+               </TextLine>
+               <TextLine ID="r3l28"
+                         BASELINE="2846"
+                         HEIGHT="189"
+                         WIDTH="1885"
+                         VPOS="2657"
+                         HPOS="741">
+                  <String ID="string_r3l28"
+                          HEIGHT="189"
+                          WIDTH="1885"
+                          VPOS="2657"
+                          HPOS="741"
+                          CONTENT="de tris cents francr à titre dindemite . La dame Duraque "/>
+               </TextLine>
+               <TextLine ID="r3l29"
+                         BASELINE="2952"
+                         HEIGHT="219"
+                         WIDTH="1915"
+                         VPOS="2733"
+                         HPOS="726">
+                  <String ID="string_r3l29"
+                          HEIGHT="219"
+                          WIDTH="1915"
+                          VPOS="2733"
+                          HPOS="726"
+                          CONTENT="présenta et déclava au Conseil avair retiré su fille des otetiers des "/>
+               </TextLine>
+               <TextLine ID="r3l30"
+                         BASELINE="3040"
+                         HEIGHT="200"
+                         WIDTH="1937"
+                         VPOS="2840"
+                         HPOS="736">
+                  <String ID="string_r3l30"
+                          HEIGHT="200"
+                          WIDTH="1937"
+                          VPOS="2840"
+                          HPOS="736"
+                          CONTENT="épau Gathelier parcejue ceueit se quérellaient souvent en "/>
+               </TextLine>
+               <TextLine ID="r3l31"
+                         BASELINE="3112"
+                         HEIGHT="192"
+                         WIDTH="1918"
+                         VPOS="2920"
+                         HPOS="768">
+                  <String ID="string_r3l31"
+                          HEIGHT="192"
+                          WIDTH="1918"
+                          VPOS="2920"
+                          HPOS="768"
+                          CONTENT="présence de l’apprentie qau soineprayait au pont de sen fairérmat; "/>
+               </TextLine>
+               <TextLine ID="r3l32"
+                         BASELINE="3204"
+                         HEIGHT="186"
+                         WIDTH="1935"
+                         VPOS="3018"
+                         HPOS="775">
+                  <String ID="string_r3l32"
+                          HEIGHT="186"
+                          WIDTH="1935"
+                          VPOS="3018"
+                          HPOS="775"
+                          CONTENT="que de plus les demandeurs ne t’uployaient pas aux travaux quiont "/>
+               </TextLine>
+               <TextLine ID="r3l33"
+                         BASELINE="3286"
+                         HEIGHT="202"
+                         WIDTH="1919"
+                         VPOS="3084"
+                         HPOS="774">
+                  <String ID="string_r3l33"
+                          HEIGHT="202"
+                          WIDTH="1919"
+                          VPOS="3084"
+                          HPOS="774"
+                          CONTENT="lot er cditi. ité l’rdjet des cnditions demba esnqud’itmelaunpsayen "/>
+               </TextLine>
+               <TextLine ID="r3l34"
+                         BASELINE="3393"
+                         HEIGHT="211"
+                         WIDTH="1954"
+                         VPOS="3182"
+                         HPOS="764">
+                  <String ID="string_r3l34"
+                          HEIGHT="211"
+                          WIDTH="1954"
+                          VPOS="3182"
+                          HPOS="764"
+                          CONTENT="qu’a condre des Jupons et inon à la confection de eorset. Le toureau "/>
+               </TextLine>
+               <TextLine ID="r3l35"
+                         BASELINE="3470"
+                         HEIGHT="205"
+                         WIDTH="1901"
+                         VPOS="3265"
+                         HPOS="781">
+                  <String ID="string_r3l35"
+                          HEIGHT="205"
+                          WIDTH="1901"
+                          VPOS="3265"
+                          HPOS="781"
+                          CONTENT="Particle lat d’avis qu’une en qaiête serait faite au omeile des "/>
+               </TextLine>
+               <TextLine ID="r3l36"
+                         BASELINE="3562"
+                         HEIGHT="194"
+                         WIDTH="1895"
+                         VPOS="3368"
+                         HPOS="788">
+                  <String ID="string_r3l36"
+                          HEIGHT="194"
+                          WIDTH="1895"
+                          VPOS="3368"
+                          HPOS="788"
+                          CONTENT="époux lsattelien à luffes de s’enquerur de la veaité à eux éproites. "/>
+               </TextLine>
+               <TextLine ID="r3l37"
+                         BASELINE="3649"
+                         HEIGHT="208"
+                         WIDTH="1913"
+                         VPOS="3441"
+                         HPOS="780">
+                  <String ID="string_r3l37"
+                          HEIGHT="208"
+                          WIDTH="1913"
+                          VPOS="3441"
+                          HPOS="780"
+                          CONTENT="lajourna la cause au Mercredi vingt six Mai meme mons. Le "/>
+               </TextLine>
+               <TextLine ID="r3l38"
+                         BASELINE="3729"
+                         HEIGHT="209"
+                         WIDTH="1937"
+                         VPOS="3520"
+                         HPOS="779">
+                  <String ID="string_r3l38"
+                          HEIGHT="209"
+                          WIDTH="1937"
+                          VPOS="3520"
+                          HPOS="779"
+                          CONTENT="Bureon Particulier du vingt sux Mai fus daisqu’il n’iy avans purnnit "/>
+               </TextLine>
+               <TextLine ID="r3l39"
+                         BASELINE="3835"
+                         HEIGHT="216"
+                         WIDTH="1952"
+                         VPOS="3619"
+                         HPOS="781">
+                  <String ID="string_r3l39"
+                          HEIGHT="216"
+                          WIDTH="1952"
+                          VPOS="3619"
+                          HPOS="781"
+                          CONTENT="poir rompre les concentions verbale d’apprentissage Lengagea "/>
+               </TextLine>
+               <TextLine ID="r3l40"
+                         BASELINE="3902"
+                         HEIGHT="198"
+                         WIDTH="1947"
+                         VPOS="3704"
+                         HPOS="799">
+                  <String ID="string_r3l40"
+                          HEIGHT="198"
+                          WIDTH="1947"
+                          VPOS="3704"
+                          HPOS="799"
+                          CONTENT="la une Duroya faire rentier sa fte chaz tes époux retedenan "/>
+               </TextLine>
+               <TextLine ID="r3l41"
+                         BASELINE="4038"
+                         HEIGHT="252"
+                         WIDTH="1963"
+                         VPOS="3786"
+                         HPOS="802">
+                  <String ID="string_r3l41"
+                          HEIGHT="252"
+                          WIDTH="1963"
+                          VPOS="3786"
+                          HPOS="802"
+                          CONTENT="à leux payer la somme te quatre vinges franes locepux ttetete "/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
