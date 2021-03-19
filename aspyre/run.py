@@ -4,7 +4,7 @@
 """ASPYRE GT PROGRAM
 
 author: Alix Chagué
-date: 26/08/2020
+date: 19/03/2021
 """
 
 import argparse

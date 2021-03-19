@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT manage package
+"""ASPYRE GT manage tkbtoes package
 
 author: Alix Chagué
-date: 01/11/2020
+date: 19/03/2021
 """
 
 import os

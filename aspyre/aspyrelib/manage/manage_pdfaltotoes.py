@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT manage package
+"""ASPYRE GT manage pdfaltotoes package
   PDFALTO: PDFs generated using pdfalto
   https://github.com/kermitt2/pdfalto
 

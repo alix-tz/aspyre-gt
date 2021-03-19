@@ -4,7 +4,7 @@
 """ASPYRE GT Classes
 
 author: Alix Chagué
-date: 11/02/2021
+date: 19/03/2021
 """
 
 import os
