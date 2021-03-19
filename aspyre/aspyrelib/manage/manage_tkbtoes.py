@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""ASPYRE GT manage package
+"""ASPYRE GT manage tkbtoes package
 
 author: Alix Chagué
 date: 19/03/2021
@@ -66,7 +66,7 @@ def control_schema_version(schemas):
             return 2
     # We return None if it isn't ALTO 2 nor ALTO 4.
     # TODO @alix: do we need to look for other versions of ALTO?
-    utils.report("I can't handle anything else than ALTO v2 or v4!", "E")
+    utils.report("I can't handle anything other than ALTO v2 or v4!", "E")
     return None
 
 
@@ -183,7 +183,7 @@ def extrapolate_baseline_coordinates(xml_tree):
             text_line.attrs["BASELINE"] = baseline
 
 
-def save_processed_file(xml_file_name, xml_content):
+def save_processed_file(xml_file_name, xml_content, destination):
     """Calculate the path to writing in a new XML file, make sure it is valid and then dump the XML content
 
     :param xml_file_name: ALTO XML file base name
@@ -193,14 +193,16 @@ def save_processed_file(xml_file_name, xml_content):
     :return: None
     """
     # Do we need a try except here?
+    print(f"[DEBUG] {destination}")
     if not os.path.isdir(destination):
-        os.mkdir(destination)
+        os.makedirs(destination)
     path_to_file = os.path.join(destination, xml_file_name)
     # TODO @alix improve the export with prettify(): remove the blank space inside '//Measurements'
     utils.write_file(path_to_file, str(xml_content))
 
 
-def handle_a_file(file, images_files, src, dest, talk):
+def handle_a_file(file, tkb_to_es_obj):
+    #images_files, src, dest, talk):
     """Take an ALTO XML file and convert it so it is compatible with eScriptorium's import module
 
     :param file: path to an ALTO XML file
@@ -216,50 +218,50 @@ def handle_a_file(file, images_files, src, dest, talk):
     :return: None
     """
 
-    global talkative
-    global source
-    global destination
-    talkative = talk
-    source = src
-    destination = dest
+    #global talkative
+    #global source
+    #global destination
+    #talkative = talk
+    #source = src
+    #destination = dest
 
     xml_tree = utils.read_file(file, 'xml')
     pbar = tqdm(total=7, desc="Processing...", unit=" step")
     pbar.update(1)  # getting schema version
     schemas = get_schema_spec(xml_tree)
     if schemas:
-        if talkative:
+        if tkb_to_es_obj.args.talkative:
             utils.report(f"Schema Specs: {schemas}", "H")
         pbar.update(1)  # controlling schema version
         alto_version = control_schema_version(schemas)
-        if talkative:
+        if tkb_to_es_obj.args.talkative:
             if alto_version:
                 utils.report(f"Detected ALTO version: v{alto_version}", "H")
         if alto_version == 2 or alto_version == 4:  # even if the schema spec is ALTO 4, there may be other issues...
             # and we still need to switch to SCRIPTA ALTO specs anyways...
-            if talkative:
+            if tkb_to_es_obj.args.talkative:
                 utils.report("Buckle up, we're fixing the schema declaration!", "H")
             pbar.update(1)  # changing schema declaration to ALTO 4 (SCRIPTA flavored)
             switch_to_v4(xml_tree)
-            if talkative:
+            if tkb_to_es_obj.args.talkative:
                 utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
             pbar.update(1)  # adding file name in source image information
-            add_sourceimageinformation(xml_tree, file, images_files)
-            if talkative:
+            add_sourceimageinformation(xml_tree, file, tkb_to_es_obj.image_files)
+            if tkb_to_es_obj.args.talkative:
                 utils.report("I'm now looking for <ComposedBlock> and removing them", "H")
             pbar.update(1)  # removing ComposedBlock elements
             remove_composed_block(xml_tree)
-            if talkative:
+            if tkb_to_es_obj.args.talkative:
                 utils.report("I'm looking at the baselines and fixing them", "H")
             pbar.update(1)  # fixing baseline declarations
             extrapolate_baseline_coordinates(xml_tree)
-            if talkative:
+            if tkb_to_es_obj.args.talkative:
                 utils.report("I'm cleaning the file", "H")
             pbar.update(1)  # fixing polygons' points' declaration
             remove_commas_in_points(xml_tree)
             # TODO @alix: improve the saving process, obviously!
             pbar.update(1)  # saving file
-            save_processed_file(file.split(os.sep)[-1], xml_tree)
+            save_processed_file(file.split(os.sep)[-1], xml_tree, tkb_to_es_obj.args.destination)
         pbar.close()
 
         # It might be an idea to just keep the //TextLine as long as their ID start with "line_"
@@ -320,7 +322,7 @@ def extract_mets(package, trp_export):
     return list_of_image_filenames
 
 
-def locate_alto_files(package):
+def locate_alto_files(package, source):
     """List the files contained in the 'alto/' directory inside the TRP Export directory
 
     :param package: list of files contained in the TRP Export directory
