@@ -68,11 +68,11 @@ def safely_unzip(zip_src, unpack_dest, scenario):
         if 'mets.xml' not in [f.filename.split(os.sep)[-1] for f in files]:
             zph.close()
             return "error", "This is not a valid Transkribus Archive (not mets.xml file)"
-
     for file in files:
         zph.extract(file, path=unpack_dest)
     zph.close()
-    utils.report(f"Ignored {len(ignored_files)} non-eligible file(s) while unpacking", "W")
+    utils.report(f"Ignored {len(ignored_files)} non-eligible file(s) while unpacking\n---", "W")
+    # TODO : add talkative mode enabling to display which files were ignored.
     return None, None
 
 
@@ -85,7 +85,7 @@ def unzip_scenario(source, scenario):
     :rtype: bool or str
     """
     if not (os.path.basename(source) != "" and allowed_file(os.path.basename(source))):
-        utils.report("This file extension is not allowed", "E")
+        utils.report("This file extension is not allowed\n---", "E")
         return False
 
     unpack_dest = os.path.join(os.path.dirname(source), f"{os.path.basename(source).split('.')[0]}_unpacking")
@@ -94,13 +94,14 @@ def unzip_scenario(source, scenario):
     except FileExistsError as e:
         utils.report("Got a FileExistsError while trying to unpack source archive:", "W")
         utils.report(e, "W")
-        utils.report("This may cause Aspyre to run on data not up-to-date with the content of the source archive", "W")
+        utils.report("This may cause Aspyre to run on data not up-to-date with the content of the source archive\n---",
+                     "W")
     flag, msg = safely_unzip(source, unpack_dest, scenario)
     if flag == 'error':
         utils.report(msg, "E")
         return False
     if flag is None:
-        utils.report(f"Unpacked source archive here: '{unpack_dest}'", "I")
+        utils.report(f"Unpacked source archive here: '{unpack_dest}'\n---", "I")
         return unpack_dest
 
 
@@ -129,9 +130,12 @@ def zip_dir(destination, sourcepath):
         print(e)
         failed = True
     if failed:
-        utils.report("Failed at creating a ZIP archive.", "W")  # No big deal technically
+        print("---")
+        utils.report("Failed at creating a ZIP archive.\n---", "W")  # No big deal technically
         return None
-
-    utils.report(f"Creating a new archive at: {os.path.join(destination, 'alto4eScriptorium.zip')}", "I")
-    utils.report(f"You can directly import it into eScriptorium! :)", "I")
+    # TODO : which is best? alto4escriptorium? or aspyre_{basename} ?
+    #utils.report(f"Creating a new archive at: {os.path.join(destination, 'alto4eScriptorium.zip')}", "I")
+    print("---")
+    utils.report(f"Creating a new archive at: {zip_destination}", "I")
+    utils.report(f"You can directly import it into eScriptorium! :)\n---", "I")
     return zip_destination

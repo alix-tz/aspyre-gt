@@ -151,6 +151,7 @@ def clean_filename(xml_tree):
     # we only keep the ideal image filename
     filename_elem = xml_tree.find_all("fileName")[0]
     filename_elem.string = filename_elem.string.split("||")[-1]
+    return xml_tree
 
 
 ## COORDINATES/RATIO RESOLUTION
@@ -216,6 +217,28 @@ def apply_ratio_to_coordinates(xml_tree):
     return xml_tree
 
 
+def apply_padding(xml_tree, vpadding):
+    """Change values of VPOS attributes in String and TextLine nodes
+
+    :param xml_tree: parsed XML file
+    :type xml_tree: BeautifulSoup
+    :param vpadding: value to add to VPOS attributes
+    :type vpadding: int
+    """
+    # un-necessary:
+    #for tl in xml_tree.find_all('TextLine'):
+    #    if "VPOS" in tl.attrs:
+    #        tl.attrs['VPOS'] = int(tl.attrs['VPOS'] + vpadding)
+    for st in xml_tree.find_all('String'):
+        if 'VPOS' in st.attrs:
+            st.attrs['VPOS'] = int(st.attrs['VPOS'] + vpadding)
+    # un-necessary:
+    #for sp in xml_tree.find_all('SP'):
+    #    if "VPOS" in sp.attrs:
+    #        sp.attrs['VPOS'] = int(sp.attrs['VPOS'] + vpadding)
+    return xml_tree
+
+
 
 ## COLLECTING INFORMATION && I/O
 def locate_alto_and_image_files(package):
@@ -242,13 +265,14 @@ def locate_alto_and_image_files(package):
                 # if debug: see what it is ignored...
                 pass
     if len(alto_files) == 0:
-        utils.report("Found no eligible XML file.")
+        utils.report("Found no eligible XML file.\n---")
         return False, False
     if len(image_files) == 0:
-        utils.report("Found no eligible image file.")
+        utils.report("Found no eligible image file.\n---")
         return False, False
     if len(image_files) != len(alto_files):
-        utils.report(f"Didn't find as many image ({len(image_files)}) as xml files ({len(alto_files)}).", "W")
+        utils.report(f"Didn't find as many images ({len(image_files)}) as xml files ({len(alto_files)}).", "W")
+        utils.report(f"It's not necessarily an issue.\n---", "W")
     return alto_files, image_files
 
 
@@ -285,38 +309,53 @@ def handle_a_file(file, pdfalto_to_es_obj):
     :type dest: str
     :return: None
     """
+    if pdfalto_to_es_obj.args.padding:
+        length = 8
+    else:
+        length = 7
 
     xml_tree = utils.read_file(file, 'xml')
-    pbar = tqdm(total=7, desc="Processing...", unit=" step")
+    pbar = tqdm(total=length, desc="Processing...", unit=" step")
     pbar.update(1)  # getting schema version
     schemas = get_schema_spec(xml_tree)
+
     if schemas:
         if pdfalto_to_es_obj.args.talkative:
-            utils.report(f"Schema Specs: {schemas}", "H")
+            utils.report(f"Found the following schema specs declaration(s): {schemas}\n---", "H")
         pbar.update(1)  # controlling schema version
         alto_version = control_schema_version(schemas)
         if pdfalto_to_es_obj.args.talkative:
             if alto_version:
-                utils.report(f"Detected ALTO version: v{alto_version}", "H")
+                utils.report(f"Detected ALTO version: v{alto_version}\n---", "H")
+
         if alto_version == 3 or alto_version == 4:  # even if the schema spec is ALTO 4, there may be other issues...
             # and we still need to switch to SCRIPTA ALTO specs anyways...
             if pdfalto_to_es_obj.args.talkative:
-                utils.report("Buckle up, we're fixing the schema declaration!", "H")
+                utils.report("Buckle up, we're fixing the schema declaration!\n---", "H")
             pbar.update(1)  # changing schema declaration to ALTO 4 (SCRIPTA flavored)
             switch_to_v4(xml_tree)
+
             if pdfalto_to_es_obj.args.talkative:
-                utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
+                utils.report("I'm adding a <sourceImageInformation> element to point towards the image file\n---", "H")
             pbar.update(1)  # adding file name in source image information
             add_sourceimageinformation(xml_tree, file, pdfalto_to_es_obj.image_files)
             # modifier les coordonnées
             if pdfalto_to_es_obj.args.talkative:
-                utils.report("Fixing the ratio (coordinates)", "H")
+                utils.report("Fixing the ratio (coordinates)\n---", "H")
             pbar.update(1)  # fixing baseline declarations
             xml_tree = apply_ratio_to_coordinates(xml_tree)
+
+            if pdfalto_to_es_obj.args.padding:
+                if pdfalto_to_es_obj.args.talkative:
+                    utils.report("Adjusting y-axis coords in textline and strings nodes\n---", "H")
+                pbar.update(1)
+                xml_tree = apply_padding(xml_tree, pdfalto_to_es_obj.args.vpadding)
+
             if pdfalto_to_es_obj.args.talkative:
-                utils.report("Wrapping up", "H")
+                utils.report("Wrapping up\n---", "H")
             pbar.update(1)  # fixing baseline declarations
-            clean_filename(xml_tree)
+            xml_tree = clean_filename(xml_tree)
+
             # TODO @alix: improve the saving process, obviously!
             pbar.update(1)  # saving file
             save_processed_file(file.split(os.sep)[-1], xml_tree, pdfalto_to_es_obj.args.destination)
