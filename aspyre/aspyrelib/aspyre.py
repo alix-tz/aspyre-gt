@@ -41,6 +41,8 @@ class AspyreArgs():
         :type talkative: bool
         :param test_type: simple initiation for test purpose
         :type test_type: bool
+        :param vpadding: value to add to VPOS attributes in String nodes (PDFALTO scenario)
+        :type vpadding: int
         """
         if test_type == True:
             self.execution_status = "Debug"

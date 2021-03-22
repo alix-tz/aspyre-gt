@@ -218,7 +218,13 @@ def apply_ratio_to_coordinates(xml_tree):
 
 
 def apply_padding(xml_tree, vpadding):
-    """Change values of VPOS attributes in String and TextLine nodes"""
+    """Change values of VPOS attributes in String and TextLine nodes
+
+    :param xml_tree: parsed XML file
+    :type xml_tree: BeautifulSoup
+    :param vpadding: value to add to VPOS attributes
+    :type vpadding: int
+    """
     # un-necessary:
     #for tl in xml_tree.find_all('TextLine'):
     #    if "VPOS" in tl.attrs:
