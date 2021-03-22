@@ -30,12 +30,26 @@ parser.add_argument('-m', '--mode', action='store', nargs=1, default='default',
                     help="default|test")
 args = vars(parser.parse_args())
 
+
+## basic controls:
+if len(args['vpadding']) != 1:
+    utils.report(f'You should only use one value with vpadding, not {len(args["vpadding"])}.', 'E')
+    quit()
+
+try:
+    int(args['vpadding'][0])
+except ValueError:
+    utils.report('vpadding value must be an integer', 'E')
+    quit()
+
+
 # start main task
 if args['mode'].lower() == 'test':
     pass
 elif args['mode'].lower() == 'default':
     aspyre_args = AspyreArgs(scenario=args['scenario'][0], source=args['source'][0],
-                             destination=args['destination'][0], talkative=args['talktome'])
+                             destination=args['destination'][0], talkative=args['talktome'],
+                             vpadding=args['vpadding'][0])
     if aspyre_args.proceed():
         if aspyre_args.scenario == 'tkb':
             transfo = TkbToEs(aspyre_args)
