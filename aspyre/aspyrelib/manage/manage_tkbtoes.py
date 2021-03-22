@@ -244,7 +244,7 @@ def handle_a_file(file, tkb_to_es_obj):
             pbar.update(1)  # changing schema declaration to ALTO 4 (SCRIPTA flavored)
             switch_to_v4(xml_tree)
             if tkb_to_es_obj.args.talkative:
-                utils.report("I'm adding a <sourceImageInformation> element to point toward the image file", "H")
+                utils.report("I'm adding a <sourceImageInformation> element to point towards the image file", "H")
             pbar.update(1)  # adding file name in source image information
             add_sourceimageinformation(xml_tree, file, tkb_to_es_obj.image_files)
             if tkb_to_es_obj.args.talkative:
