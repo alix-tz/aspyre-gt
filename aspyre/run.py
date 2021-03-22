@@ -25,22 +25,14 @@ parser.add_argument('-o', '--destination', action='store', nargs=1, default=[Fal
 parser.add_argument('-t', '--talktome', action='store_true',
                     help="Will display highlighted messages if activated")
 parser.add_argument('-vp', '--vpadding', action='store', nargs=1, type=int, default=[0],
-                    help='[PDFALTO] adjust vertical coordinates (value will be added to textline y-axis coords)')
+                    help='[PDFALTO] adjust vertical coordinates (value will be added to textline and string VPOS attr)')
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default',
                     help="default|test")
 args = vars(parser.parse_args())
 
-
-## basic controls:
-if len(args['vpadding']) != 1:
-    utils.report(f'You should only use one value with vpadding, not {len(args["vpadding"])}.', 'E')
-    quit()
-
-try:
-    int(args['vpadding'][0])
-except ValueError:
-    utils.report('vpadding value must be an integer', 'E')
-    quit()
+# basic controls:
+if int(args['vpadding'][0]) != 0 and args['scenario'][0] != 'pdfalto':
+    utils.report('vpadding option is only valid for PDFALTO scenario\n---', 'W')
 
 
 # start main task

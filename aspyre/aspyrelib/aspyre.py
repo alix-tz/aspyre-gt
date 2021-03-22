@@ -28,7 +28,7 @@ class AspyreArgs():
         """return True if self.execution_status is 'Running'"""
         return self.execution_status == "Running"
 
-    def __init__(self, scenario=None, source=None, destination=None, talkative=False, test_type=False):
+    def __init__(self, scenario=None, source=None, destination=None, talkative=False, test_type=False, vpadding=0):
         """Process essentiel information to run Aspyre
 
         :param scenario: keyword describing the scenario
@@ -51,7 +51,7 @@ class AspyreArgs():
             # parsing talkative
             self.talkative = talkative
             if self.talkative:
-                utils.report("Talkative mode activated.", "H")
+                utils.report("Talkative mode activated.\n---", "H")
 
             # parsing source
             self.source = source
@@ -74,7 +74,7 @@ class AspyreArgs():
                         self.add_log(f"Output destination is now {self.destination}")
                         if talkative:
                             utils.report(f"'{destination}' is not a valid path!", "W")
-                            utils.report(f"Output destination is now: {self.destination}.", "W")
+                            utils.report(f"Output destination is now: {self.destination}.\n---", "W")
             else:
                 self.destination = None
 
@@ -89,13 +89,33 @@ class AspyreArgs():
             else:
                 self.scenario = None
 
+            if self.proceed():
+                # parsing vpadding
+                # only valid with PDFALTO scenario
+                if self.scenario != 'pdfalto':
+                    self.vpadding = 0
+                else:
+                    self.vpadding = vpadding
+
+                if self.vpadding == 0:
+                    self.padding = False
+                else:
+                    self.padding = True
+
+                if self.talkative:
+                    if self.padding and self.scenario == 'pdfalto':
+                        utils.report(f'Will add padding to y-axis coords in string nodes: {self.vpadding}\n---',
+                                     "H")
+                    elif self.scenario == 'pdflato' and not self.padding:
+                        utils.report(f"No modification made to y-axis coords in string nodes\n---", "H")
+
 
 class TkbToEs():
     def show_warning(self):
         """Display a message."""
-        utils.report("Transferring data from Transkribus to eScriptorium using ALTO files and Aspyre", "W")
+        utils.report("===/!\===\nTransferring data from Transkribus to eScriptorium using ALTO files and Aspyre", "W")
         utils.report("is not recommended: Trankribus' ALTO is too poor to guarantee the validity of the", "W")
-        utils.report("resulting segments. Instead, use PAGE XML directly!", "W")
+        utils.report("resulting segments. Instead, use PAGE XML directly!\n===/!\===", "W")
 
     def __init__(self, args):
         """Handle a Transkribus to eScriptorium transformation scenario
@@ -112,17 +132,17 @@ class TkbToEs():
             self.unzipped_source = None
             if self.args.source.split(".")[-1] in ARCHIVE_EXTENSIONS:
                 if self.args.talkative:
-                    utils.report("Source is an archive, running unzipping scenario.", "H")
+                    utils.report("Source is an archive, running unzipping scenario.\n---", "H")
                 self.unzipped_source = zip.unzip_scenario(self.args.source, self.args.scenario)
                 if self.unzipped_source is False:
                     self.args.execution_status = "Failed"
                     self.add_log("Something went wrong while unpacking the source.")
-                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.", "E")
+                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.\n---", "E")
                 else:
                     self.args.add_log("Successfully unzipped source.")
             else:
                 if self.args.talkative:
-                    utils.report("Source is not an archive.", "H")
+                    utils.report("Source is not an archive.\n---", "H")
 
             if self.args.proceed():
                 # 2. collecting data
@@ -136,13 +156,13 @@ class TkbToEs():
                     self.args.execution_status = 'Failed'
                     if self.args.talkative:
                         utils.report("Aspyre can't pair unreferenced images with the ALTO XML files", "E")
-                        utils.report("Interrupting execution", "E")
+                        utils.report("Interrupting execution!", "E")
                 elif self.alto_files is False:
                     self.args.add_log("Couldn't find any ALTO XML file.")
-                    utils.report("Aspyre can't run Transkribus scenario without ALTO XML files.", "E")
+                    utils.report("Aspyre can't run Transkribus scenario without ALTO XML files.\n---", "E")
                     self.args.execution_status = "Failed"
                 else:
-                    self.args.add_log("Successfully collected data.")
+                    self.args.add_log("Successfully collected data.\n---")
 
             if self.args.proceed():
                 # 3. transforming files
@@ -156,7 +176,7 @@ class TkbToEs():
                         manage_tkbtoes.handle_a_file(file, self)
                     except Exception as e:
                         if self.args.talkative:
-                            utils.report(f"Error while processing {file} :", "E")
+                            utils.report(f"===[!]===\nError while processing {file} :", "E")
                             print(e)
                         self.args.add_log(f"Failed to process {file}.")
                     else:
@@ -182,7 +202,7 @@ class TkbToEs():
                         self.args.add_log('Aspyre ran Transkribus scenario successufully!')
         else:
             self.args = None
-            utils.report("Failed to run TkbToEs: args must be an AspyreArgs object!", "E")
+            utils.report("===[!]===\nFailed to run TkbToEs: args must be an AspyreArgs object!", "E")
 
 
 class PdfaltoToEs():
@@ -216,39 +236,25 @@ class PdfaltoToEs():
             self.unzipped_source = None
             if self.args.source.split(".")[-1] in ARCHIVE_EXTENSIONS:
                 if self.args.talkative:
-                    utils.report("Source is an archive, running unzipping scenario.", "H")
+                    utils.report("Source is an archive, running unzipping scenario.\n---", "H")
                 self.unzipped_source = zip.unzip_scenario(self.args.source, self.args.scenario)
                 if self.unzipped_source is False:
                     self.args.execution_status = "Failed"
                     self.add_log("Something went wrong while unpacking the source.")
-                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.", "E")
+                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.\n---", "E")
                 else:
-                    self.args.add_log("Successfully unzipped source.")
+                    self.args.add_log("Successfully unzipped source.\n---")
             else:
                 if self.args.talkative:
-                    utils.report("Source is not an archive.", "H")
+                    utils.report("Source is not an archive.\n---", "H")
 
             if self.args.proceed():
                 # 2. collecting data
                 package = utils.list_directory(self.unzipped_source)
-
-                # TODO gérer la partie interaction avec les images
-
-                # self.image_files = manage_tkbtoes.extract_mets(package, self.unzipped_source)
                 self.alto_files, self.image_files = manage_pdfaltotoes.locate_alto_and_image_files(package)
-                """
-                            if len(self.image_files) == 0:
-                                self.add_log("There is no reference to images in the METS XML file you provided.")
-                                self.add_log("Make sure to check the \"Export Image\" option in Transkribus.")
-                                self.args.execution_status = 'Failed'
-                                if self.args.talkative:
-                                    utils.report("Aspyre can't pair unreferenced images with the ALTO XML files", "E")
-                                    utils.report("Interrupting execution", "E")
-                            elif self.alto_files is False:
-                """
                 if self.alto_files is False:
                     self.args.add_log("Couldn't find any XML file or any image file.")
-                    utils.report("Aspyre can't run without either of these.", "E")
+                    utils.report("Aspyre can't run without either of these.\n---", "E")
                     self.args.execution_status = "Failed"
                 else:
                     self.args.add_log("Successfully collected data.")
@@ -287,9 +293,11 @@ class PdfaltoToEs():
                     self.args.execution_status = "Failed"
                     self.args.add_log('Failed to zip output.')
                 else:
+                    utils.report("Task completed ✓", "S")
                     self.args.execution_status = 'Finished'
                     self.args.add_log('Aspyre ran PDFALTO scenario successufully!')
+
         else:
             self.args = None
-            utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!", "E")
+            utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!\n===[!]===", "E")
 
