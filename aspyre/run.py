@@ -24,6 +24,8 @@ parser.add_argument('-o', '--destination', action='store', nargs=1, default=[Fal
                     help='Location where resulting files should be stored (path to an existing directory)')
 parser.add_argument('-t', '--talktome', action='store_true',
                     help="Will display highlighted messages if activated")
+parser.add_argument('-vp', '--vpadding', action='store', nargs=1, type=int, default=[0],
+                    help='[PDFALTO] adjust vertical coordinates (value will be added to textline y-axis coords)')
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default',
                     help="default|test")
 args = vars(parser.parse_args())
