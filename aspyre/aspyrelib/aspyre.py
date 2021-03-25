@@ -13,7 +13,7 @@ import time
 from tqdm import tqdm
 
 from .utils import utils
-from .manage import (manage_tkbtoes, manage_pdfaltotoes, zip)
+from .manage import (manage_tkbtoes, manage_pdfaltotoes, manage_limbtoes, zip)
 
 SUPPORTED_SCENARIOS = ["tkb", "pdfalto", "limb"]  # + ["finereader"]
 ARCHIVE_EXTENSIONS = ["zip"]
@@ -94,7 +94,7 @@ class AspyreArgs():
             if self.proceed():
                 # parsing vpadding
                 # only valid with PDFALTO scenario
-                if self.scenario != 'pdfalto':
+                if not self.scenario in ['pdfalto', 'limb']:
                     self.vpadding = 0
                 else:
                     self.vpadding = vpadding
@@ -105,10 +105,10 @@ class AspyreArgs():
                     self.padding = True
 
                 if self.talkative:
-                    if self.padding and self.scenario == 'pdfalto':
+                    if self.padding and self.scenario in ['pdfalto', 'limb']:
                         utils.report(f'Will add padding to y-axis coords in string nodes: {self.vpadding}\n---',
                                      "H")
-                    elif self.scenario == 'pdflato' and not self.padding:
+                    elif self.scenario in ['pdflato', 'limb'] and not self.padding:
                         utils.report(f"No modification made to y-axis coords in string nodes\n---", "H")
 
 
@@ -334,7 +334,8 @@ class LimbToEs():
             if self.args.proceed():
                 # 2. collecting data
                 package = utils.list_directory(self.unzipped_source)
-                self.alto_files, self.image_files = manage_pdfaltotoes.locate_alto_and_image_files(package)
+                self.alto_files, self.image_files = manage_limbtoes.locate_alto_and_image_files(package)
+
                 if self.alto_files is False:
                     self.args.add_log("Couldn't find any XML file or any image file.")
                     utils.report("Aspyre can't run without either of these.\n---", "E")
@@ -351,7 +352,7 @@ class LimbToEs():
                 for file in iterator:
                     processed = 0
                     try:
-                        manage_pdfaltotoes.handle_a_file(file, self)
+                        manage_limbtoes.handle_a_file(file, self)
                     except Exception as e:
                         if self.args.talkative:
                             utils.report(f"Error while processing {file} :", "E")
@@ -378,8 +379,8 @@ class LimbToEs():
                 else:
                     utils.report("Task completed ✓", "S")
                     self.args.execution_status = 'Finished'
-                    self.args.add_log('Aspyre ran PDFALTO scenario successufully!')
+                    self.args.add_log('Aspyre ran Limb scenario successufully!')
 
         else:
             self.args = None
-            utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!\n===[!]===", "E")
+            utils.report("Failed to run LimbToEs: args must be an AspyreArgs object!\n===[!]===", "E")

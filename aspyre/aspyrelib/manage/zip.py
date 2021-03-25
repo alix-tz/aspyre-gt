@@ -51,7 +51,7 @@ def safely_unzip(zip_src, unpack_dest, scenario):
     if scenario == "tkb":
     # then we are only interested in xml files
         ignored_files += [f for f in files if not f.filename.lower().endswith('.xml')]
-    elif scenario == "pdfalto":
+    elif scenario == "pdfalto" or scenario == "limb":
         ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or utils.is_image(f.filename))]
     # ignoring hidden files and folder
     ignored_files += [f for f in files if f.filename.split(os.sep)[-1].startswith('.') or f.filename.startswith('.')]
