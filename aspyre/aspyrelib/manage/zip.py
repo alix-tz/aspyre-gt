@@ -12,12 +12,11 @@ from zipfile import ZipFile
 
 from ..utils import utils
 
-ALLOWED_EXTENSIONS = ["zip"]
+ALLOWED_ARCHIVE_EXTENSIONS = ["zip"]
 
 
 # ------------------------- ZIP
-
-def allowed_file(filename, allowed_extensions=ALLOWED_EXTENSIONS):
+def allowed_archive_file(filename, allowed_extensions=ALLOWED_ARCHIVE_EXTENSIONS):
     """Control that file extension is accepted
 
     :param filename: name of the file
@@ -52,8 +51,8 @@ def safely_unzip(zip_src, unpack_dest, scenario):
     if scenario == "tkb":
     # then we are only interested in xml files
         ignored_files += [f for f in files if not f.filename.lower().endswith('.xml')]
-    elif scenario == "pdfalto":
-        ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or f.filename.lower().endswith('.png'))]
+    elif scenario == "pdfalto" or scenario == "limb":
+        ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or utils.is_image(f.filename))]
     # ignoring hidden files and folder
     ignored_files += [f for f in files if f.filename.split(os.sep)[-1].startswith('.') or f.filename.startswith('.')]
     # ignoring OSX generated folders
@@ -84,7 +83,7 @@ def unzip_scenario(source, scenario):
     :return: False if failed, else path to the unzipped source
     :rtype: bool or str
     """
-    if not (os.path.basename(source) != "" and allowed_file(os.path.basename(source))):
+    if not (os.path.basename(source) != "" and allowed_archive_file(os.path.basename(source))):
         utils.report("This file extension is not allowed\n---", "E")
         return False
 

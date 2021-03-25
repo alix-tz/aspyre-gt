@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.3.2&color=blue)]()
+[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.4.2&color=blue)]()
 
 # ASPYRE GT
 
@@ -37,9 +37,9 @@ Process essential information to run Aspyre
     [opt] :param vpadding: value to add to VPOS attr. in String nodes (int)
 ```
 
-> supported values for `scenario`: "tkb", "pdfalto"  
+> supported values for `scenario`: "tkb", "pdfalto", "limb"  
 
-> `vpadding` is only used in PDFALTO scenario
+> `vpadding` is only used in PDFALTO and LIMB scenarios
 
 ##### Transkribus to eScriptorium scenario with `aspyre.TkbToEs()`
 :warning: really not the best way to [transfer data between these two softwares](https://lectaurep.hypotheses.org/documentation/de-transkribus-a-escriptorium).

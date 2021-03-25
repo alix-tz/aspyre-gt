@@ -10,7 +10,7 @@ date: 19/03/2021
 import argparse
 import os
 
-from aspyrelib.aspyre import (AspyreArgs, TkbToEs, PdfaltoToEs)
+from aspyrelib.aspyre import (AspyreArgs, TkbToEs, PdfaltoToEs, LimbToEs)
 from aspyrelib.utils import utils as utils
 
 
@@ -19,20 +19,23 @@ parser = argparse.ArgumentParser(description="Aspyre is a program transforming f
 parser.add_argument('-i', '--source', action='store', nargs=1, required=True,
                     help='Location of the source files')
 parser.add_argument('-sc', '--scenario', action='store', nargs=1, required=True,
-                    help='Determines which transformation scenario will be applied (tkb|limb|finereader|pdfalto)')
+                    help='Determines which transformation scenario will be applied' +
+                         '(tkb|limb|finereader|pdfalto)')
 parser.add_argument('-o', '--destination', action='store', nargs=1, default=[False],
-                    help='Location where resulting files should be stored (path to an existing directory)')
+                    help='Location where resulting files should be stored' +
+                         '(path to an existing directory)')
 parser.add_argument('-t', '--talktome', action='store_true',
                     help="Will display highlighted messages if activated")
 parser.add_argument('-vp', '--vpadding', action='store', nargs=1, type=int, default=[0],
-                    help='[PDFALTO] adjust vertical coordinates (value will be added to textline and string VPOS attr)')
+                    help='[PDFALTO, LIMB] adjust vertical coordinates' +
+                         '(value will be added to textline and string VPOS attr)')
 parser.add_argument('-m', '--mode', action='store', nargs=1, default='default',
                     help="default|test")
 args = vars(parser.parse_args())
 
 # basic controls:
-if int(args['vpadding'][0]) != 0 and args['scenario'][0] != 'pdfalto':
-    utils.report('vpadding option is only valid for PDFALTO scenario\n---', 'W')
+if int(args['vpadding'][0]) != 0 and not args['scenario'][0] in ['pdfalto', 'limb']:
+    utils.report('vpadding option is only valid for PDFALTO and LIMB scenarios\n---', 'W')
 
 
 # start main task
@@ -47,6 +50,8 @@ elif args['mode'].lower() == 'default':
             transfo = TkbToEs(aspyre_args)
         elif aspyre_args.scenario == "pdfalto":
             transfo = PdfaltoToEs(aspyre_args)
+        elif aspyre_args.scenario == "limb":
+            transfo = LimbToEs(aspyre_args)
     if args['talktome']:
         utils.report(f"Displaying execution log (status: {aspyre_args.execution_status}):", "I")
         for entry in aspyre_args.log:
