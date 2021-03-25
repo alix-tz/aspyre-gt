@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.4.2&color=blue)]()
+[![MIT License](https://img.shields.io/static/v1?style=plastic&label=license&message=MIT&color=brightgreen)](LICENSE) [![Version](https://img.shields.io/static/v1?style=plastic&label=version&message=0.4&color=blue)]()
 
 # ASPYRE GT
 
