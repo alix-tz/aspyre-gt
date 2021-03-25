@@ -12,12 +12,13 @@ from zipfile import ZipFile
 
 from ..utils import utils
 
-ALLOWED_EXTENSIONS = ["zip"]
+ALLOWED_ARCHIVE_EXTENSIONS = ["zip"]
+ALLOWED_IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.tif']
 
 
 # ------------------------- ZIP
 
-def allowed_file(filename, allowed_extensions=ALLOWED_EXTENSIONS):
+def allowed_file(filename, allowed_extensions=ALLOWED_ARCHIVE_EXTENSIONS):
     """Control that file extension is accepted
 
     :param filename: name of the file
@@ -34,6 +35,18 @@ def allowed_file(filename, allowed_extensions=ALLOWED_EXTENSIONS):
         return True
     else:
         return False
+
+
+def is_image(filename):
+    """Inspect filename extension to find if it's an image
+
+    :return: True if image, False otherwise
+    :rtype: bool
+    """
+    for extension in ALLOWED_IMAGE_EXTENSIONS:
+        if filename.lower().endswith(extension):
+            return True
+    return False
 
 
 def safely_unzip(zip_src, unpack_dest, scenario):
@@ -53,7 +66,7 @@ def safely_unzip(zip_src, unpack_dest, scenario):
     # then we are only interested in xml files
         ignored_files += [f for f in files if not f.filename.lower().endswith('.xml')]
     elif scenario == "pdfalto":
-        ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or f.filename.lower().endswith('.png'))]
+        ignored_files += [f for f in files if not (f.filename.lower().endswith('.xml') or is_image(f.filename))]
     # ignoring hidden files and folder
     ignored_files += [f for f in files if f.filename.split(os.sep)[-1].startswith('.') or f.filename.startswith('.')]
     # ignoring OSX generated folders
