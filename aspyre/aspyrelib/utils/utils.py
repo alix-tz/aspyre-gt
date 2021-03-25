@@ -15,6 +15,9 @@ from bs4 import BeautifulSoup
 from termcolor import cprint
 
 
+ALLOWED_IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.tif']
+
+
 # ---- I/O
 def read_file(path, mode="default"):
     """Open a file and return its content (parsed if possible)
@@ -117,3 +120,17 @@ def path_is_valid(tested_path):
     except Exception as e:
         valid = False
     return valid
+
+
+
+
+def is_image(filename):
+    """Inspect filename extension to find if it's an image
+
+    :return: True if image, False otherwise
+    :rtype: bool
+    """
+    for extension in ALLOWED_IMAGE_EXTENSIONS:
+        if filename.lower().endswith(extension):
+            return True
+    return False

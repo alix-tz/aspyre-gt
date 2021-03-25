@@ -15,7 +15,7 @@ from tqdm import tqdm
 from .utils import utils
 from .manage import (manage_tkbtoes, manage_pdfaltotoes, zip)
 
-SUPPORTED_SCENARIOS = ["tkb", "pdfalto"]  # + ["limb", "finereader"]
+SUPPORTED_SCENARIOS = ["tkb", "pdfalto", "limb"]  # + ["finereader"]
 ARCHIVE_EXTENSIONS = ["zip"]
 
 
@@ -303,3 +303,83 @@ class PdfaltoToEs():
             self.args = None
             utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!\n===[!]===", "E")
 
+
+class LimbToEs():
+    def __init__(self, args):
+        """Handle a Limb to eScriptorium transformation scenario
+
+        :param args: essential information to run transformation scenario
+        :type args: AspyreArgs object
+        """
+        if isinstance(args, type(AspyreArgs(test_type=True))):
+            self.args = args
+            self.args.add_log("Starting LIMB transformation scenario.")
+
+            # 1. handling zip
+            self.unzipped_source = None
+            if self.args.source.split(".")[-1] in ARCHIVE_EXTENSIONS:
+                if self.args.talkative:
+                    utils.report("Source is an archive, running unzipping scenario.\n---", "H")
+                self.unzipped_source = zip.unzip_scenario(self.args.source, self.args.scenario)
+                if self.unzipped_source is False:
+                    self.args.execution_status = "Failed"
+                    self.add_log("Something went wrong while unpacking the source.")
+                    utils.report("Failing at unpacking the archive, Apsyre can't proceed.\n---", "E")
+                else:
+                    self.args.add_log("Successfully unzipped source.\n---")
+            else:
+                if self.args.talkative:
+                    utils.report("Source is not an archive.\n---", "H")
+
+            if self.args.proceed():
+                # 2. collecting data
+                package = utils.list_directory(self.unzipped_source)
+                self.alto_files, self.image_files = manage_pdfaltotoes.locate_alto_and_image_files(package)
+                if self.alto_files is False:
+                    self.args.add_log("Couldn't find any XML file or any image file.")
+                    utils.report("Aspyre can't run without either of these.\n---", "E")
+                    self.args.execution_status = "Failed"
+                else:
+                    self.args.add_log("Successfully collected data.")
+
+            if self.args.proceed():
+                # 3. transforming files
+                if self.args.talkative:
+                    iterator = tqdm(self.alto_files, desc="Processing ALTO XML files", unit=' file')
+                else:
+                    iterator = self.alto_files
+                for file in iterator:
+                    processed = 0
+                    try:
+                        manage_pdfaltotoes.handle_a_file(file, self)
+                    except Exception as e:
+                        if self.args.talkative:
+                            utils.report(f"Error while processing {file} :", "E")
+                            print(e)
+                        self.args.add_log(f"Failed to process {file}.")
+                    else:
+                        processed += 1
+                if processed == 0:
+                    self.args.execution_status = "Failed"
+                elif processed < len(self.alto_files):
+                    self.args.add_log(f"Successfully transformed {processed} out of {len(self.alto_files)}")
+                else:
+                    self.args.add_log(f"Successfully processed sources files!")
+
+            if self.args.proceed():
+                # 4. serve a zip file
+                try:
+                    zip.zip_dir(self.args.destination, self.unzipped_source)
+                except Exception as e:
+                    if self.args.talkative:
+                        print(e)
+                    self.args.execution_status = "Failed"
+                    self.args.add_log('Failed to zip output.')
+                else:
+                    utils.report("Task completed ✓", "S")
+                    self.args.execution_status = 'Finished'
+                    self.args.add_log('Aspyre ran PDFALTO scenario successufully!')
+
+        else:
+            self.args = None
+            utils.report("Failed to run PdfaltoToEs: args must be an AspyreArgs object!\n===[!]===", "E")
