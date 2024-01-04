@@ -18,7 +18,7 @@ A converter to help making your data compatible for import in eScriptorium.
 ## How to use Aspyre
 - [As a library](#as-a-library)
 - [As a CLI](#as-a-cli)
-- [As a service online (GUI)](#as-a-service-online)
+- ~~[As a service online (GUI)](#as-a-service-online)~~
 
 
 ### As a library
@@ -82,7 +82,10 @@ $ source venv/bin/activate
 (venv)$ python3 aspyre/run.py -i /path/to/exported/documents
 ```
 
+
 ### As a service online
+
+> This is no longer an option, following Heroku's decision in 2021 to stop supporting free hosting services. 
 
 You can now access Aspyre as a service online (GUI)! :arrow_right: [**`go to Aspyre GUI`**](https://aspyre-gui.herokuapp.com/)
 
