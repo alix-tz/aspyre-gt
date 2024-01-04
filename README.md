@@ -87,14 +87,14 @@ $ source venv/bin/activate
 
 > This is no longer an option, following Heroku's decision in 2021 to stop supporting free hosting services. 
 
-You can now access Aspyre as a service online (GUI)! :arrow_right: [**`go to Aspyre GUI`**](https://aspyre-gui.herokuapp.com/)
+~~You can now access Aspyre as a service online (GUI)! :arrow_right: [**`go to Aspyre GUI`**](https://aspyre-gui.herokuapp.com/)~~
 
-#### Step by step (Transkribus scenario)
+#### ~~Step by step (Transkribus scenario)~~
 
-- Export the transcriptions and the images from Transkribus; you now have a zip file
-- If your archive weighs more than 500 MB, remove the images from the zip file (unzip the archive and rezip it keeping only the alto/ directory and the 'mets.xml' file)
-- Load the zip file onto the application and download the returned zip file
-- You can now directly load this new ZIP onto eScriptorium
+- ~~Export the transcriptions and the images from Transkribus; you now have a zip file~~
+- ~~If your archive weighs more than 500 MB, remove the images from the zip file (unzip the archive and rezip it keeping only the alto/ directory and the 'mets.xml' file)~~
+- ~~Load the zip file onto the application and download the returned zip file~~
+- ~~You can now directly load this new ZIP onto eScriptorium~~
 
 ---
 
